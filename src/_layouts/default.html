@@ -5,7 +5,30 @@
     <div class="mdl-layout mdl-js-layout">
       {% include page-header.html %}
       <main id="page-content" class="mdl-layout__content">
-        <div class="page-content">{{ content }}</div>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--4-col">
+            <section>
+              <div class="well">
+                <h5>Download</h5>
+                <ul>
+                  <li>Set Up Your IDE
+                    <ul>
+                      <li><a href="#">Sub Item 01</a></li>
+                      <li><a href="#">Sub Item 02</a></li>
+                      <li><a href="#">Sub Item 03</a></li>
+                      <li><a href="#">Sub Item 04</a></li>
+                    </ul>
+                  </li>
+                  <li>Meet Your Tools</li>
+                  <li>Write Your First App</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="mdl-cell mdl-cell--8-col">
+            <div class="page-content">{{ content }}</div>
+          </div>
+        </div>
       </main>
       {% include page-footer.html %}
     </div>
