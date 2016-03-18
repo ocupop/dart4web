@@ -39,8 +39,6 @@ assets:
   digest: true
   sources:
     - _assets/bower
-    - _assets/css
-    - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/media
