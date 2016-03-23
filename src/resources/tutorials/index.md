@@ -21,18 +21,18 @@ Choose the tutorials that you need.
 
 ## Straight HTML
 
-* [Connect Dart & HTML](connect-dart-html.html)
+* [Connect Dart & HTML](connect-dart-html)
 
-* [Add Elements to the DOM](add-elements.html)
+* [Add Elements to the DOM](add-elements)
 
-* [Remove DOM Elements](remove-elements.html)
+* [Remove DOM Elements](remove-elements)
 
 ## Forms & Data
 
-* [Fetch Data Dynamically](fetch-data.html)
+* [Fetch Data Dynamically](fetch-data)
 
 ## Polymer
 
-* [Use Polymer Elements](using-polymer.html)
+* [Use Polymer Elements](using-polymer)
 
 

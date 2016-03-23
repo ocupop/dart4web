@@ -3,10 +3,12 @@ layout: page
 reference: new page
 ---
 
-# Tips and Techniques
+# How To...
 
-Where can you learn more about debugging, testing, and
-deploying your web application?
+Where can you learn more about web programming with Dart?
+
+This page has some tips for debugging, testing, and
+deploying your web application.
 
 ## Debug
 
@@ -14,7 +16,7 @@ TBD...  Right now all we can talk about is:
 
 * WebStorm debugging support
 * JavaScript console
-* src maps?
+* src maps
 
 ## Test
 
@@ -31,3 +33,9 @@ eliminating 404s and speeding up initial loads.
 Make sure that this transformer is listed last in the
 `transformer:` section of your pubspec file.
 
+
+
+---
+
+xxx: We need more material here...
+  What about relevant samples?

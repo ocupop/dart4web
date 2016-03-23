@@ -6,7 +6,7 @@ reference: new page
 
 # Web Solutions
 
-You have several options when writing a Dart app for the web.
+What kind of support is available for web programming in Dart?
 Where can you learn more?
 
 ## Angular
@@ -30,7 +30,7 @@ example provides an end-to-end example of using package:js.
 
 If you are using a Polymer element, such as a Paper Element,
 but not writing a custom element, see
-[Using Polymer Elements](/resources/tutorials/using-polymer.html).
+[Using Polymer Elements](/resources/tutorials/using-polymer).
 For further information on Polymer, see the
 [Polymer Dart Developer Guide](https://github.com/dart-lang/polymer-dart/wiki).
 

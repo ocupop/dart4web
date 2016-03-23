@@ -5,8 +5,8 @@ reference: /tools
 
 # Tools
 
-The Dart SDK tools are described on [dartlang.org](dartlang.org/xxx).
-This page describes specialized tools for developing web apps.
+The common Dart SDK tools are described on [dartlang.org](dartlang.org/xxx).
+This page lists specialized tools for developing web apps.
 
 ---
 
@@ -28,12 +28,12 @@ Dartium is a special build of Chromium used for developing web apps.
 If you don't already have a favorite IDE,
 we recommend WebStorm, which comes with Dart support.
 
-<a href="dartlang.org/xxx">
+<a href="dartlang.org/tools/webstorm/">
 <img src="images/webstorm.png" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>
 
-See [dartlang](dartlang.org/xxx) for a list of other IDEs.
+See [dartlang](dartlang.org/tools) for a list of other IDEs.
 
 ---
 
@@ -51,7 +51,7 @@ offer specialized support for web programming.
   </div>
   <div class="col-md-4">
     <dt> <a href="/tools/pub/">pub build</a> </dt>
-      <dd>Pub commands for building a web app </dd>
+      <dd>Pub command for building a web app </dd>
   </div>
   <div class="col-md-4">
     <dt> <a href="/tools/pub/">pub serve</a> </dt>
