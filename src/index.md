@@ -1,25 +1,26 @@
 ---
 layout: page
+reference: new
 ---
 
-# Getting Started
+# Dart for the Web
 
 paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis distinctio ducimus neque harum maxime corrupti libero accusamus, voluptates ad facere quod cupiditate tenetur, saepe possimus maiores? Ut, fuga ullam hic.
 
-### Contents
+## Get Dart
 
-- [Link](https://www.google.com)
-- [Link](https://www.google.com)
-- [Link](https://www.google.com)
-- [Link](https://www.google.com)
-- [Link](https://www.google.com)
-- [Link](https://www.google.com)
+First, [set up your machine](/get-started/)
+with the Dart SDK, Dartium, and your preferred IDE.
+Then, try out the [code lab](/codelabs/ng2/)
+to write your first web app using Dart and Angular.
 
-# Download
+## Next steps
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab provident possimus, dicta, officiis, laborum quos veritatis voluptates nobis dolor cum placeat odio iure ad labore, illo dolorum libero quaerat quia.
+* Choose a [web solution](/solutions/)
+* Check out our ["how to" tips](/how-to/)
+* Learn more about the [web tools](/tools/)
 
-# Set up Your IDE
+## Documentation
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, vero rem autem dignissimos fuga earum laborum quam. Totam rerum quo voluptas? Molestiae cupiditate nesciunt ipsam error nemo quisquam facilis, consequatur.
-
+* [API documentation](https://api.dartlang.org/)
+* [Effective Dart](dartlang.org/xxx)
