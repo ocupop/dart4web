@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 reference: /src/site/tools/dartium/
 title: "Dartium: Chromium with the Dart VM"
 short-title: "Dartium"
@@ -7,7 +7,6 @@ description: "Download and use Dartium, a build of Chromium with an embedded Dar
 has-permalinks: false
 ---
 
-{% include toc.html %}
 {% include breadcrumbs.html %}
 
 # {{ page.title }}

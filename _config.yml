@@ -5,6 +5,33 @@ url: https://stage.dart4web.com
 baseurl: ""
 permalink: /:title
 
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path
+  tutorials:
+    output: true
+    permalink: /tutorials/:path
+  codelabs:
+    output: true
+    permalink: /samples/:path
+
+defaults:
+- scope:
+    path: articles
+  values:
+    layout: article
+    toc: true
+- scope:
+    path: tutorials
+  values:
+    layout: tutorial
+    toc: true
+- scope:
+    path: codelabs
+  values:
+    layout: codelab
+    toc: true
 
 # Build settings
 safe: false

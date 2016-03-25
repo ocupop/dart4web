@@ -1,4 +1,5 @@
-@import 'https://code.getmdl.io/1.1.1/material.blue-teal.min.css';
+// @import 'https://code.getmdl.io/1.1.1/material.blue-teal.min.css';
+@import "vendor/material.scss";
 @import '_variables';
 @import '_mixins';
 @import '_icons';
@@ -10,15 +11,19 @@
 body {
   font-family: $font-family-base;
 }
+article {
+  @extend .mdl-grid;
+  section {
+    @extend .mdl-cell;
+    @extend .mdl-cell--12-col;
+  }
+  aside {
+    @extend .mdl-cell;
+    @extend .mdl-cell--12-col;
+  }
+}
 section {
   position: relative;
-  padding: $content-padding;
-}
-input {
-  border: none;
-  padding: 3px 5px;
-  color: $grey-dark;
-  border-radius: 2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,19 +32,247 @@ h1, h2, h3, h4, h5, h6 {
   color: $grey-dark;
 }
 
-p {
-  font-size: $font-size-base;
-}
+h1, .h1 { font-size: $font-size-h1;}
+h2, .h2 { font-size: $font-size-h2;}
+h3, .h3 { font-size: $font-size-h3;}
+h4, .h4 { font-size: $font-size-h4;}
+h5, .h5 { font-size: $font-size-h5;}
+h6, .h6 { font-size: $font-size-h6;}
+
+p {}
 
 a {
   color: $blue;
   text-decoration: none;
+  &:hover, &:focus, &:active {
+    outline: none;
+  }
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
+ul {}
+
+pre {
+  padding: $content-padding;
+  background-color: $grey-light;
+  color: $grey-dark;
 }
+
+
+/* -----------------------------------------
+   DOM
+----------------------------------------- */
+// Structure
+#page-header {
+  background-color: $grey-light;
+}
+#page-content {
+  @extend .container;
+}
+#pagenav {
+  padding: $content-padding;
+  background: $grey-light;
+  margin-bottom: 20px;
+}
+#page-footer {
+  color: $white;
+  font-weight: 300;
+  background-color: $grey-dark;
+  .mdl-logo {
+    text-indent: -999em;
+    background-color: transparent;
+    background-image: url('{% asset_path "images/logo-white.svg" %}');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h5, p, a {
+    font-weight: 300;
+    color: #fff;
+  }
+  .mdl-mega-footer__middle-section {}
+  .mdl-mega-footer__bottom-section {
+    ul {
+      padding-left: 16px;
+    }
+  }
+}
+
+// Navigation
+#mainnav {
+  a {
+    color: $grey-dark;
+    font-weight: 700;
+    &:hover {}
+  }
+}
+#subnav {
+  background: $grey-dark;
+  color: $white;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      a {
+        color: $white;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 700;
+      }
+      &.next {
+        float: right;
+      }
+    }
+  }
+}
+#footernav {}
+#copyright {}
+
+
+/* -----------------------------------------
+  Dartpad
+----------------------------------------- */
+
+#dartpad {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+}
+
+/* -----------------------------------------
+  Search
+----------------------------------------- */
+#search {
+  position: absolute;
+  right: 0;
+  top: 22px;
+  width: 165px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#search-icon {
+  position: absolute;
+  right: 5px;
+  top: 26px;
+  color: $grey-dark;
+  font-size: 14px;
+}
+
+/* -----------------------------------------
+  Table of Contents
+----------------------------------------- */
+.toc-entry.toc-h2,
+.toc-entry.toc-h3,
+.toc-entry.toc-h4
+{}
+.toc-entry.toc-h1,
+.toc-entry.toc-h5,
+.toc-entry.toc-h6
+{
+  display: none;
+}
+
+/* -----------------------------------------
+   Utility Classes
+----------------------------------------- */
+body.show_toc {
+  article {
+    section {
+      @extend .mdl-cell;
+      @extend .mdl-cell--8-col;
+    }
+    aside {
+      @extend .mdl-cell;
+      @extend .mdl-cell--4-col;
+    }
+  }
+}
+.container {
+  position: relative;
+  max-width: 100%;
+  width: $live-content-width;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  padding: $content-padding;
+}
+
+.panel {
+  background-color: $grey-dark;
+  color: $white;
+  padding: $content-padding;
+  margin-bottom: 20px;
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+    margin: 0;
+  }
+  ul {
+    padding-left: 15px;
+  }
+}
+
+// Columns
+.col2 {
+  column-count: 2;
+  column-gap: 0;
+  li {
+    page-break-inside: avoid;
+  }
+}
+.col3 {
+  column-count: 3;
+  column-gap: 0;
+  li {
+    page-break-inside: avoid;
+  }
+}
+
+.brand {
+  text-indent: -999em;
+  background-color: transparent;
+  background-image: url('{% asset_path "images/logo.svg" %}');
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 40px;
+}
+
+.hide {
+  display: none !important;
+  visibility: hidden;
+}
+
+
+/* -----------------------------------------
+   Message / Notifications
+----------------------------------------- */
+.alert {
+  padding: $content-padding;
+  &.alert-success {
+    background-color: $alert-success-bg;
+  }
+  &.alert-info {
+    background-color: $alert-info-bg;
+  }
+  &.alert-warning {
+    background-color: $alert-warning-bg;
+  }
+  &.alert-danger {
+    background-color: $alert-danger-bg;
+  }
+}
+
 
 ::-webkit-input-placeholder {
    color: $grey-dark;
@@ -58,114 +291,13 @@ ul {
    font-family: $font-family-base;
 }
 
-/* -----------------------------------------
-   DOM Specific
------------------------------------------ */
-// Structure
-#page-header {
-  background-color: $grey-light;
-  .mdl-layout__header-row {
-    // @extend .container;
-  }
-}
-#page-content {
-  @extend .container;
-}
-#page-footer {
-  color: #fff;
-  font-weight: 300;
-  .mdl-logo {
-    text-indent: -999em;
-    background-color: transparent;
-    background-image: url('{% asset_path "images/logo.png" %}');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 160px;
-    height: 37px;
-  }
-  h5, p, a {
-    font-weight: 300;
-    color: #fff;
-  }
-  .mdl-mega-footer__middle-section {}
-  .mdl-mega-footer__bottom-section {
-    ul {
-      padding-left: 16px;
-    }
-  }
-}
-
-// Navigation
-#mainnav {
-  a {
-    // text-transform: uppercase;
-    color: $grey-dark;
-    font-weight: 700;
-    &:hover {
-
-    }
-  }
-}
-#footernav {}
-#copyright {}
-
-#dartpad {
-  position: fixed;
-  width: 100%;
-  height: 30px;
-  bottom: 0;
-  left: 0;
-  background-color: red;
-}
-#search {
-  position: absolute;
-  right: 0;
-  top: 22px;
-  width: 175px;
-}
-
-/* -----------------------------------------
-   Utility Classes
------------------------------------------ */
-.container {
-  position: relative;
-  max-width: $live-content-width;
-  width: $live-content-width;
-  margin: 0 auto;
-}
-
-// Content
-.content {
-  position: relative;
-  padding: $content-padding;
-}
-
-.brand {
-  text-indent: -999em;
-  background-color: transparent;
-  background-image: url('{% asset_path "images/logo-4web.png" %}');
-  background-position: center center;
-  background-size: 100%;
-  width: 190px;
-  height: 45px;
-}
-
-.well {
-  h1, h2, h3, h4, h5, h6 {
-    color: $blue;
-  }
-  color: $blue;
-  background: $grey-light;
-  padding:20px 16px;
-}
 
 
 /* -----------------------------------------
    MDL Overwrites
 ----------------------------------------- */
 .mdl-layout__drawer-button {
-  color: $grey-dark;
+  color: $white;
 }
 
 .mdl-layout__header-row {
@@ -187,23 +319,24 @@ ul {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-top: 0;
 }
-.mdl-mega-footer {
-  padding: 30px 0;
-}
-// .mdl-mega-footer__link-list {
-//   a {
-//     font-weight: 300;
-//     color: #fff;
-//   }
-// } 
+// .mdl-mega-footer {
+//   padding: 30px 0;
+// }
 
 /* -----------------------------------------
    Media Queries
 ----------------------------------------- */
 @media(min-width: 1024px) {
+  .mdl-layout__drawer {
+    .mdl-navigation {
+      .mdl-navigation__link {
+        padding: 5px 16px;
+      }
+    }
+  }  
   .mdl-layout__drawer-button {
     display: none;
   }
 }
-
