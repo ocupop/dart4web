@@ -1,8 +1,8 @@
 ---
 layout: page
 reference: new page
+permalink: /solutions
 ---
-
 
 # Web Solutions
 

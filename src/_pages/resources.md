@@ -1,6 +1,7 @@
 ---
 layout: page
 reference: new page
+permalink: /resources
 ---
 
 # Resources

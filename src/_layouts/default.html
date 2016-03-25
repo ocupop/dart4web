@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{ page.slug }}">
+  <body class="{{ page.layout }}{% if page.toc %} show_toc{% endif %}">
     <div class="mdl-layout mdl-js-layout">
       {% include page-header.html %}
       <main id="page-content" class="mdl-layout__content">
-        <article>
-          {% if page.toc %}
-            <aside>
-              {% include navigation-toc.html %}
-            </aside>
-          {% endif %}
-          <section>
-            {{ content | inject_anchors }}
-          </section>
-        </article>
+        {{ content }}
       </main>
       {% include page-footer.html %}
     </div>

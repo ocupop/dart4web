@@ -1,33 +1,31 @@
 ---
-layout: tutorial
 reference: /src/site/docs/tutorials/remove-elements/
+
 title: "Remove DOM Elements"
 description: "Remove a child element from the DOM"
+
+nextpage: 
+  url: /tutorials/shared-pkgs
+  title: "Install Shared Packages"
+prevpage: 
+  url: /tutorials/add-elements
+  title: "Add Elements to the DOM" 
+
+points: 
+  - "Use _element_.remove() to remove an element from the DOM."
+  - "Remove all children from an element with _element_.children.clear()."
+  - "Function expressions are a convenient way to define single-use functions."
+  - "=> is a shorthand syntax for defining functions that contain just one expression."
+
 has-permalinks: true
 tutorial:
   id: remove-elements
-next: shared-pkgs/
-next-title: "Install Shared Packages"
-prev: add-elements/
-prev-title: "Add Elements to the DOM"
 ---
-
-{% capture whats_the_point %}
-
-* Use _element_.remove() to remove an element from the DOM.
-* Remove all children from an element with _element_.children.clear().
-* Function expressions are a convenient way to define single-use functions.
-* => is a shorthand syntax for defining functions that contain just one
-expression.
-
-{% endcapture %}
 
 {% comment %}
 NOTE: No sample_links section goes here because all the samples are in
 embedded DartPads.
 {% endcomment %}
-
-{% capture content %}
 
 <div class="tute-target-title">
 <h1>{{page.title}}</h1>
@@ -276,7 +274,3 @@ which makes manipulating the DOM even easier
 with data binding, templates, and declarative event handlers.
 Check out [Use Polymer Elements](/docs/tutorials/using-polymer)
 for an introduction to polymer.dart.
-
-{% endcapture %}
-
-{% include tutorial.html %}

@@ -1,46 +1,43 @@
 ---
-layout: tutorial
 reference: /Users/shaza/GoogleDrive/repos/active/www.dartlang.org/src/site/docs/tutorials/connect-dart-html/
+
 title: "Connect Dart &amp; HTML"
 description: "Shows basic scaffolding of a Dart web app"
+
+nextpage:
+  url: /tutorials/add-elements
+  title: "Add Elements to the DOM"
+prevpage:
+  url: /tutorials/get-started
+  title: "Get started"
+
+points: 
+  - "DartPad lets you write a simple Dart web app without HTML boilerplate."
+  - "A Dart web app has Dart, HTML, and (usually) CSS code."
+  - "Compile a web app's Dart code to JavaScript to run the app in any modern browser."
+  - "An HTML file hosts your Dart code in a browser page."
+  - "The DOM models a browser page in a tree/node structure."
+  - "Use querySelector() with an ID to get an element from the DOM."
+  - "CSS selectors are patterns used to select matching elements in the DOM."
+  - "Use CSS rules to style elements."
+
 has-permalinks: true
 tutorial:
   id: connect-dart-html
-next: add-elements/
-next-title: "Add Elements to the DOM"
-prev: get-started/
-prev-title: "Get started"
 ---
 
-{% capture whats_the_point %}
-
-* DartPad lets you write a simple Dart web app without HTML boilerplate.
-* A Dart web app has Dart, HTML, and (usually) CSS code.
-* Compile a web app's Dart code to JavaScript to run the app in any modern browser.
-* An HTML file hosts your Dart code in a browser page.
-* The DOM models a browser page in a tree/node structure.
-* Use querySelector() with an ID to get an element from the DOM.
-* CSS selectors are patterns used to select matching elements in the DOM.
-* Use CSS rules to style elements.
-
-{% endcapture %}
-
 {% capture sample_links %}
-
 <p>
 This tutorial features these examples:</p>
 * mini
 * mini_with_style
-
 <p>
 Don't have the source code?
 <a href="https://github.com/dart-lang/dart-tutorials-samples/archive/master.zip">
   Download it.
 </a>
-
 {% endcapture %}
 
-{% capture content %}
 
 <div class="tute-target-title">
 <h1>{{page.title}}</h1>
@@ -577,7 +574,3 @@ PENDING: Link to WebStorm docs? DartPad docs?
 The next tutorial, [Add Elements to the DOM](/docs/tutorials/add-elements/),
 shows you how to dynamically change the HTML page
 by adding elements to the DOM.
-
-{% endcapture %}
-
-{% include tutorial.html %}

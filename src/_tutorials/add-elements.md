@@ -1,33 +1,32 @@
 ---
-layout: tutorial
 reference: /src/site/docs/tutorials/add-elements/
+
 title: "Add Elements to the DOM"
 description: "You have an Element object, now what?"
+
+nextpage: 
+  url: /tutorials/remove-elements
+  title: "Remove DOM Elements"
+prevpage: 
+  url: /tutorials/connect-dart-html
+  title: "Connect Dart & HTML"
+
+points: 
+  - "In Dart, page elements are of type Element."
+  - "An Element knows its parent."
+  - "An Element keeps its children in a List <Element>."
+  - "Change the DOM by adding or removing children of elements."
+  - "Respond to user input with an EventListener."
+
 has-permalinks: true
 tutorial:
   id: add-elements
-next: remove-elements/
-next-title: "Remove DOM Elements"
-prev: connect-dart-html/
-prev-title: "Connect Dart & HTML"
 ---
-
-{% capture whats_the_point %}
-
-* In Dart, page elements are of type Element.
-* An Element knows its parent.
-* An Element keeps its children in a List\<Element>.
-* Change the DOM by adding or removing children of elements.
-* Respond to user input with an EventListener.
-
-{% endcapture %}
 
 {% comment %}
 NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
-
-{% capture content %}
 
 <div class="tute-target-title">
 <h1>{{page.title}}</h1>
@@ -452,7 +451,7 @@ generateNewLetters() {
 <iframe
 src="{{site.custom.dartpad.embed-html-prefix}}?id=0532bfcb70bf5e4a900c&horizontalRatio=70&verticalRatio=80"
     width="100%"
-    height="600px">
+    height="600px"
     style="border: 1px solid #ccc;">
 </iframe>
 
@@ -507,7 +506,3 @@ and the `length` property to get the number of pairs it contains.
 
 The next tutorial, [Remove DOM Elements](/docs/tutorials/remove-elements/),
 describes how to remove elements from the DOM and items off your todo list.
-
-{% endcapture %}
-
-{% include tutorial.html %}

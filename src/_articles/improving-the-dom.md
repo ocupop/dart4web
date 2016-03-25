@@ -1,9 +1,9 @@
 ---
-layout: article
 title: "Improving the DOM"
+description: "Learn how Dart's HTML library improves the browser programming experience."
+
 rel:
   author: bob-nystrom
-description: "Learn how Dart's HTML library improves the browser programming experience."
 has-permalinks: true
 article:
   written_on: 2011-10-01

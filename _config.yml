@@ -45,6 +45,7 @@ exclude: ['vendor', '.asset-cache']
 
 gems:
 - jekyll-assets
+- jekyll-toc
 
 assets:
   compress:

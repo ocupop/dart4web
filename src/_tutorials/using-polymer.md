@@ -1,41 +1,37 @@
 ---
-layout: tutorial
 reference: /src/site/docs/tutorials/using-polymer
+
 title: "Use Polymer Elements"
 description: "Use a Polymer element, such as a material design button or menu, in any Dart web app."
+
+nextpage: 
+  url: /tutorials/futures
+  title: "Asynchronous Programming: Futures"
+prevpage: 
+  url: /tutorials/shared-pkgs
+  title: "Install Shared Packages"
+
+points: 
+  - Use Polymer elements in any Dart web app.
+  - Bind Dart data to Polymer elements using a custom container.
+
 has-permalinks: true
 tutorial:
   id: polymer/use-paper-elements
-next: futures/
-next-title: "Asynchronous Programming: Futures"
-prev: shared-pkgs/
-prev-title: "Install Shared Packages"
+
 header:
   css: ["styles.css"]
 ---
-
-{% capture whats_the_point %}
-
-* Use Polymer elements in any Dart web app.
-* Bind Dart data to Polymer elements using a custom container.
-
-{% endcapture %}
-
 {% capture sample_links %}
-
 <p> This tutorial features the following examples:</p>
 * simple_wrapper_element
 * using_paper_elements
-
 <p>
 Don't have the source code?
 <a href="https://github.com/dart-lang/dart-tutorials-samples/archive/master.zip">
   Download it.</a>
 </a>
-
 {% endcapture %}
-
-{% capture content %}
 
 <div class="tute-target-title">
 <h1>{{page.title}}</h1>
@@ -410,7 +406,3 @@ The next tutorial,
 [Asynchronous Programming: Futures](/docs/tutorials/futures/),
 shows you how to write non-blocking code using Dart's async/await
 mechanism, or using the Future API.
-
-{% endcapture %}
-
-{% include tutorial.html %}

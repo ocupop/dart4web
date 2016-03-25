@@ -1,32 +1,30 @@
 ---
-layout: tutorial
 reference: /src/site/docs/tutorials/fetchdata/
+
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
+
+nextpage: 
+  url: /tutorials/forms
+  title: "Get Input from a Form"
+prevpage: 
+  url: /tutorials/streams
+  title: "Asynchronous Programming: Streams"
+
+points: 
+  - "Data on the web is often formatted in JSON."
+  - "JSON is text based and human readable."
+  - "The dart:convert library provides support for JSON."
+  - "Use HttpRequest to dynamically load data."
 has-permalinks: true
 tutorial:
   id: fetchdata
-next: forms/
-next-title: "Get Input from a Form"
-prev: streams/
-prev-title: "Asynchronous Programming: Streams"
 ---
-
-{% capture whats_the_point %}
-
-* Data on the web is often formatted in JSON.
-* JSON is text based and human readable.
-* The dart:convert library provides support for JSON.
-* Use HttpRequest to dynamically load data.
-
-{% endcapture %}
 
 {% comment %}
 NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
-
-{% capture content %}
 
 <div class="tute-target-title">
 <h1>{{page.title}}</h1>
@@ -695,7 +693,3 @@ contains a client/server example that
 shows you how to use a form to get data from the user,
 and using JSON, send that form to a server,
 and handle the server's response.
-
-{% endcapture %}
-
-{% include tutorial.html %}
