@@ -99,11 +99,6 @@ img {
 #page-content {
   @extend .container;
 }
-#pagenav {
-  padding: $content-padding;
-  background: $grey-light;
-  margin-bottom: 20px;
-}
 #page-footer {
   color: $white;
   font-weight: 300;
@@ -163,10 +158,16 @@ img {
     }
   }
 }
+#pagenav {
+  padding: $content-padding;
+  background: $grey-light;
+  margin-bottom: 20px;
+}
+#footernav {}
+
 #breadcrumbs {
   padding: 15px 0;
 }
-#footernav {}
 #copyright {}
 
 
