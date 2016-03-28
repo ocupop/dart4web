@@ -18,7 +18,7 @@ This page lists specialized tools for developing web apps.
 Dartium is a special build of Chromium used for developing web apps.
 
 <a href="dartium/">
-<img src="images/dartium-logo-48.jpg" alt="Dart logo" /><br>
+<img src="{% asset_path 'dartium-logo-48.jpg' %}" alt="Dart logo" /><br>
 <b>Dartium</b>
 </a>
 
@@ -31,7 +31,7 @@ If you don't already have a favorite IDE,
 we recommend WebStorm, which comes with Dart support.
 
 <a href="dartlang.org/tools/webstorm/">
-<img src="images/webstorm.png" alt="WebStorm logo"><br>
+<img src="{% asset_path 'webstorm.png' %}" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>
 
@@ -78,5 +78,5 @@ Use it to analyze the generated code and see why that code is included in
 your build.
 
 <a href="https://github.com/dart-lang/dump-info-visualizer"><br>
-<img src="images/dump-info-viewer.png" alt="sample Dump-info visualizer output">
+<img src="{% asset_path 'dump-info-viewer.png' %}" alt="sample Dump-info visualizer output">
 <b>Dump-Info Visualizer</b></a>
