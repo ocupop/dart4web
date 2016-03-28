@@ -16,6 +16,9 @@ article {
   section {
     @extend .mdl-cell;
     @extend .mdl-cell--12-col;
+    aside {
+      width: 100%;
+    }
   }
   aside {
     @extend .mdl-cell;
@@ -55,9 +58,27 @@ pre {
   padding: $content-padding;
   background-color: $grey-light;
   color: $blue;
+  position: relative;
   &.prettyprint {
     border: none;
-    padding: 15px 0;
+    padding: 15px 5px;
+  }
+  &.dartpad {
+    &:after {
+      content: 'Run';
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: block;
+      z-index: 10;
+      background-color: $white;
+      background-image: url('{% asset_path "images/logo-no-wordmark.svg" %}');
+      background-size: 18px;
+      background-position: 7px center;
+      background-repeat: no-repeat;
+      padding: 5px 10px 5px 30px;
+      border-radius: 8px;
+    }
   }
   .highlight {
     background: #fffde7;
@@ -142,6 +163,9 @@ img {
     }
   }
 }
+#breadcrumbs {
+  padding: 15px 0;
+}
 #footernav {}
 #copyright {}
 
@@ -149,6 +173,11 @@ img {
 /* -----------------------------------------
   Dartpad
 ----------------------------------------- */
+#run-dartpad {
+  padding: 15px 0;
+  background: $grey-light;
+  border-top: 1px solid $grey;
+}
 
 #dartpad {
   position: fixed;
@@ -202,6 +231,9 @@ body.show_toc {
     section {
       @extend .mdl-cell;
       @extend .mdl-cell--8-col;
+      aside {
+        width: auto;
+      }
     }
     aside {
       @extend .mdl-cell;
@@ -219,6 +251,29 @@ body.show_toc {
 .content {
   position: relative;
   padding: $content-padding;
+}
+
+.button {
+  padding: 5px 10px;
+  color: $blue;
+  border-radius: 8px;
+  &.dart-button {
+    background-color: $white;
+    padding: 5px 10px 5px 30px;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 2px;
+      left: 10px;
+      width: 15px;
+      height: 15px;
+      background-image: url('{% asset_path "images/logo-no-wordmark.svg" %}');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
 }
 
 .panel {
@@ -336,6 +391,10 @@ body.show_toc {
   &.alert-danger {
     background-color: $alert-danger-bg;
   }
+  &.alert-obsolete {
+    background-color: $grey-dark;
+    color: $white;
+  }
 }
 
 
@@ -389,6 +448,15 @@ body.show_toc {
 // .mdl-mega-footer {
 //   padding: 30px 0;
 // }
+
+
+/* -----------------------------------------
+   Prettyprint overwrites
+----------------------------------------- */
+
+.str, .kwd, .com, .typ, .lit, .pun, .pln, .tag, .atn, .atv, .dec {
+  color: $blue;
+}
 
 
 /* -----------------------------------------
