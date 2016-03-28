@@ -46,7 +46,7 @@ either one at a time, or all at once.
 * [Other resources](#other-resources)
 * [What next?](#what-next)
 
-##Try the app {#try-app}
+## Try the app {#try-app}
 
 Below is a revised version
 of the todo app from the previous tutorial
@@ -91,7 +91,7 @@ void addToDoItem(Event e) {
 {% endcomment %}
 
 **Try it!**
-Click run ( <img src="/imgs/run.png" /> ) to start the web app.
+Click run ( <img src="images/run.png" /> ) to start the web app.
 Then type in the app's input field, and press the return key;
 a new item appears in the list.
 Enter a few more items.
@@ -139,7 +139,7 @@ instead of providing a familiar user interface,
 such as a button with an 'X' on it,
 to keep the code simpler.
 
-##Removing an element from the DOM tree {#remove-elem}
+## Removing an element from the DOM tree {#remove-elem}
 
 An element is removed from
 the DOM when it is removed from its parent's list of children.
@@ -171,7 +171,7 @@ When the element removes itself from the DOM,
 the browser re-renders the page,
 and the item disappears from the to do list.
 
-##Removing all child elements from an element {#remove-all-elem}
+## Removing all child elements from an element {#remove-all-elem}
 
 When the user clicks the **Delete All** button,
 all elements are removed from the list.
@@ -208,7 +208,7 @@ Here is all of the Dart code related to the **Delete All** button.
 </li>
 </ol>
 
-##About function expressions and => {#about-function-expressions}
+## About function expressions and => {#about-function-expressions}
 
 The todo_with_delete app uses
 some interesting Dart syntax
@@ -252,7 +252,7 @@ the function must be an EventListener.
 That is,
 it returns no value and takes an Event object as a parameter.
 
-##Other resources
+## Other resources
 
 <ul>
   <li>
@@ -263,7 +263,7 @@ it returns no value and takes an Event object as a parameter.
   </li>
 </ul>
 
-##What next? {#what-next}
+## What next? {#what-next}
 
 * The next tutorial,
 [Install Shared Packages](/docs/tutorials/shared-pkgs),

@@ -69,7 +69,7 @@ can be serialized and represented by strings.
 **Try it!**
 The following app, `its_all_about_you`,
 displays the JSON string for data of various types.
-Click run ( <img src="/imgs/run.png" /> ) to start the app.
+Click run ( <img src="images/run.png" /> ) to start the app.
 Then change the values of the input elements,
 and check out the JSON format for each data type.
 You might prefer to
@@ -438,7 +438,7 @@ configure dartlang.org's  CORS headers to allow read-only access
 from everywhere.
 </aside>
 
-**Try it!** Click run ( <img src="/imgs/run.png" /> )
+**Try it!** Click run ( <img src="images/run.png" /> )
 and then click the **Get portmanteaux** button.
 
 {% comment %}
@@ -579,7 +579,7 @@ src="{{site.custom.dartpad.embed-html-prefix}}?id=83f7779d18a8bbe8ccb1&horizonta
     style="border: 1px solid #ccc;">
 </iframe>
 
-###Setting up the HttpRequest object
+### Setting up the HttpRequest object
 
 The mouse-click handler for the button
 creates an HttpRequest object,
@@ -601,7 +601,7 @@ void makeRequest(Event e) {
 <img class="scale-img-max" src="images/portmanteaux-code.png"
      alt="Making an HTTP GET request">
 
-###Sending the request
+### Sending the request
 
 The send() method sends the request to the server.
 
@@ -617,7 +617,7 @@ this string can contain further details or relevant data.
 You can also configure the HttpRequest object
 by setting various header parameters using the setRequestHeader() method.
 
-###Handling the response
+### Handling the response
 
 To handle the response from the request,
 you need to set up a callback function
@@ -647,7 +647,7 @@ and adds it to the &lt;ul&gt; element on the page.
 <img class="scale-img-max" src="images/portmanteaux-callback.png"
      alt="Getting the response text from an HTTP GET request">
 
-###Populating the UI from JSON
+### Populating the UI from JSON
 
 The data file in the portmanteaux example,
 portmanteaux.json,
@@ -672,7 +672,7 @@ to create the String objects specified by the JSON string.
 <img class="scale-img-max" src="images/json-parse.png"
      alt="Decode a JSON formatted list of strings">
 
-##Other resources
+## Other resources
 
 Check out Chris Buckett's article,
 <a href="/articles/json-web-service/"
@@ -680,7 +680,7 @@ Check out Chris Buckett's article,
 for more information and an example with source code for both
 client and server programs.
 
-##What next?
+## What next?
 
 * If you skipped the
 [Asynchronous Programming: Futures](/docs/tutorials/futures/) tutorial,

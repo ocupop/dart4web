@@ -70,7 +70,7 @@ rather than on Node.
 * [Other resources](#other-resources)
 * [What next?](#what-next)
 
-##Running the Todo app {#try-app}
+## Running the Todo app {#try-app}
 
 In this tutorial, you will be working with a sample web app
 that is a partial implementation of a todo list.
@@ -79,13 +79,15 @@ and therefore the web page,
 by adding elements to the DOM tree.
 
 **Try it!**
-Click run ( <img src="/imgs/run.png" /> ) to start the web app.
+Click run ( <img src="images/run.png" /> ) to start the web app.
 Then type in the app's text field, and press return.
 The app adds an item to the list.
 Enter a few items into the input field.
 
-{% comment %}
-https://gist.github.com/Sfshaza/65c90ff6b078c332d4b6
+Example goes here...
+
+<!-- need to fix this section, not working properly -->
+<!-- https://gist.github.com/Sfshaza/65c90ff6b078c332d4b6
 
 main.dart:
 // Copyright (c) 2012, the Dart project authors.
@@ -110,22 +112,21 @@ void addToDoItem(Event e) {
   newToDo.text = toDoInput.value;
   toDoInput.value = '';
   toDoList.children.add(newToDo);
-}
-{% endcomment %}
+} -->
 
-<iframe
+<!-- <iframe
 src="{{site.custom.dartpad.embed-html-prefix}}?id=65c90ff6b078c332d4b6&horizontalRatio=60&verticalRatio=80"
     width="100%"
     height="500px"
     style="border: 1px solid #ccc;">
-</iframe>
+</iframe>-->
 
 This is the beginning of an app to manage a list of things to do.
 Right now, this app is for procrastinators only
 because the program can only add items to your to do list
 but not remove them.
 
-##About parent and child Elements in Dart {#tree-structure}
+## About parent and child Elements in Dart {#tree-structure}
 
 The Node class in Dart implements the basic treeing behavior
 for nodes in the Dart DOM.
@@ -202,7 +203,7 @@ When you change an Element or its child Elements in your Dart program,
 you change the DOM and therefore the web page.
 The browser re-renders the page automatically.
 
-##Setting up the page in HTML {#html-code}
+## Setting up the page in HTML {#html-code}
 
 Let's take a look at the todo app
 to see how it dynamically
@@ -361,7 +362,7 @@ each item in the to do list.
 The Anagram app shows how to move an element within the DOM.
 
 **Try it!**
-Click run ( <img src="/imgs/run.png" /> ) to start the web app.
+Click run ( <img src="images/run.png" /> ) to start the web app.
 Then form a word by clicking the app's letter tiles.
 You might prefer to
 <a href="{{site.custom.dartpad.direct-link}}/0532bfcb70bf5e4a900c" target="_blank">open

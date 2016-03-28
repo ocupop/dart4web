@@ -80,7 +80,7 @@ for more interesting and useful web apps.
 * [What next?](#what-next)
 
 
-##About the Dart, HTML, and CSS triumvirate {#source-files}
+## About the Dart, HTML, and CSS triumvirate {#source-files}
 
 If you've used
 <a href="{{site.custom.dartpad.direct-link}}" target="_blank">DartPad</a>,
@@ -118,7 +118,7 @@ type face, font size, color, background color,
 borders, margins, and alignment, to name a few.
 
 
-##About the DOM {#dom-intro}
+## About the DOM {#dom-intro}
 
 The Document Object Model (DOM)
 represents the structure of a web document as a tree of nodes.
@@ -196,7 +196,7 @@ and modifying the non-script tags inside the \<body> section.
 [HTML and Dart connections](#connections) shows the full HTML code.
 </aside>
 
-##Edit the HTML source code {#create-html}
+## Edit the HTML source code {#create-html}
 
 1. Click **HTML**, at the upper left of DartPad.
    The view switches from Dart code to the (non-existent) HTML code.
@@ -212,7 +212,7 @@ and modifying the non-script tags inside the \<body> section.
 3. Click **HTML OUTPUT** to see how a browser would render your HTML.
 
 
-##About the HTML source code {#about-html-code}
+## About the HTML source code {#about-html-code}
 
 This HTML code is similar to the HTML code in the
 various diagrams earlier in this tutorial,
@@ -258,7 +258,7 @@ as well as compatibility with non-Dart browsers.
 {% endcomment %}
 
 
-##Edit the Dart source code {#dart-editor-happiness}
+## Edit the Dart source code {#dart-editor-happiness}
 
 1. Click **DART**, at the upper right of DartPad.
    The view switches from HTML code to Dart code.
@@ -278,7 +278,7 @@ as well as compatibility with non-Dart browsers.
 The text in the HTML OUTPUT tab changes to "Wake up, sleepy head!"
 
 
-##About the Dart source code {#about-dart-code}
+## About the Dart source code {#about-dart-code}
 
 Let's step through the Dart code.
 
@@ -310,7 +310,7 @@ a parameterized class that can specify the type of its members.
 An instance of Element keeps its list of child Elements
 in a List\<Element>.
 
-###Using the querySelector() function
+### Using the querySelector() function
 
 This app's main() function contains a single
 line of code that is a little like a run-on sentence
@@ -343,7 +343,7 @@ which returns multiple Element objects via
 a list of elements&mdash;List<Element>&mdash;all
 of which match the provided selector.
 
-###Setting the text of an Element
+### Setting the text of an Element
 
 In the DOM, the text of a page element is contained
 in a child node, specifically, a text node.
@@ -388,7 +388,7 @@ the browser page containing this app, thus
 dynamically displaying the text on the browser page.
 
 
-##HTML and Dart connections {#connections}
+## HTML and Dart connections {#connections}
 
 The Dart web app changed
 the text in the browser window dynamically at runtime.
@@ -452,7 +452,7 @@ between the Dart and HTML code.
      alt="The connection between the HTML file and the Dart file">
 
 
-##Give the app some style with CSS {#add-css}
+## Give the app some style with CSS {#add-css}
 
 Most HTML uses cascading style sheets (CSS) to define _styles_
 that control the appearance of page elements.
@@ -480,7 +480,7 @@ which apply only to the page element
 that has the ID RipVanWinkle.
 
 
-##About CSS selectors {#about-css-selectors}
+## About CSS selectors {#about-css-selectors}
 
 IDs, classes, and other information about elements
 are established in HTML.
@@ -558,7 +558,7 @@ The CSS rule for the RipVanWinkle paragraph
 specifies several properties;
 for example, it sets the text color to Yellow.
 
-##Other resources
+## Other resources
 
 {% comment %}
 PENDING: Link to WebStorm docs? DartPad docs?
@@ -569,7 +569,7 @@ PENDING: Link to WebStorm docs? DartPad docs?
 * <a href="/tools/">Dart Tools</a>
   lists IDEs and editors that have Dart plugins.
 
-##What next?
+## What next?
 
 The next tutorial, [Add Elements to the DOM](/docs/tutorials/add-elements/),
 shows you how to dynamically change the HTML page
