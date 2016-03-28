@@ -1,9 +1,13 @@
 ---
-layout: page
 reference: /src/site/tools/dartium/
+
+layout: page
 title: "Dartium: Chromium with the Dart VM"
-short-title: "Dartium"
+permalink: /tools/dartium
+
 description: "Download and use Dartium, a build of Chromium with an embedded Dart VM."
+
+short-title: "Dartium"
 has-permalinks: false
 ---
 

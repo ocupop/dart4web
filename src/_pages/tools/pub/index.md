@@ -1,6 +1,9 @@
 ---
-layout: page
 reference: new page
+layout: page
+title: Pub for the Web
+permalink: /tools/pub/
+
 ---
 
 # Pub for the Web

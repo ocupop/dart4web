@@ -8,7 +8,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    autoprefixer-rails (6.3.4)
+    autoprefixer-rails (6.3.5)
       execjs
     colorator (0.1)
     colored (1.2)
@@ -61,7 +61,7 @@ GEM
     minitest (5.8.4)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    parallel (1.7.0)
+    parallel (1.8.0)
     rack (1.6.4)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)

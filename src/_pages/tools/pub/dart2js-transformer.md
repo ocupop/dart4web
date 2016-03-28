@@ -1,7 +1,10 @@
 ---
-layout: default
 reference: /src/site/tools/pub/dart2js-transformer.html
+
+layout: page
 title: "Configuring the Built-in dart2js Transformer for Pub"
+permalink: /tools/dart2js-transformer
+
 ---
 
 {% include breadcrumbs.html %}

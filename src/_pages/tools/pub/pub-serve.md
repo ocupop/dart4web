@@ -1,8 +1,11 @@
 ---
-layout: default
 reference: /src/site/tools/pub/cmd/pub-serve.html
+
+layout: page
 title: "pub serve"
-Description: "Use pub serve to start up a development server for your Dart application."
+permalink: /tools/pub/serve
+description: "Use pub serve to start up a development server for your Dart application."
+
 ---
 
 {% include breadcrumbs.html %}

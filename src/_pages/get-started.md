@@ -1,6 +1,9 @@
 ---
-layout: page
 reference: new page
+
+layout: page
+permalink: /get-started
+
 ---
 
 # Get Started
@@ -25,7 +28,7 @@ add Dart support to other IDEs.
 (See [dartlang](dartlang.org/tools) for a list of other IDEs.)
 
 <a href="dartlang.org/tools/webstorm/">
-<img src="images/webstorm.png" alt="WebStorm logo"><br>
+<img src="{% asset_path 'webstorm.png' %}" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>
 
@@ -61,7 +64,7 @@ Here's one way to configure Dart support in WebStorm:
     <code><em>&lt;dartium installation directory></em>/Chromium</code>.
   </p>
 
-<aside class="alert alert-info" markdown="1">
+<div class="alert alert-info" markdown="1">
   <b>Note:</b>
   The <b>Dart SDK</b> path specifies the directory that
   contains the SDK's `bin` and `lib` directories;
@@ -69,7 +72,7 @@ Here's one way to configure Dart support in WebStorm:
   The <b>Dartium</b> path specifies the full path to the
   `Chromium` executable that contains the Dart VM.
   WebStorm ensures that the paths are valid.
-</aside>
+</div>
 </li>
 </ol>
 

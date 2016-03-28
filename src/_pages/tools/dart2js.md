@@ -2,6 +2,8 @@
 layout: page
 reference: /src/site/tools/dart2js/
 title: "dart2js: The Dart-to-JavaScript Compiler"
+permalink: /tools/dart2js
+
 short-title: "dart2js"
 ---
 
@@ -9,7 +11,6 @@ short-title: "dart2js"
 
 # {{ page.title }}
 
----
 Use the _dart2js_ tool to compile Dart code to JavaScript.
 The [`pub serve`](/tools/pub/cmd/pub-serve.html),
 [`pub run`](/tools/pub/cmd/pub-run.html), and

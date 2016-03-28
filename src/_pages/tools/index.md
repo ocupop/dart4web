@@ -1,6 +1,8 @@
 ---
-layout: page
 reference: /tools
+
+layout: page
+permalink: /tools/
 ---
 
 # Tools

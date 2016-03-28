@@ -1,8 +1,13 @@
 ---
-layout: page
 reference: new page
+
+layout: page
+title: Articles
+toc: false
+
 ---
 
+# {{ page.title }}
 Read these articles for insight into programming Dart for the
 web.
 

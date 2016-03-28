@@ -8,6 +8,7 @@ layout: default
     </aside>
   {% endif %}
   <section>
+    {% include breadcrumbs.html %}
     {{ content | inject_anchors }}
   </section>
 </article>
