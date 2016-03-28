@@ -37,7 +37,7 @@ defaults:
 # Build settings
 safe: false
 source: src
-destination: _deploy
+destination: publish
 bundler_args: --without production
 markdown: kramdown
 
