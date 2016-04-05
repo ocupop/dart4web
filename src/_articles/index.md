@@ -11,10 +11,13 @@ toc: false
 Read these articles for insight into programming Dart for the
 web.
 
-* [Embedding Dart in HTML](embedding-in-html.html)
+* [Using Dart with JSON Web Services](json-web-service)
+: Learn how to consume JSON-based web services with Dart.
+
+* [Embedding Dart in HTML](embedding-in-html)
 : Learn how to embed Dart into HTML pages.
 
-* [Improving the DOM](improving-the-dom.html)
+* [Improving the DOM](improving-the-dom)
 : Learn how Dart's HTML library improves the browser programming
 experience.
 
