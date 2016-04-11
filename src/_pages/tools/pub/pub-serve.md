@@ -1,11 +1,9 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-serve.html
-
 layout: page
 title: "pub serve"
-permalink: /tools/pub/serve
+permalink: /tools/pub/pub-serve
 description: "Use pub serve to start up a development server for your Dart application."
-
 ---
 
 {% include breadcrumbs.html %}
@@ -47,7 +45,7 @@ to JavaScript. With this, you can change some Dart code, refresh your
 non-Dartium browser, and immediately see the changes.
 
 See
-[Configuring the Built-in dart2js Transformer](/tools/pub/dart2js-transformer.html)
+[Configuring the Built-in dart2js Transformer](dart2js-transformer)
 for information on how to configure the dart2js options in your pubspec.
 
 See [Pub Assets and Transformers](/tools/pub/assets-and-transformers.html) for
@@ -61,7 +59,7 @@ information on:
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub/cmd/#global-options).
+[Global options](/tools/pub#global-options).
 
 <dl>
 <dt><code>&lt;directories&gt;</code></dt>

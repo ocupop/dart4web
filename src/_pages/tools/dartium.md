@@ -8,7 +8,6 @@ permalink: /tools/dartium
 description: "Download and use Dartium, a build of Chromium with an embedded Dart VM."
 
 short-title: "Dartium"
-has-permalinks: false
 ---
 
 {% include breadcrumbs.html %}

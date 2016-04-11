@@ -1,10 +1,11 @@
 ---
 layout: page
 reference: new page
-permalink: /solutions
+title: Frameworks
+permalink: /frameworks
 ---
 
-# Web Solutions
+# {{ page.title }}
 
 What kind of support is available for web programming in Dart?
 Where can you learn more?
@@ -34,7 +35,7 @@ but not writing a custom element, see
 For further information on Polymer, see the
 [Polymer Dart Developer Guide](https://github.com/dart-lang/polymer-dart/wiki).
 
-## HTML
+## Low-Level HTML
 
 Web apps are programmed in HTML and represented in the browser as
 a tree structure called the DOM (Document Object Model).

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: guide
 reference: new page
-permalink: /how-to
+permalink: /guides
 ---
 
 # How To...

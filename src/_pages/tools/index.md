@@ -1,11 +1,11 @@
 ---
 reference: /tools
-
 layout: page
+title: Dart Tools for the Web
 permalink: /tools/
 ---
 
-# Tools
+# {{ page.title }}
 
 The common Dart SDK tools are described on [dartlang.org](dartlang.org/xxx).
 This page lists specialized tools for developing web apps.
@@ -30,7 +30,7 @@ Dartium is a special build of Chromium used for developing web apps.
 If you don't already have a favorite IDE,
 we recommend WebStorm, which comes with Dart support.
 
-<a href="dartlang.org/tools/webstorm/">
+<a href="webstorm/">
 <img src="{% asset_path 'webstorm.png' %}" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>

@@ -8,8 +8,18 @@ permalink: /get-started
 
 # Get Started
 
-This is a quickstart guide to get you up and running so that you
+This is a quickstart guide to get you up and running so you
 can write Dart web apps.
+
+## Try it!
+
+Play with Dart in any modern browser using
+[DartPad]({{site.dartlang}}/tools/dartpad).
+DartPad allows you to try out Dart's language
+features and core APIs.
+
+You can't import packages into Dart, so once you are
+ready to go beyond DartPad, you must download the SDK.
 
 ## Download
 
@@ -18,63 +28,22 @@ We also recommend Dartium,
 a special build of Chromium with the Dart VM,
 which provides faster turnaround during the development cycle.
 
-[Download Dart and Dartium](https://dartlang.org/downloads)
+[Download Dart and Dartium]({{site.dart-vm}}/downloads/)
 
 ## Set up Your IDE
 
 If you don't already have a favorite IDE, we recommend WebStorm,
 which comes with Dart support. You can also use a plugin to
 add Dart support to other IDEs.
-(See [dartlang](dartlang.org/tools) for a list of other IDEs.)
+(See [dartlang]({{site.dartlang}}/tools) for a list of other IDEs.)
 
-<a href="dartlang.org/tools/webstorm/">
+Click the WebStorm image to learn more about downloading and
+configuring WebStorm with the paths to the Dart SDK and Dartium.
+
+<a href="/tools/webstorm">
 <img src="{% asset_path 'webstorm.png' %}" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>
-
-If you have downloaded WebStorm, you need to configure
-it with the paths to the Dart SDK and Dartium.
-
-Here's one way to configure Dart support in WebStorm:
-
-<ol>
-<li>
-  <p>
-    Create a new Dart project:
-  </p>
-
-  <ol type="a">
-    <li> From the Welcome screen, click <b>Create New Project</b>. </li>
-    <li> In the next dialog, click <b>Dart</b>.</li>
-  </ol>
-  </li>
-</li>
-<br>
-
-<li>
-  <p>
-    If you don't see values for the <b>Dart SDK</b> path and
-    <b>Dartium</b> path, enter them.
-  </p>
-
-  <p>
-    For example, the SDK path might be
-    <code><em>&lt;dart installation directory></em>/dart/dart-sdk</code>,
-    and the Dartium path might be
-    <code><em>&lt;dartium installation directory></em>/Chromium</code>.
-  </p>
-
-<div class="alert alert-info" markdown="1">
-  <b>Note:</b>
-  The <b>Dart SDK</b> path specifies the directory that
-  contains the SDK's `bin` and `lib` directories;
-  the `bin` directory contains tools such as `dart` and `dart2js`.
-  The <b>Dartium</b> path specifies the full path to the
-  `Chromium` executable that contains the Dart VM.
-  WebStorm ensures that the paths are valid.
-</div>
-</li>
-</ol>
 
 ## Meet your tools
 

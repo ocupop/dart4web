@@ -1,10 +1,8 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-build.html
-
 layout: page
 title: "pub build"
-permalink: /tools/pub/build
-
+permalink: /tools/pub/pub-build
 description: "Use pub build to deploy your Dart application."
 ---
 
@@ -44,10 +42,10 @@ or one of its subdirectories. Pub also automatically compiles your
 Dart application to JavaScript using dart2js.
 
 See
-[Configuring the Built-in dart2js Transformer](/tools/pub/dart2js-transformer.html)
+[Configuring the Built-in dart2js Transformer](dart2js-transformer)
 for information on how to configure the dart2js options in your pubspec.
 
-See [Pub Assets and Transformers](/tools/pub/assets-and-transformers.html)
+See [Pub Assets and Transformers](assets-and-transformers)
 for information on:
 
 * Where in your package to put assets.
@@ -65,7 +63,7 @@ development server that continuously generates and serves assets.
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub/cmd/#global-options).
+[Global options](/tools/pub/#global-options).
 
 <dl>
 

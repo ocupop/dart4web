@@ -12,11 +12,11 @@ short-title: "dart2js"
 # {{ page.title }}
 
 Use the _dart2js_ tool to compile Dart code to JavaScript.
-The [`pub serve`](/tools/pub/cmd/pub-serve.html),
-[`pub run`](/tools/pub/cmd/pub-run.html), and
-[`pub build`](/tools/pub/cmd/pub-build.html) commands use dart2js.
+The [`pub serve`](pub/pub-serve),
+[`pub run`](pub/pub-run), and
+[`pub build`](pub/pub-build) commands use dart2js.
 If you are using dart2js through one of the pub commands, see [Configuring
-the Built-in dart2js Transformer for Pub](/tools/pub/dart2js-transformer.html)
+the Built-in dart2js Transformer for Pub](pub/dart2js-transformer)
 for information on how to specify dart2js flags in your pubspec file.
 
 The dart2js tool provides hints for improving your Dart code and removing
@@ -45,7 +45,7 @@ JavaScript version of the app more easily.
 You can also configure dart2js options in the pubspec file.
 For more information, see
 [Configuring the Built-in dart2js Transformer for
-Pub](/tools/pub/dart2js-transformer.html).
+Pub](pub/dart2js-transformer).
 
 ## Options {#options}
 
@@ -216,7 +216,7 @@ To debug in Firefox:
 <li>Click <strong>Pause on exceptions</strong>, as shown in the
    following figure.<br /></li>
 
-<img src="/tools/images/ff-debug.png" alt="Firefox Toolbar"><br /><br />
+<img src="images/ff-debug.png" alt="Firefox Toolbar"><br /><br />
 
 <li>Reload your application.</li>
 </ol>

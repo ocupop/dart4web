@@ -16,5 +16,17 @@ running any required transformers.
 
 To learn more, see the following reference pages:
 
-* [pub serve](pub-serve.html)
 * [pub build](pub-build.html)
+* [pub serve](pub-serve.html)
+
+## Writing transformers
+
+When `pub` serves or builds an app, it can run one or more
+transformers&mdash;for example, one transformer converts Dart
+files into a single JavaScript file.
+
+Transformers operate on assets, where an asset is
+a resource, such as a Dart file, a CSS file, or an
+image, that is intended to be part of a deployed package.
+
+Learn about transformers on [dartlang]({{site.dartlang}}/tools).

@@ -45,7 +45,7 @@ use **pub build**.  Build the app in WebStorm, as follows:
 <li markdown="1">From the dialog,
 choose **Release** or **Debug**, as desired.
 The third option allows you to
-[specify a mode](/tools/pub/cmd/pub-build.html#options)
+[specify a mode](/tools/pub/pub-build.html#options)
 to `pub build`.
 </li>
 </ol>
@@ -57,7 +57,7 @@ to `pub build`.
 <i class="fa fa-lightbulb-o key-header"> </i> <strong> Not using WebStorm? </strong>
 
 * To compile a deployable version of your app from the command line,
-  use the [pub build](/tools/pub/cmd/pub-build.html) command.
+  use the [pub build](/tools/pub/pub-build.html) command.
 
 </div></div>
 

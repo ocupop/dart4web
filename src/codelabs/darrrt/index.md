@@ -1372,7 +1372,7 @@ pub build
 
 For more information, see
 [Get Started](/docs/tutorials/get-started/) and
-[pub build](/tools/pub/cmd/pub-build.html), one of the
+[pub build](cmd/pub-build.html), one of the
 [pub](/tools/pub/) commands.
 </div>
 
