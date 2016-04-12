@@ -1,22 +1,17 @@
 ---
 title: "Improving the DOM"
 description: "Learn how Dart's HTML library improves the browser programming experience."
-
-rel:
-  author: bob-nystrom
-has-permalinks: true
-article:
-  written_on: 2011-10-01
-  updated_on: 2013-03-10
-  collection: libraries-and-apis
+date: 2011-10-01
+updated: 2013-03-10
+collection: libraries-and-apis
 ---
 
 {% include breadcrumbs.html %}
 
 # {{ page.title }}
 
-<em>Written by Bob Nystrom<br />
-October 2011 (updated March 2013)</em>
+_Written by Bob Nystrom<br />
+October 2011 (updated March 2013)_
 
 One of the great opportunities a new language gives you is a chance to also
 define a cleaner set of APIs for users. When it comes to coding in a browser,

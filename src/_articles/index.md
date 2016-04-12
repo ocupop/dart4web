@@ -4,7 +4,6 @@ reference: new page
 layout: page
 title: Articles
 toc: false
-
 ---
 
 # {{ page.title }}

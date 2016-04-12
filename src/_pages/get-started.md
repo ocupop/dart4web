@@ -19,7 +19,7 @@ DartPad allows you to try out Dart's language
 features and core APIs.
 
 You can't import packages into Dart, so once you are
-ready to go beyond DartPad, you must download the SDK.
+ready to go beyond DartPad, you must download the Dart SDK.
 
 ## Download
 

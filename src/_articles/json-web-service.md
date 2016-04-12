@@ -5,14 +5,9 @@ layout: article
 type: libraries
 title: "Using Dart with JSON Web Services"
 description: "Learn how to consume JSON-based web services with Dart."
-
-rel:
-  author: chris-buckett
-has-permalinks: true
-article:
-  written_on: 2012-04-01
-  updated_on: 2013-02-02
-  collection: libraries-and-apis
+date: 2012-04-01
+updated: 2013-02-02
+collection: libraries-and-apis
 ---
 
 {% include breadcrumbs.html %}
@@ -136,13 +131,12 @@ void saveData() {
 }
 {% endprettify %}
 
-<aside>
-  <div class="alert alert-warning">
-  <strong>Warning:</strong>
-If you are trying this out for yourself against a real server, you may receive
-errors referring to <code>Access-Control-Allow-Origin</code>.  For details and workarounds, see the section
+<aside class="alert alert-info" markdown="1">
+**Warning:**
+If you are trying this out for yourself against a real server,
+you may receive errors referring to `Access-Control-Allow-Origin`.
+For details and workarounds, see the section
 <a href="#a-note-on-cors-and-httprequest">A note on CORS and HttpRequest</a>.
-  </div>
 </aside>
 
 ## Parsing JSON
