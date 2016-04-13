@@ -73,8 +73,8 @@ from being processed by a transformer.
 You can also configure a transformer to run
 only on a particular asset, or set of assets.
 For more information, see
-[How to exclude assets](assets-and-transformers.html#exclude-assets) in
-[Pub Assets and Transformers](assets-and-transformers.html).
+[How to exclude assets]({{site.dartlang}}/tools/pub/assets-and-transformers.html#exclude-assets) in
+[Pub Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers.html).
 
 ## Special-case options {#additional-options}
 

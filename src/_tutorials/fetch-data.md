@@ -513,8 +513,8 @@ and your own code to handle the error.
 **Note:**
 The examples in this section use the `async` and `await` keywords.
 If you are not familiar with these keywords, see
-[Asynchrony support](/language/language-tour#asynchrony)
-in the [language tour](/language/language-tour).
+[Asynchrony support](/guides/language-tour#asynchrony)
+in the [language tour](/guides/language-tour).
 </aside>
 
 ##Using an HttpRequest object to load a file {#making-a-get-request}

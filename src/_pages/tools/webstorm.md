@@ -17,8 +17,8 @@ It comes with the Dart plugin pre-installed.
 <aside class="alert alert-info" markdown="1">
 **Note:**
 If you're interested in using Dart
-with another JetBrains IDE such as IntelliJ IDEA,
-see the page [Dart Plugin from JetBrains](/tools/jetbrains-plugin/).
+with another JetBrains IDE such as IntelliJ IDEA, see the page
+[Dart Plugin from JetBrains]({{site.dartlang}}/tools/jetbrains-plugin/).
 </aside>
 
 ## Getting started
@@ -33,7 +33,7 @@ and then tell it where to find the Dart SDK and
 * [Download WebStorm](http://www.jetbrains.com/webstorm/download/) or,
   to try out the latest Dart language features,
   [download WebStorm EAP](https://confluence.jetbrains.com/display/WI/WebStorm+EAP)
-* [Download the Dart SDK]({{site.dartlang}}/downloads/)
+* [Download the Dart SDK]({{site.dart_vm}}/downloads/)
 * [Download Dartium](/tools/dartium/) (optional)
 
 

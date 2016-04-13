@@ -42,7 +42,7 @@ a tree structure called the DOM (Document Object Model).
 Dart apps can modify the DOM programmatically, thus dynamically
 changing the web page. For an introduction to programming in HTML,
 check out the original
-[Pirate code lab](/codelabs/darrrt/). The
+[Pirate code lab](/codelabs/darrrt). The
 [Dart Tutorials](/resources/tutorials/) have further information on
 how to include a Dart script in an HTML page,
 and how to add and remove elements from a web page.

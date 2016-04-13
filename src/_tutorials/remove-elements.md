@@ -252,7 +252,7 @@ it returns no value and takes an Event object as a parameter.
 <ul>
   <li>
     You can find more information about the DOM and CSS in the
-    <a href="{{site.dartlang}}/language/language-tour">language tour</a>,
+    <a href="{{site.dartlang}}/guides/language-tour">language tour</a>,
     which also provides thorough coverage of the Dart language.
   </li>
 </ul>
