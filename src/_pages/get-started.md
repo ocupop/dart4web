@@ -28,7 +28,7 @@ We also recommend Dartium,
 a special build of Chromium with the Dart VM,
 which provides faster turnaround during the development cycle.
 
-[Download Dart and Dartium]({{site.dart-vm}}/downloads/)
+[Download Dart and Dartium]({{site.dart_vm}}/downloads/)
 
 ## Set up Your IDE
 

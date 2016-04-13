@@ -15,7 +15,7 @@ permalink: /:title
 # dartlang: "https://www.dartlang.org"
 # dart-vm:  "https://www.dartlang.org/dart-vm"
 dartlang: "http://localhost:4000"
-dart-vm:  "http://localhost:4000/dart-vm/"
+dart_vm:  "http://localhost:4000/dart-vm/"
 #
 flutter:  "https://flutter.io"
 dartino:  "https://github.com/dartino"
@@ -27,25 +27,37 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:path
-  codelabs:
+  samples:
     output: true
     permalink: /samples/:path
+  guides:
+    output: true
+    permalink: /guides/:path
 
 defaults:
 - scope:
-    path: articles
+    path: "articles"
+    type: articles
   values:
     layout: article
     toc: true
 - scope:
-    path: tutorials
+    path: "tutorials"
+    type: tutorials
   values:
     layout: tutorial
     toc: true
 - scope:
-    path: codelabs
+    path: "samples"
+    type: samples
   values:
-    layout: codelab
+    layout: sample
+    toc: true
+- scope:
+    path: "guides"
+    type: guides
+  values:
+    layout: guide
     toc: true
 
 # Build settings

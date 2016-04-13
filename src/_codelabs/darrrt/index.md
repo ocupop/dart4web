@@ -1349,7 +1349,7 @@ right corner.
 <div class="trydart-step-details" markdown="1">
 Once you are ready to use a real editor or IDE,
 like [WebStorm](/tools/webstorm/),
-read the [Get Started]({{site.dart-vm}}/tutorials/get-started) tutorial
+read the [Get Started]({{site.dart_vm}}/tutorials/get-started) tutorial
 for information on getting Dart, using the Dart tools,
 and the directory structure used by Dart apps.
 
@@ -1371,7 +1371,7 @@ pub build
 {% endprettify %}
 
 For more information, see
-[Get Started]({{site.dart-vm}}/tutorials/get-started) and
+[Get Started]({{site.dart_vm}}/tutorials/get-started) and
 [pub build](/tools/pub/pub-build), one of the
 [pub](/tools/pub/) commands.
 </div>
