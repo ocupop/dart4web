@@ -16,8 +16,8 @@ to write your first web app using Dart and Angular.
 
 ## Next steps
 
-* Choose a [web solution](/frameworks)
-* Check out our ["how to" tips](/guides/)
+* Choose a [framework](/frameworks)
+* Check out our [guides](/guides/)
 * Learn more about the [web tools](/tools/)
 
 ## Documentation

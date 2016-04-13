@@ -36,7 +36,7 @@ we recommend WebStorm, which comes with Dart support.
 <b>WebStorm</b>
 </a>
 
-See [dartlang](dartlang.org/tools) for a list of other IDEs.
+See [dartlang]({{site.dartlang}}/tools/) for a list of other IDEs.
 
 ---
 
@@ -47,20 +47,14 @@ In addition to the [other Dart tools]({{site.dartlang}}/tools)
 included in the SDK, the following tools
 offer specialized support for web programming.
 
-<div class="row">
-  <div class="col-md-4">
-    <dt> <a href="dart2js.html">dart2js</a> </dt>
-      <dd>Dart-to-JavaScript compiler </dd>
-  </div>
-  <div class="col-md-4">
-    <dt> <a href="/tools/pub/">pub build</a> </dt>
-      <dd>Pub command for building a web app </dd>
-  </div>
-  <div class="col-md-4">
-    <dt> <a href="/tools/pub/">pub serve</a> </dt>
-      <dd>Pub command for serving a web app </dd>
-  </div>
-</div>
+* [dart2js](dart2js)
+: Dart-to-JavaScript compiler
+
+* [pub build](pub/pub-build)
+: Pub command for building a web app
+
+* [pub serve](pub/pub-serve)
+: Pub command for serving a web app
 
 ---
 
