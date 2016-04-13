@@ -4,14 +4,14 @@ reference: /src/site/docs/tutorials/fetchdata/
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
 
-nextpage: 
-  url: /tutorials/forms
-  title: "Get Input from a Form"
-prevpage: 
-  url: /tutorials/streams
-  title: "Asynchronous Programming: Streams"
+nextpage:
+  url: /tutorials/using-polymer
+  title: "Use Polymer Elements"
+prevpage:
+  url: /tutorials/remove-elements
+  title: "Remove DOM Elements"
 
-points: 
+points:
   - "Data on the web is often formatted in JSON."
   - "JSON is text based and human readable."
   - "The dart:convert library provides support for JSON."
@@ -26,13 +26,12 @@ NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Get data from a file or server.</h3>
-</div>
+# {{ page.title }}
+
+### Get data from a file or server.
 
 Web applications often use
-<a href="http://www.json.org/" target="_blank">JSON</a>
+[JSON](http://www.json.org/)
 (JavaScript Object Notation)
 to pass data between clients and servers.
 Data can be _serialized_ into a JSON string,
@@ -505,7 +504,7 @@ A Future is a way to perform potentially time-consuming operations,
 such as HTTP requests, asynchronously.
 If you haven't encountered Futures yet,
 you can learn more about them in
-[Asynchronous Programming: Futures](/docs/tutorials/futures/).
+[Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures).
 Until then, you can use the code above as an idiom
 and provide your own code for the body of the processString() function
 and your own code to handle the error.
@@ -514,8 +513,8 @@ and your own code to handle the error.
 **Note:**
 The examples in this section use the `async` and `await` keywords.
 If you are not familiar with these keywords, see
-[Asynchrony support](/docs/dart-up-and-running/ch02.html#asynchrony)
-in the [language tour](/docs/dart-up-and-running/ch02.html).
+[Asynchrony support](/language/language-tour#asynchrony)
+in the [language tour](/language/language-tour).
 </aside>
 
 ##Using an HttpRequest object to load a file {#making-a-get-request}
@@ -683,13 +682,10 @@ client and server programs.
 ## What next?
 
 * If you skipped the
-[Asynchronous Programming: Futures](/docs/tutorials/futures/) tutorial,
-we highly recommend that you go back and learn about Futures
-before going any further.
+  [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures)
+  tutorial, we highly recommend that you go back and learn about Futures
+  before going any further.
 
 * The next tutorial,
-[Get Input from a Form](/docs/tutorials/forms/),
-contains a client/server example that
-shows you how to use a form to get data from the user,
-and using JSON, send that form to a server,
-and handle the server's response.
+  [Use Polymer Elements](using-polymer), shows you how to use Polymer
+  Elements.

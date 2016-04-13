@@ -33,7 +33,7 @@ see [Dart Tools](/tools/).
 
 ## Getting Dartium
 
-If you use [Homebrew on the Mac](/downloads/mac.html),
+If you use [Homebrew on the Mac]({{site.dart-vm}}/downloads/mac),
 you can include Dartium as part of the Dart SDK download.
 
 Otherwise, you can download Dartium directly:
@@ -52,7 +52,7 @@ Otherwise, you can download Dartium directly:
     href="{{ site.custom.downloads.dartarchive-stable-url-prefix }}/latest/dartium/dartium-macos-ia32-release.zip">Dartium for Mac</a>
 
 For other versions of Dartium, including dev channel releases, see the
-[download index](/downloads/archive/).
+[download index]({{site.dart-vm}}/downloads/archive/).
 
 <aside class="alert alert-info" markdown="1">
 **Note:**

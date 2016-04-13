@@ -4,20 +4,13 @@ reference: /src/site/docs/tutorials/using-polymer
 title: "Use Polymer Elements"
 description: "Use a Polymer element, such as a material design button or menu, in any Dart web app."
 
-nextpage: 
-  url: /tutorials/futures
-  title: "Asynchronous Programming: Futures"
-prevpage: 
-  url: /tutorials/shared-pkgs
-  title: "Install Shared Packages"
+prevpage:
+  url: /tutorials/fetch-data
+  title: "Fetch Data Dynamically"
 
-points: 
+points:
   - Use Polymer elements in any Dart web app.
   - Bind Dart data to Polymer elements using a custom container.
-
-has-permalinks: true
-tutorial:
-  id: polymer/use-paper-elements
 
 header:
   css: ["styles.css"]
@@ -33,10 +26,9 @@ Don't have the source code?
 </a>
 {% endcapture %}
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Add custom elements to your web app.</h3>
-</div>
+# {{ page.title }}
+
+### Add custom elements to your web app.
 
 Writing web apps is easier when you can use custom elements developed by others.
 Custom elements can implement anything from buttons to containers to
@@ -81,7 +73,7 @@ The code sample and the content of this tutorial are compatible with
 To use the features provided by Polymer Dart,
 you need to install several dependencies.
 If you are unfamiliar with installing packages, refer to
-[Install Shared Packages](/docs/tutorials/shared-pkgs),
+[Install Shared Packages]({{site.dartlang}}/tutorials/shared-pkgs),
 which describes the process in detail.
 
 To install Polymer Dart:
@@ -344,7 +336,7 @@ Use the following resources to learn more about Polymer:
       target="_blank">paper elements</a>.
 
 * The
-  [Add Elements to the DOM](/docs/tutorials/add-elements/)
+  [Add Elements to the DOM](add-elements)
   tutorial has more information on how to use `querySelector()`
   to access the DOM.
 
@@ -399,10 +391,3 @@ A Polymer Dart implementation of a to-do list.
 </dd>
 
 </dl>
-
-# What next?
-
-The next tutorial,
-[Asynchronous Programming: Futures](/docs/tutorials/futures/),
-shows you how to write non-blocking code using Dart's async/await
-mechanism, or using the Future API.

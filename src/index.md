@@ -16,11 +16,11 @@ to write your first web app using Dart and Angular.
 
 ## Next steps
 
-* Choose a [web solution](/solutions/)
-* Check out our ["how to" tips](/how-to/)
+* Choose a [web solution](/frameworks)
+* Check out our ["how to" tips](/guides/)
 * Learn more about the [web tools](/tools/)
 
 ## Documentation
 
 * [API documentation](https://api.dartlang.org/)
-* [Effective Dart](dartlang.org/xxx)
+* [Effective Dart]({{site.dartlang}}/guides/effective-dart/)

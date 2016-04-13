@@ -45,7 +45,7 @@ See
 [Configuring the Built-in dart2js Transformer](dart2js-transformer)
 for information on how to configure the dart2js options in your pubspec.
 
-See [Pub Assets and Transformers](assets-and-transformers)
+See [Pub Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers)
 for information on:
 
 * Where in your package to put assets.

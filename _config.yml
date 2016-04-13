@@ -9,10 +9,15 @@ permalink: /:title
 # Global variables
 # use case:
 #   {{site.dartlang}}/downloads
-dart4web: "https://webdev.dartlang.org"
-dartlang: "https://www.dartlang.org"
-dart-vm:  "https://www.dartlang.org/dart-vm"
-flutter:  "https://flutter.io/"
+#
+# for now... (comment these out)
+# dart4web: "https://webdev.dartlang.org"
+# dartlang: "https://www.dartlang.org"
+# dart-vm:  "https://www.dartlang.org/dart-vm"
+dartlang: "http://localhost:4000"
+dart-vm:  "http://localhost:4000/dart-vm/"
+#
+flutter:  "https://flutter.io"
 dartino:  "https://github.com/dartino"
 
 collections:

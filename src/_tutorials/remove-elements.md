@@ -4,22 +4,18 @@ reference: /src/site/docs/tutorials/remove-elements/
 title: "Remove DOM Elements"
 description: "Remove a child element from the DOM"
 
-nextpage: 
-  url: /tutorials/shared-pkgs
-  title: "Install Shared Packages"
-prevpage: 
+nextpage:
+  url: /tutorials/fetch-data
+  title: "Fetch Data Dynamically"
+prevpage:
   url: /tutorials/add-elements
-  title: "Add Elements to the DOM" 
+  title: "Add Elements to the DOM"
 
-points: 
+points:
   - "Use _element_.remove() to remove an element from the DOM."
   - "Remove all children from an element with _element_.children.clear()."
   - "Function expressions are a convenient way to define single-use functions."
   - "=> is a shorthand syntax for defining functions that contain just one expression."
-
-has-permalinks: true
-tutorial:
-  id: remove-elements
 ---
 
 {% comment %}
@@ -27,14 +23,13 @@ NOTE: No sample_links section goes here because all the samples are in
 embedded DartPads.
 {% endcomment %}
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Dynamically delete items from the browser page.</h3>
-</div>
+# {{page.title}}
+
+### Dynamically delete items from the browser page.
 
 This tutorial shows you how to delete elements from the DOM.
 A new and improved version of the todo app from
-[the previous tutorial](/docs/tutorials/add-elements/)
+[the previous tutorial](add-elements)
 now allows the user to delete items from the list
 either one at a time, or all at once.
 
@@ -256,21 +251,20 @@ it returns no value and takes an Event object as a parameter.
 
 <ul>
   <li>
-    You can find more information about the DOM and CSS in
-    <a href="/docs/dart-up-and-running/">Dart: Up and Running</a>,
-    which also provides thorough coverage of the Dart language,
-    libraries, and tools.
+    You can find more information about the DOM and CSS in the
+    <a href="{{site.dartlang}}/language/language-tour">language tour</a>,
+    which also provides thorough coverage of the Dart language.
   </li>
 </ul>
 
 ## What next? {#what-next}
 
 * The next tutorial,
-[Install Shared Packages](/docs/tutorials/shared-pkgs),
+[Fetch Data Dynamically](fetch-data),
 shows you how to use code written and shared by others.
 
 * One of those packages is polymer.dart,
 which makes manipulating the DOM even easier
 with data binding, templates, and declarative event handlers.
-Check out [Use Polymer Elements](/docs/tutorials/using-polymer)
+Check out [Use Polymer Elements](using-polymer)
 for an introduction to polymer.dart.

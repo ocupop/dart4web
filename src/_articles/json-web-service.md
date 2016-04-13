@@ -412,7 +412,7 @@ void main() {
 {% endprettify %}
 
 For more detailed information about JS Interop, see
-the [js package docs](https://dart-lang.github.com/js-interop/docs/js.html).
+the [js package docs](https://pub.dartlang.org/packages/js).
 
 ## Summary
 
@@ -429,7 +429,7 @@ dart:convert library by letting you use dot notation to access data fields.
 * [HttpRequest](http://api.dartlang.org/html/HttpRequest.html)
 * [JsonObject](https://github.com/chrisbu/dartwatch-JsonObject)
 * [Using JSONP with Dart](http://blog.sethladd.com/2012/03/jsonp-with-dart.html)
-* [Dart JS Interop Library](https://dart-lang.github.com/js-interop/docs/js.html)
+* [Dart JS Interop Library](https://pub.dartlang.org/packages/js)
 * [About access-control restrictions](https://developer.mozilla.org/en/http_access_control)
 
 ### About the author
@@ -437,8 +437,7 @@ dart:convert library by letting you use dot notation to access data fields.
 Chris Buckett is a Technical Manager for
 [Entity Group Ltd](http://www.entity.co.uk/), responsible for building and
 delivering enterprise client-server webapps, mostly with GWT, Java and .Net.
-He runs the [dartwatch.com blog](http://blog.dartwatch.com/), and has written
-the writing the book _Dart in Action_, which is available
+He wrote _Dart in Action_, which is available
 at [manning.com](http://www.manning.com/buckett).
 
 {% comment %}

@@ -1349,7 +1349,7 @@ right corner.
 <div class="trydart-step-details" markdown="1">
 Once you are ready to use a real editor or IDE,
 like [WebStorm](/tools/webstorm/),
-read the [Get Started](/docs/tutorials/get-started/) tutorial
+read the [Get Started]({{site.dart-vm}}/tutorials/get-started) tutorial
 for information on getting Dart, using the Dart tools,
 and the directory structure used by Dart apps.
 
@@ -1371,8 +1371,8 @@ pub build
 {% endprettify %}
 
 For more information, see
-[Get Started](/docs/tutorials/get-started/) and
-[pub build](cmd/pub-build.html), one of the
+[Get Started]({{site.dart-vm}}/tutorials/get-started) and
+[pub build](/tools/pub/pub-build), one of the
 [pub](/tools/pub/) commands.
 </div>
 
@@ -1384,7 +1384,7 @@ The [server side code lab](https://dart-lang.github.io/server/codelab/)
 allows you create a pirate crew by storing pirate names to a RESTful
 Dart server.
 
-Also, see the [Write HTTP Clients & Servers](/docs/tutorials/httpserver/)
+Also, see the [Write HTTP Clients & Servers]({{dart-vm}}/tutorials/httpserver)
 tutorial if you are interested in server-side programming.
 </div>
 
@@ -1392,7 +1392,7 @@ tutorial if you are interested in server-side programming.
 
 <div class="trydart-step-details" markdown="1">
 Learn more about Dart from
-the [Dart tutorials](/docs/tutorials/).
+the [Dart tutorials](/tutorials/).
 </div>
 
 <hr>
@@ -1409,8 +1409,7 @@ Here's where to go to learn more.
 
 #### The Dart language
 
-<a href="/docs/dart-up-and-running/ch02.html">
-A Tour of the Dart Language</a>
+<a href="/language/language-tour">A Tour of the Dart Language</a>
 shows you how to use each major Dart feature,
 from variables and operators to classes and libraries.
 This code lab introduced the following Dart language features,
@@ -1440,8 +1439,7 @@ all of which are covered in more detail in the language tour.
 
 #### The Dart libraries
 
-* <a href="/docs/dart-up-and-running/ch03.html">
-A Tour of the Dart Libraries</a>
+* <a href="/libraries/library-tour">A Tour of the Dart Libraries</a>
 shows you how to use the major features in Dart’s libraries.
 
 #### API documentation for classes

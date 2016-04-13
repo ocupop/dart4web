@@ -1,9 +1,10 @@
 ---
 layout: page
 reference: new page
+title: The Dart Tutorials
 ---
 
-# The Dart Tutorials
+# {{ page.title }}
 
 The Dart tutorials teach you how to build web applications
 using the Dart language, tools, and APIs.
@@ -19,7 +20,7 @@ using the Dart language, tools, and APIs.
 
 Choose the tutorials that you need.
 
-## Straight HTML
+## Low-Level HTML
 
 * [Connect Dart & HTML](connect-dart-html)
 

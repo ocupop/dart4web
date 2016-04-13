@@ -2,19 +2,20 @@
 reference: /src/site/tools/pub/dart2js-transformer.html
 layout: page
 title: "Configuring the Built-in dart2js Transformer for Pub"
-permalink: /tools/dart2js-transformer
+permalink: /tools/pub/dart2js-transformer
 ---
 
 {% include breadcrumbs.html %}
 
 # {{ page.title }}
 
-The [pub serve](pub-serve.html), [pub build](pub-build.html),
-and [pub run](pub-run.html) commands use the [dart2js](/tools/dart2js/)
+The [pub serve](pub-serve), [pub build](pub-build),
+and [pub run]({{site.dartlang}}/tools/pub/cmd/pub-run.html)
+commands use the [dart2js](/tools/dart2js)
 compiler to convert your Dart files to JavaScript.
 
-You can configure dart2js in the [pubspec](/tools/pub/pubspec.html)
-for your package.
+You can configure dart2js in the
+[pubspec]({{site.dartlang}}/tools/pub/pubspec.html) for your package.
 To do this, add `$dart2js` (note the leading dollar sign) under the
 `transformers:` field.
 

@@ -7,7 +7,8 @@ permalink: /tools/
 
 # {{ page.title }}
 
-The common Dart SDK tools are described on [dartlang.org](dartlang.org/xxx).
+The common Dart SDK tools are described on
+[dartlang.org]({{site.dartlang}}/tools).
 This page lists specialized tools for developing web apps.
 
 ---
@@ -42,7 +43,7 @@ See [dartlang](dartlang.org/tools) for a list of other IDEs.
 <a name="other-tools"></a>
 <h2>Command-line tools</h2>
 
-In addition to the [other Dart tools](dartlang.org/xxx)
+In addition to the [other Dart tools]({{site.dartlang}}/tools)
 included in the SDK, the following tools
 offer specialized support for web programming.
 

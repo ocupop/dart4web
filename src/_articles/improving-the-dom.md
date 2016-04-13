@@ -242,7 +242,7 @@ TableElement table = new Element.html(
     '<table><tr><td>Hello <em>Dart!</em></table>');
 {% endprettify %}<!--- END(element_table) -->
 
-Dart's [named constructors](/docs/dart-up-and-running/ch02.html#named-constructors)
+Dart's [named constructors](/language/language-tour#named-constructors)
 make it easier to conjure up DOM objects in a
 variety of ways.
 
@@ -629,7 +629,7 @@ Check out the
 
 Speaking of browser programming, you might be interested in
 [Angular 2 for Dart](https://angular.io/docs/dart/latest/quickstart.html)
-or [Polymer Dart](/docs/tutorials/using-polymer/).
+or [Polymer Dart](/tutorials/using-polymer).
 
 {% comment %}
 The tests for this article are at /tests/site/articles/improving-the-dom.

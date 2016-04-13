@@ -8,10 +8,10 @@ nextpage:
   url: /tutorials/add-elements
   title: "Add Elements to the DOM"
 prevpage:
-  url: /tutorials/get-started
-  title: "Get started"
+  url: /tutorials/
+  title: "The Dart Tutorials"
 
-points: 
+points:
   - "DartPad lets you write a simple Dart web app without HTML boilerplate."
   - "A Dart web app has Dart, HTML, and (usually) CSS code."
   - "Compile a web app's Dart code to JavaScript to run the app in any modern browser."
@@ -39,10 +39,9 @@ Don't have the source code?
 {% endcapture %}
 
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Write a mini Dart app.</h3>
-</div>
+# {{page.title}}
+
+### Write a mini Dart app.
 
 To write a Dart web app,
 you need to understand
@@ -564,13 +563,13 @@ for example, it sets the text color to Yellow.
 PENDING: Link to WebStorm docs? DartPad docs?
 {% endcomment %}
 
-* <a href="/docs/dart-up-and-running/">Dart: Up and Running</a>
-  provides thorough coverage of the Dart language and libraries.
-* <a href="/tools/">Dart Tools</a>
+* The <a href="{{site.dartlang}}/language/language-tour">language tour</a>
+  provides thorough coverage of the Dart language.
+* <a href="{{site.dartlang}}/tools/">Dart Tools</a>
   lists IDEs and editors that have Dart plugins.
 
 ## What next?
 
-The next tutorial, [Add Elements to the DOM](/docs/tutorials/add-elements/),
+The next tutorial, [Add Elements to the DOM](add-elements),
 shows you how to dynamically change the HTML page
 by adding elements to the DOM.

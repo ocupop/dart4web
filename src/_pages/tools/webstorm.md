@@ -33,7 +33,7 @@ and then tell it where to find the Dart SDK and
 * [Download WebStorm](http://www.jetbrains.com/webstorm/download/) or,
   to try out the latest Dart language features,
   [download WebStorm EAP](https://confluence.jetbrains.com/display/WI/WebStorm+EAP)
-* [Download the Dart SDK](/downloads/)
+* [Download the Dart SDK]({{site.dartlang}}/downloads/)
 * [Download Dartium](/tools/dartium/) (optional)
 
 
