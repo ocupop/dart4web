@@ -1,25 +1,27 @@
 ---
 layout: codelab
 title: "Step 5: Create a Name Service"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
 description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
-prev: 4-buttonbadge.html
-prev-title: "Step 4: Add a Button"
-next: 6-readjsonfile.html
-next-title: "Step 6: Read a JSON File"
+
+nextpage:
+  url: 6-readjsonfile
+  title: "Step 6: Read a JSON File"
+prevpage:
+  url: 4-buttonbadge
+  title: "Step 4: Add a Button"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-{% include codelab-nav.html %}
 
 # {{ page.title }}
 
 A proper pirate name consists of a name and an appellation,
 such as "Margy the Fierce" or "Renée the Fighter".
-In this step, you learn about Angular's support for dependency
-injection as you add a service that returns a pirate name.
+In this step, you learn about Angular's support for
+[dependency injection](https://angular.io/docs/dart/latest/guide/dependency-injection.html)
+as you add a service that returns a pirate name.
 
 ## <i class="fa fa-anchor"> </i> Create a class for the pirate name service.
 
@@ -32,7 +34,7 @@ injection as you add a service that returns a pirate name.
    right-click the `lib` directory and
    select **New > Dart File** from the menu that pops up.
 </li>
-<li markdown="1">Enter "pirate_name_service" into the dialog
+<li markdown="1">Enter "pirate_name_service" as the filename
    and click **OK**.
 </li>
 </ol>
@@ -69,13 +71,13 @@ Add imports to the file.
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* Using the `show` keyword, you can import only the classes, functions,
-  or properties that you need.
+* The `show` keyword lets you import only the classes, top-level
+  functions, or top-level variables that you need.
 
 * `Random` provides a random number generator.
 
-* The `angular2/core.dart` library defines the injectable annotation
-  that you are adding in the next step.
+* The `angular2/core.dart` library gives you access to the
+  `Injectable` class that you'll add next.
 
 </div></div>
 
@@ -101,19 +103,14 @@ Add a class declaration below the import and annotate it with
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* _Dependency injection_ is a design pattern that allows moving
-  the definition of a dependency to the constructor of
-  the class that uses the dependency.
-
 * Dependency injection, also referred to as _DI_, allows you to write
   more robust code that is easier to test.
 
 * When Angular detects the `@Injectable()` annotation,
   it generates necessary metadata so that the annotated object is injectable.
 
-* Later, when you edit lib/pirate_name_service.dart,
-  you'll add a constructor to PirateBadgeComponent
-  that will inject an instance of PirateNameService.
+* Later, you'll add a constructor to PirateBadgeComponent
+  that enables injecting an instance of PirateNameService.
 
 </div></div>
 
@@ -138,11 +135,17 @@ class PirateNameService {
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* `static` defines a class-level field. That is,
-  the random number generator is shared with all
+* The `static` annotation makes the field a class variable,
+  rather than an instance variable.
+  Therefore, the random number generator is shared with all
   instances of this class.
 
-* Use `new` to call a constructor.
+* `final` variables must be initialized and cannot change.
+
+* Private variables start with underscore (`_`);
+  Dart has no `private` keyword.
+
+* The `new` keyword indicates a call to the constructor.
 
 </div></div>
 
@@ -174,14 +177,9 @@ class PirateNameService {
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* Private variables start with underscore (`_`);
-  Dart has no `private` keyword.
-  The language tools enforce a variable's privacy.
-
-* `final` variables cannot change.
-
-* Lists are built into the language. These lists are created
-  using list literals.
+* Lists are built into the language and are similar to arrays in
+  other languages.
+  These lists are created using list literals.
 
 * The `List` class provides the API for lists.
 
@@ -204,13 +202,11 @@ class PirateNameService {
     'Jackal', 'King', 'Red', 'Stalwart', 'Axe',
     'Young', 'Brave', 'Eager', 'Wily', 'Zesty'];
 
-  [[highlight]]String _randomFirstName() {[[/highlight]]
-    [[highlight]]return _names[_indexGen.nextInt(_names.length)];[[/highlight]]
-  [[highlight]]}[[/highlight]]
+  [[highlight]]String _randomFirstName()[[/highlight]]
+      [[highlight]]=> _names[_indexGen.nextInt(_names.length)];[[/highlight]]
 
-  [[highlight]]String _randomAppellation() {[[/highlight]]
-    [[highlight]]return _appellations[_indexGen.nextInt(_appellations.length)];[[/highlight]]
-  [[highlight]]}[[/highlight]]
+  [[highlight]]String _randomAppellation() =>[[/highlight]]
+      [[highlight]]_appellations[_indexGen.nextInt(_appellations.length)];[[/highlight]]
 }
 {% endprettify %}
 </div>
@@ -220,6 +216,9 @@ class PirateNameService {
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
 * The code uses a random number as an index into the list.
+
+* The fat arrow ( `=> expr;` ) syntax is a shorthand for
+  `{ return expr; }`.
 
 * The `nextInt()` function gets a new random integer
 from the random number generator.
@@ -243,17 +242,15 @@ Provide a method that gets a pirate name.
 {% prettify dart %}
 class PirateNameService {
   ...
-  String _randomAppellation() {
-    return (_appellations[_indexGen.nextInt(_appellations.length)]);
-  }
+  String _randomAppellation() =>
+      _appellations[_indexGen.nextInt(_appellations.length)];
 
   [[highlight]]String getPirateName(String firstName) {[[/highlight]]
     [[highlight]]if (firstName == null || firstName.trim().isEmpty) {[[/highlight]]
       [[highlight]]firstName = _randomFirstName();[[/highlight]]
     [[highlight]]}[[/highlight]]
-    [[highlight]]var appellation = _randomAppellation();[[/highlight]]
 
-    [[highlight]]return '$firstName the $appellation';[[/highlight]]
+    [[highlight]]return '$firstName the ${_randomAppellation()}';[[/highlight]]
   }
 }
 {% endprettify %}
@@ -263,11 +260,14 @@ class PirateNameService {
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* String interpolation
-  (`'$_firstName the $_appellation'`)
+* String interpolation (`'$firstName the ${_randomAppellation()}'`)
   lets you easily build strings from other objects.
+  To insert the value of an expression, use `${expr}`.
+  You can drop the curly brackets when the expression
+  is an identifier: `$id`.
 
-* String interpolation is different than Angular's expression interpolation.
+* Dart's string interpolation is different from Angular's expression
+  interpolation.
 
 </div></div>
 
@@ -283,7 +283,7 @@ Import the pirate name service.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-import 'package:angular2/angular2.dart';
+import 'package:angular2/core.dart';
 [[highlight]]import 'pirate_name_service.dart';[[/highlight]]
 {% endprettify %}
 </div>
@@ -315,7 +315,8 @@ it should look as follows:
 {% prettify dart %}
 @Component(
     selector: 'pirate-badge',
-    templateUrl: 'pirate_badge_component.html'[[highlight]],[[/highlight]]
+    templateUrl: 'pirate_badge_component.html',
+    styleUrls: const ['pirate_badge_component.css'][[highlight]],[[/highlight]]
     [[highlight]]providers: const [PirateNameService][[/highlight]])
 class PirateBadgeComponent {
   ...
@@ -332,7 +333,7 @@ class PirateBadgeComponent {
 
 * You can reformat your code by right-clicking in the editor view
   and selecting **Reformat with Dart Style**. For more information,
-  see [step 2](2-blankbadge.html).
+  see [step 2](2-blankbadge).
 
 </div></div>
 
@@ -362,11 +363,12 @@ class PirateBadgeComponent {
 
 </div> <div class="col-md-5" markdown="1">
 
-{% comment %}
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* x
-{% endcomment %}
+* A final variable can be set only once.
+  `_nameService` is a final field&ndash;an instance
+  variable that's declared `final`. Final fields must
+  be set before the constructor body runs.
 
 </div></div>
 
@@ -374,7 +376,7 @@ class PirateBadgeComponent {
 
 <hr>
 
-Add a constructor that references `_nameService`.
+Add a constructor that assigns a value to `_nameService`.
 </div>
 
 <div class="row"> <div class="col-md-7" markdown="1">
@@ -397,12 +399,45 @@ class PirateBadgeComponent {
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* When Angular creates a component, it looks at its constructors
-  and then goes looking for the types of arguments with the
-  `@Injectable` annotation.
+<ul markdown="1">
 
-* When Angular locates the class, it creates an instance and
-  injects it into the component via the constructor.
+<li markdown="1">Whenever Angular creates a pirate-badge component,
+  Angular's dependency injection framework supplies the
+  PirateNameService object that the PirateBadgeComponent
+  constructor needs.
+</li>
+
+<li markdown="1">The `@Injectable` annotation on PirateNameService,
+  combined with the `providers` list containing PirateNameService,
+  lets Angular create the PirateNameService object.
+</li>
+
+<li markdown="1"> If you've used Java, you've seen `this` before.
+  You can access local instance variables using `this`. Dart only
+  uses `this` when necessary, otherwise Dart style omits it.
+
+</li>
+
+<li markdown="1"> Note that the PirateBadgeComponent constructor has no body.
+  The `this._nameService` text in the argument list
+  assigns the passed-in parameter to the `_nameService` variable.
+  Since the assignment happens in the argument list,
+  and the constructor doesn't need to do anything else,
+  the body isn't needed.
+
+  If `_nameService` weren't a final variable,
+  this code could be replaced with:
+
+{% prettify dart %}
+PirateBadgeComponent(var nameService) {
+  _nameService = nameService;
+}
+{% endprettify %}
+
+  But since `_nameService` is final, it has to be initialized
+  when it's declared, or in the constructor's argument list.
+</li>
+</ul>
 
 </div></div>
 
@@ -419,10 +454,6 @@ Add a `setBadgeName()` method.
 {% prettify dart %}
 class PirateBadgeComponent {
   ...
-  void generateBadge() {
-    setBadgeName(new PirateNameService());
-  }
-
   [[highlight]]void setBadgeName([String newName = '']) {[[/highlight]]
     [[highlight]]if (newName == null) return;[[/highlight]]
     [[highlight]]badgeName = _nameService.getPirateName(newName);[[/highlight]]
@@ -467,6 +498,7 @@ class PirateBadgeComponent implements OnInit {
       enableButton = false;
     }
   }
+  ...
 }
 {% endprettify %}
 </div>
@@ -492,16 +524,14 @@ of a name and an appellation.
 
 ## Problems?
 
-Look in WebStorm's window for possible errors, then look
-in Dartium's JavaScript console. You can find the console under
+Look in WebStorm's window for possible errors.
+If that fails, look in your browser's JavaScript console.
+In Dartium or Chrome, bring up the console using
 **View > Developer > JavaScript Console**.
 
-Finally, check your code against the files in
+Finally, if you still haven't found the problem
+check your code against the files in
 [5-piratenameservice](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/5-piratenameservice).
 
 * [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/pirate_badge_component.dart)
 * [lib/pirate_name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/pirate_name_service.dart)
-
-<hr>
-
-{% include codelab-nav.html %}

@@ -1,18 +1,19 @@
 ---
 layout: codelab
 title: "Step 1: Create a Basic Web App"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+description: "Create an Angular app using a Dart template and run it in Dartium."
 snippet_img: images/piratemap.jpg
-prev: index.html
-prev-title: "Step 0: Set up"
-next: 2-blankbadge.html
-next-title: "Step 2: Add a Pirate Badge Component"
+
+nextpage:
+  url: 2-blankbadge
+  title: "Step 2: Add a Pirate Badge Component"
+prevpage:
+  url: 0-setup
+  title: "Step 0: Set Up"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-{% include codelab-nav.html %}
 
 # {{ page.title }}
 
@@ -22,19 +23,19 @@ and run the app in Dartium.
 <div class="trydart-step-details" markdown="1">
 <aside class="alert alert-success" markdown="1">
 <i class="fa fa-lightbulb-o"> </i> **Tip** <br>
-This code lab uses a 2-column format.
+This code lab uses a 2-column format if your window is wide enough.
 The left column contains instructions that assume you are using WebStorm.
-The right column contains "Key information"&mdash;
+The right column contains **Key information**&mdash;
 concepts and background information.
 Also in the right column,
-the "Not using WebStorm" sections include alternate instructions
+the **Not using WebStorm?** sections include alternate instructions
 for working from the command line.
 </aside>
 </div>
 
 ## <i class="fa fa-anchor"> </i> Create a basic web app.
 
-WebStorm privdes a set of templates
+WebStorm provides a set of templates
 for creating a variety of Dart apps.
 When you create a new app,
 you can start with one of the application templates,
@@ -52,8 +53,9 @@ or you can start from scratch.
   a "Welcome to WebStorm" screen appears.
 </li>
 
-<li markdown="1">If you have not already done so, set the paths to Dartium and
-the SDK. You can find the instructions at
+<li markdown="1">If you haven't already,
+set the paths for Dartium and the SDK.
+You can find the instructions at
 [Configuring Dart Support](/tools/webstorm/#configuring-dart-support).
 </li>
 
@@ -62,7 +64,6 @@ or **File > New > Project...** from the menu.  A dialog appears.
 </li>
 
 <li markdown="1">Select **Dart** from the list on the left.
-This loads the available project templates.
 </li>
 
 <li markdown="1">In the **Location** input field, check that
@@ -103,11 +104,23 @@ The form should look similar to the following:
 
 <ol markdown="1">
 <li markdown="1">Create a directory on your computer for the project.
+
+{% prettify none %}
+mkdir pirate_badge
+{% endprettify %}
+
 </li>
-<li markdown="1">Copy the contents of the `one-hour-code-lab/ng2/1-skeleton`
-    directory into your new project's directory. Or, if you prefer,
-    you can get the `web-angular` project from the
-    [Stagehand](https://github.com/google/stagehand) repo.
+<li markdown="1">Copy the contents of the
+    [one-hour-code-lab/ng2/1-skeleton](https://github.com/dart-lang/one-hour-codelab/archive/ng2.zip)
+    directory into your new project's directory.
+    Or, better yet, use `stagehand` to get the starting files:
+
+{% prettify none %}
+cd pirate_badge
+pub global activate stagehand
+stagehand web-angular
+{% endprettify %}
+
 </li>
 </ol>
 
@@ -122,38 +135,56 @@ WebStorm creates a `pirate_badge` directory and boilerplate files for
 a basic Angular app. It then runs `pub get`, Dart's package management tool,
 to download the packages that the app depends on. Finally, WebStorm runs
 Dart's static analyzer over the code to look for errors and warnings.
+
+<img style="border:1px solid black" src="images/webstorm-layout.png" alt="layout of the Webstorm screen">
 </div>
 
 </div> <div class="col-md-5" markdown="1">
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* The **Messages** view at the bottom of the screen reports the output from
-  the pub commands.
+<ol markdown="1">
 
-* The **editor** view, on the right, opens with the contents of the
-  `web/index.html` file.
+<li markdown="1"> The **messages** view at the bottom of the screen
+  reports the output from the pub commands.
+</li>
 
-* If the currently opened file passes analysis, a green checkmark
-  <img src="images/WebStorm-checkmark.png">
+<li markdown="1"> The **editor** view, on the right,
+  opens with the contents of the `web/index.html` file.
+</li>
+
+<li markdown="1"> If the currently opened file passes analysis,
+  a green checkmark <img src="images/WebStorm-checkmark.png">
   displays in the upper right corner of the editor view.
   If the code fails analysis, a yellow box
   <img src="images/WebStorm-warning.png"> displays.
-  Hover over the tic marks (yellow for warnings or red for errors)
-  along the right edge of the editor view for more information.
+  Hover over the tick marks (yellow for warnings or red for errors)
+  along the right edge of the editor view for more information.<br>
 
-* **NOTE: The index.html file currently claims that `my-app` is an
-  unknown tag. WebStorm is not yet current with the latest release
-  of Angular. You can ignore this error.**
+  WebStorm might warn that `my-app` is an unknown HTML tag in
+  `index.html`. **You can ignore this warning.**
+</li>
+</ol>
 
 <i class="fa fa-lightbulb-o key-header"> </i> <strong> Not using WebStorm? </strong>
 
-* Within your project's directory, run [`pub get`](/tools/pub/),
+<ul markdown="1">
+
+<li markdown="1">Within your project's directory,
+  run [`pub get`](/tools/pub/)
   to download the packages that the app depends on.
   Pub is Dart's package management tool.
+</li>
 
-* You can run the analyzer on your code at the command line using the
-  [dartanalyzer](https://github.com/dart-lang/analyzer_cli#dartanalyzer) command.
+<li markdown="1"> You can run the analyzer on your code at
+  the command line using the
+  [dartanalyzer](https://github.com/dart-lang/analyzer_cli#dartanalyze://github.com/dart-lang/sdk/tree/master/pkg/analyzer_cli#dartanalyzer) command:
+
+{% prettify none %}
+dartanalyzer .
+{% endprettify %}
+</li>
+</ul>
 
 </div></div>
 
@@ -208,8 +239,8 @@ pirate_badge/
 As you might expect,
 the `lib` directory contains library files. In an Angular app,
 component classes are generally created as library files.
-The `web` directory contains the "main" files for a web app.
-Double clicking a file opens that file into the editor view.
+The `web` directory contains the main files for a web app.
+Double clicking a file opens that file in the editor view.
 </div>
 
 </div> <div class="col-md-5" markdown="1">
@@ -231,7 +262,8 @@ version of the app.
 <div class="trydart-step-details" markdown="1">
 
 {% prettify dart %}
-import 'package:angular2/bootstrap.dart';
+import 'package:angular2/platform/browser.dart';
+
 import 'package:pirate_badge/app_component.dart';
 
 main() {
@@ -255,9 +287,9 @@ main() {
 
 * The `package:` syntax specifies the location of the library.
 
-* This app depends on the `angular2` package, which is loaded from
-  [pub.dartlang.org](https://pub.dartlang.org/).
-  Files that call `bootstrap()` import `bootstrap.dart` from the
+* This app depends on the `angular2` package, which the pub tool
+  downloads from [pub.dartlang.org](https://pub.dartlang.org/).
+  Files that call `bootstrap()` import `platform/browser.dart` from the
   angular package.
 
 * The second import, `app_component.dart`,
@@ -267,12 +299,12 @@ main() {
   directory of this app.
 
 * By convention,
-  Dart filenames use lower case, separating words with underscores,
-  while Dart classes use camel case.
+  Dart filenames are lower_case_with_underscores,
+  while Dart class names are CamelCase.
   So, the `app_component.dart` file defines the `AppComponent` class.
 
-* Calling `bootstrap()` with the app component launches Angular.
-
+* Calling `bootstrap()` starts your app, with the specified component
+  as the app's root component.
 
 </div> </div>
 
@@ -330,7 +362,7 @@ main() {
 <div class="trydart-step-details" markdown="1">
 
 {% prettify dart %}
-import 'package:angular2/angular2.dart';
+import 'package:angular2/core.dart';
 
 @Component(selector: 'my-app', templateUrl: 'app_component.html')
 class AppComponent {}
@@ -341,7 +373,8 @@ class AppComponent {}
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* All Dart files that use Angular APIs import `angular2.dart`.
+* Importing `core.dart` lets the app use `Component` and other
+  common Angular types.
 
 * The `@Component` annotation defines `AppComponent` as an Angular
   component.
@@ -404,9 +437,9 @@ version: 0.0.1
 environment:
   sdk: '>=1.13.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.6
+  angular2: 2.0.0-beta.15
   browser: ^0.10.0
-  dart_to_js_script_rewriter: ^0.1.0
+  dart_to_js_script_rewriter: ^1.0.1
 transformers:
 - angular2:
     platform_directives:
@@ -427,7 +460,7 @@ transformers:
   contains metadata about that package, such as its name.
 
 * The pubspec also lists the packages on which the
-  app depends. The `browser`, `angular2`, and
+  app depends. The `angular2`, `browser`, and
   `dart_to_js_script_rewriter` packages needed by
   this app are hosted on [pub.dartlang.org](https://pub.dartlang.org/)
   along with many others.
@@ -453,11 +486,10 @@ transformers:
   a number as a percentage.
 
 * The `entry_points` section tells the Angular transformer which file contains
-  the starting point for the app. Some apps have multiple entrypoints.
+  the starting point for the app. Some apps have multiple entry points.
 
 * Pub uses the `dart_to_js_script_rewriter` transformer when building
-  your app for deployment. You don't need it unless building a
-  JavaScript version of your app to run in all browsers.
+  your app for deployment.
 
 * Running `pub get` installs the packages that your app depends on,
   as defined by your app's pubspec.
@@ -466,8 +498,9 @@ transformers:
   If the buttons don't appear at the top of the editor view,
   you can find them by opening the pubspec.
 
-* The `pubspec.lock` file lists every package that your app directly
-  or indirectly depends on, along with the version number for each package.
+* A `pubspec.lock` file, created by `pub get`, lists every package
+  that your app directly or indirectly depends on,
+  along with the version number for each package.
 
 </div> </div>
 
@@ -482,22 +515,23 @@ In WebStorm's Project view,
 right-click `index.html` and select **Run 'index.html'** from the menu
 that pops up.
 
-WebStorm uses a built-in web server to launch Dartium and load the app.
+WebStorm launches the app in a Dartium window.
 You should see something like the following:
 
 <img style="border:1px solid black" src="images/first-ng2-app.png" alt="The skeleton app.">
 
 After you've run the app using the menu, WebStorm remembers.
-In future, you can launch the app using the enabled **Run** button
-<img src="images/run.png"> in the **upper right**.
-(The run button in the Messages view runs the last pub command again.)
+In the future, you can launch the app using the enabled **Run** button
+<img src="images/run.png"> in the upper right corner of the
+WebStorm window.
+(The run button in the messages view runs the last pub command again.)
 
 </div>
 
 <div class="trydart-step-details" markdown="1">
 <aside class="alert alert-success" markdown="1">
 <i class="fa fa-lightbulb-o"> </i> **Tip** <br>
-If this is the first time launching Dartium on OS X,
+If this is your first time launching Dartium on OS X,
 you might see a dialog from OS X's Gatekeeper stating
 that **"Chromium.app" can't be opened
 because it is from an unidentified developer.**
@@ -508,13 +542,13 @@ on Apple's support website.
 
 <br>
 <i class="fa fa-lightbulb-o"> </i> **Tip** <br>
-You might also see a dialog asking, **Chromium wants to use your
+You might also see a dialog saying, **Chromium wants to use your
 confidential information stored in "Chromium Safe Storage" in
 your keychain.**
 This dialog can occur on the Mac if you've ever saved passwords in Safari.
 You can "Deny" the request and your app will still work. This
 [blog post](http://www.idownloadblog.com/2013/03/04/google-chrome-wants-to-use-your-confidential-information-store-in-the-keychain/)
-has information on how to perminently get rid of these warnings.
+has information on how to permanently eliminate these warnings.
 </aside>
 </div>
 
@@ -522,90 +556,69 @@ has information on how to perminently get rid of these warnings.
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* The app is referred to as Dartium, but the executable is named Chromium.
-  On some Windows installations, the executable is named `Chrome.exe`.
+* The app is referred to as Dartium,
+  but the executable might be named Chromium or Chrome.
 
-* Dartium opens and displays two warnings highlighted in yellow:
+* When Dartium launches, it displays two warnings:
   "You are using an unsupported command-line flag..."
   and "Google API keys are missing..."
   You can ignore these.
 
 <i class="fa fa-lightbulb-o key-header"> </i> <strong> Not using WebStorm? </strong>
 
-* You can manually launch a local HTTP server and
-  then view the app in Dartium.
-  The following instructions use the simple Python server:
+<ul markdown="1">
+<li markdown="1">You can use pub to build and serve your app,
+  so you can run the app in any modern browser.
 
 <ol markdown="1">
 
-<li markdown="1">
-From the project's `web` directory,
-launch the Python server as follows:
+<li markdown="1">From the directory that contains the pubspec file,
+  enter `pub serve`.  The output should include the following:
 
 {% prettify none %}
-cd pirate_badge/web
-python -m SimpleHTTPServer
+$ pub serve
+Loading source assets...
+Loading angular2 and dart_to_js_script_rewriter transformers... (2.6s)
+[[highlight]]Serving pirate_badge web on http://localhost:8080[[/highlight]]
+Build completed successfully
+...
 {% endprettify %}
 
-You should see the following:
-
-{% prettify none %}
-Serving HTTP on 0.0.0.0 port 8000 ...
-{% endprettify %}
-
-You can specify an alternate port if 8000 is not available.
-
-{% prettify none %}
-python -m SimpleHTTPServer <port-number>
-{% endprettify %}
+You can specify an alternate port if 8080 is not available.
+For more information, see [pub serve](/tools/pub/pub-serve).
 </li>
 
 <li markdown="1">
-A dialog appears asking if you want to allow Python.app
-to accept incoming network connections.
-For this example, it doesn't matter, so you can select **Deny**.
-</li>
-
-<li markdown="1">
-Launch Dartium. If Dartium is not in your path, specify the full path
-to the executable. On a Mac, it would look something like the following:
+In Dartium or any modern browser, navigate to:
 
 {% prettify none %}
-<path-to-dartium>/Chromium.app/Contents/MacOS/Chromium
-{% endprettify %}
-</li>
-
-<li markdown="1">
-In the address bar, navigate to index.html as follows:
-
-{% prettify none %}
-localhost:8000/index.html
+http://localhost:8080
 {% endprettify %}
 
 If you specified a different port when you started the server,
-use that instead of 8000.
+use that instead of 8080.
 </li>
 
 </ol>
 
-* Your app's UI should load.
+</li>
+
+</ul>
 
 </div></div>
 
 ## Problems?
 
-Look in WebStorm's window for possible errors then look
-in Dartium's JavaScript console. You can find the console under
+Look in WebStorm's window for possible errors.
+If that fails, look in your browser's JavaScript console.
+In Dartium or Chrome, bring up the console using
 **View > Developer > JavaScript Console**.
 
-Finally, check your code against the files in
+Finally, if you still haven't found the problem
+check your code against the files in
 [1-skeleton](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/1-skeleton).
 
 * [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/lib/app_component.dart)
 * [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/lib/app_component.html)
 * [web/main.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/web/main.dart)
 * [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/web/index.html)
-
-<hr>
-
-{% include codelab-nav.html %}
