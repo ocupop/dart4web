@@ -1,6 +1,6 @@
 ---
 layout: page
-reference: new page
+title: Dart4Web Guides
 permalink: /guides
 ---
 

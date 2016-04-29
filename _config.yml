@@ -36,25 +36,25 @@ collections:
 
 defaults:
 - scope:
-    path: "articles"
+    path: ""
     type: articles
   values:
     layout: article
     toc: true
 - scope:
-    path: "tutorials"
+    path: ""
     type: tutorials
   values:
     layout: tutorial
     toc: true
 - scope:
-    path: "samples"
+    path: ""
     type: samples
   values:
     layout: sample
     toc: true
 - scope:
-    path: "guides"
+    path: ""
     type: guides
   values:
     layout: guide
@@ -93,10 +93,10 @@ assets:
   #   - "bundle.css"
   digest: true
   sources:
-    - _assets/bower
+    - _assets/icons
+    - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
-    - _assets/media
     - _assets/page_assets
   features:
     liquid: true # default: false

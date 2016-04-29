@@ -1,22 +1,22 @@
-- title: <b>Forms & Data</b>
+- title: "Forms & Data"
   label:
   permalink: /articles
   children:
     - title: Fetch Data Dynamically
       label: 
       permalink: /tutorials/fetch-data
-- title: <b>Frameworks</b>
+- title: Frameworks
   label:
   permalink: /articles
   children:
     - title: Use Polymer Elements
       label:
       permalink: /tutorials/using-polymer
-- title: <b>Low-Level HTML</b>
+- title: Low-Level HTML
   label:
   permalink: /articles
   children:
-    - title: Connect Dart & HTML
+    - title: "Connect Dart & HTML"
       label:
       permalink: /tutorials/connect-dart-html
     - title: Add Elements to the DOM
