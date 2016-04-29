@@ -1,18 +1,19 @@
 ---
 layout: codelab
 title: "Step 3: Add an Input Field"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+description: "Add an input field to your Angular app."
 snippet_img: images/piratemap.jpg
-prev: 2-blankbadge.html
-prev-title: "Step 2: Add a Pirate Badge Component"
-next: 4-buttonbadge.html
-next-title: "Step 4: Add a Button"
+
+nextpage:
+  url: 4-buttonbadge
+  title: "Step 4: Add a Button"
+prevpage:
+  url: 2-blankbadge
+  title: "Step 2: Add a Pirate Badge Component"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-{% include codelab-nav.html %}
 
 # {{ page.title }}
 
@@ -48,20 +49,34 @@ Add a div containing an input field to the top of the file:
 
 * `<input...>` defines an HTML5 input element.
 
-* The `(input)="updateBadge(...)"` text is referred to as
-  _event binding_ syntax.
-  The expression to the right of the equals sign is a _template statement_.
+* The `(input)="updateBadge(...)"` text creates an _event binding_.
 
-* This template statement executes whenever an input event occurs on this element.
+* The target of the event appears to the left of the equals
+  sign in parentheses, `(input)`.  This event binding listens
+  for an input event on the input field.
 
-* A template statement may reference functions or variables
-  from the Dart component code.
+* The _template statement_, `updateBadge($event.target.value)`,
+  appears (in quotes) to the right of the equals sign.
+
+* This template statement calls a method called `updateBadge()`
+  that you'll define soon in Dart code. The argument is the value
+  that the user entered.
+
+* As you can see, a template statement can use
+  functions and variables defined in a component's Dart code.
+
+* The event object, `$event`, contains the value of the raised event.
+  In this example, the event object represents the DOM event object,
+  so the new value resides in `$event.target.value`.
+
+* The template statement executes whenever an input event occurs on this
+  element.
 
 * By convention, a template statement is short&mdash;more
   complex logic should be placed in a function and called
   from the template statement.
 
-* User input in this field is limited to 15 characters.
+* The `maxLength="15"` text limits user input to 15 characters.
 
 </div> </div>
 
@@ -103,18 +118,25 @@ Type into the input field.
 The name badge updates to display what you've typed.
 </div>
 
+<div class="trydart-step-details" markdown="1">
+<aside class="alert alert-success" markdown="1">
+<i class="fa fa-lightbulb-o"> </i> **Tip** <br>
+If your changes don't show up, try forcing a reload.
+To do this, hold the Shift key while clicking the reload button
+<img src="images/Chrome-reload-button.png" alt="the round reload button">.
+</aside>
+</div>
+
 ## Problems?
 
-Look in WebStorm's window for possible errors, then look
-in Dartium's JavaScript console. You can find the console under
+Look in WebStorm's window for possible errors.
+If that fails, look in your browser's JavaScript console.
+In Dartium or Chrome, bring up the console using
 **View > Developer > JavaScript Console**.
 
-Finally, check your code against the files in
+Finally, if you still haven't found the problem
+check your code against the files in
 [3-inputnamebadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/3-inputnamebadge).
 
 * [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/pirate_badge_component.dart)
 * [lib/pirate_badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/pirate_badge_component.html)
-
-<hr>
-
-{% include codelab-nav.html %}

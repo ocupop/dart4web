@@ -1,24 +1,25 @@
 ---
 layout: codelab
 title: "Step 6: Read a  JSON File"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+description: "Write asynchronous code to read a JSON file."
 snippet_img: images/piratemap.jpg
-prev: 5-piratenameservice.html
-prev-title: "Step 5: Create a Name Service"
-next: what-next.html
-next-title: "What Next?"
+
+nextpage:
+  url: what-next
+  title: "What Next?"
+prevpage:
+  url: 5-piratenameservice
+  title: "Step 5: Create a Name Service"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-{% include codelab-nav.html %}
-
 # {{ page.title }}
 
 In this final step, you learn about Dart's support for
-asynchronous file I/O as you modify the pirate name service
-to fetch the names and appellations from a JSON file on dartlang.
+asynchronous file I/O as you modify the pirate name service to fetch
+the names and appellations from a JSON file on www.dartlang.org.
 
 ## <i class="fa fa-anchor"> </i> Edit pirate_name_service.dart.
 
@@ -43,7 +44,7 @@ import 'package:angular2/core.dart';
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* The `dart_async` library provides for asynchronous programming.
+* The `dart:async` library provides for asynchronous programming.
 
 * The `dart:convert` library provides convenient access to the most
   commonly used JSON conversion utilities.
@@ -112,8 +113,11 @@ class PirateNameService {
 
 * `<String>[]` is equivalent to `new List<String>()`.
 
-* A generic list can contain any kind of object, but this list is
-  typed so that it can only contain strings.
+* You could keep the `List` type on `_names` and `_appellations`,
+  but you don't need to.
+
+* A generic list can contain any kind of object,
+  but this list is typed to indicate that it only contains strings.
 
 </div></div>
 
@@ -157,15 +161,16 @@ class PirateNameService {
   so the caller has the opportunity to do something else while
   waiting for the function to complete its work.
 
-* A `Future` provides a way to get a value in the future.
-  (For JavaScript developers: Futures are similar to Promises.)
+* The `Future` class (from `dart:async`)
+  provides a way to get a value in the future.
+  (Dart Futures are similar to JavaScript Promises.)
 
-* `HttpRequest` is a utility for retrieving data from a URL.
+* `HttpRequest` is a `dart:html` utility for retrieving data from a URL.
 
 * `getString()` is a convenience method for doing a simple GET
   request that returns a string.
 
-* `getString()` is asynchronous. It setups up the GET request
+* `getString()` is asynchronous. It sets up the GET request
   and returns a Future that _completes_ when the GET request
   is finished.
 
@@ -181,8 +186,7 @@ class PirateNameService {
 ## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.html.
 
 <div class="trydart-step-details" markdown="1">
-Enable the input field depending on the value of a
-`enableInput` property.
+Enable the input field depending on the value of a property.
 </div>
 
 <div class="row"> <div class="col-md-7" markdown="1">
@@ -202,8 +206,8 @@ Enable the input field depending on the value of a
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* In the next step, the user inputs are disabled until the JSON file
-  is successfully loaded.
+* `enableInput` refers to a property that you'll add to this component's
+  Dart file.
 
 </div></div>
 
@@ -232,12 +236,15 @@ class PirateBadgeComponent {
 
 </div> <div class="col-md-5" markdown="1">
 
+{% comment %}
+
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* These inputs will be enabled once the file is successfully loaded.
-
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
+{% endcomment %}
+
 </div></div>
+
 
 <div class="trydart-step-details" markdown="1">
 
@@ -279,8 +286,8 @@ class PirateBadgeComponent [[highlight]]implements OnInit[[/highlight]] {
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
 * `ngOnInit()` is one of the
-  [lifecycle hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html)
-  available in Angular. Angular calls ngOnInit after the component
+  [lifecycle hooks](https://angular.io/docs/dart/latest/guide/lifecycle-hooks.html)
+  available in Angular. Angular calls `ngOnInit()` after the component
   is initialized.
 
 * Mark the function body with `async`, so this function can use
@@ -311,16 +318,14 @@ constructed from the JSON file.
 
 ## Problems?
 
-Look in WebStorm's window for possible errors, then look
-in Dartium's JavaScript console. You can find the console under
+Look in WebStorm's window for possible errors.
+If that fails, look in your browser's JavaScript console.
+In Dartium or Chrome, bring up the console using
 **View > Developer > JavaScript Console**.
 
-Finally, check your code against the files in
+Finally, if you still haven't found the problem
+check your code against the files in
 [6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/6-readjsonfile).
 
 * [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/pirate_badge_component.dart)
 * [lib/pirate_name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/pirate_name_service.dart)
-
-<hr>
-
-{% include codelab-nav.html %}

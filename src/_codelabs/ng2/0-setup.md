@@ -1,18 +1,19 @@
 ---
 layout: codelab
 title: "Step 0: Set up"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+description: "Download any software you need and learn where to find the sample code."
 snippet_img: images/piratemap.jpg
-prev: index.html
-prev-title: "Get Started"
-next: 1-skeleton.html
-next-title: "Step 1: Create a Basic Web App"
+
+nextpage:
+  url: 1-skeleton
+  title: "Step 1: Create a Basic Web App"
+prevpage:
+  url: index
+  prev-title: "Avast Ye Pirates: Write a Web App
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-{% include codelab-nav.html %}
 
 # {{ page.title }}
 
@@ -59,7 +60,7 @@ Alternate instructions are provided for some of the steps.
 
 </div>
 
-## <i class="fa fa-anchor"> </i> Look at the one-hour-codelab sample.
+## <i class="fa fa-anchor"> </i> Know where the one-hour-codelab sample lives.
 
 <div class="trydart-step-details" markdown="1">
 The [one-hour-codelab](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2)
@@ -94,7 +95,3 @@ or to recover if you get off track.
 </aside>
 
 </div>
-
-<hr>
-
-{% include codelab-nav.html %}

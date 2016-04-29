@@ -1,23 +1,24 @@
 ---
 layout: codelab
 title: "Step 4: Add a Button"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+description: "Add a button to your Angular app."
 snippet_img: images/piratemap.jpg
-prev: 3-inputnamebadge.html
-prev-title: "Step 3: Add an Input Field"
-next: 5-piratenameservice.html
-next-title: "Step 5: Create a Name Service"
+
+nextpage:
+  url: 5-piratenameservice
+  title: "Step 5: Create a Name Service"
+prevpage:
+  url: 3-inputnamebadge
+  title: "Step 3: Add an Input Field"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-{% include codelab-nav.html %}
-
 # {{ page.title }}
 
-In this step, you add a button.
-The button is enabled when the input field is empty.
+In this step, you add a button that's enabled
+when the input field is empty.
 When the user clicks the button,
 the app displays "Anne Bonney" on the badge.
 
@@ -50,16 +51,22 @@ Add a button to the `widgets` div.
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
 * Square brackets `[]` specify a _property_ on the element.
-  This example references the `disabled` property.
+  This example references the `disabled` property on the button.
 
-* The `[disabled] != "!enableButton"` text enables or disables
+* The `[disabled] = "!enableButton"` text enables or disables
   the button element, based on the value of the corresponding Dart variable.
 
 * You will add `enableButton` to the Dart code in the next section.
 
 * The `(click)="generateBadge()"` text sets up an event handler for button
-  clicks.  You'll add the `generateBadge()` event handler to the Dart
+  clicks. Whenever the user clicks the button, the `generateBadge()`
+  method is called.
+  You'll add the `generateBadge()` event handler to the Dart
   code in the next section.
+
+* The `buttonText` variable will soon be defined in the Dart code.
+  The {% raw %}`<button ...> {{buttonText}} </button>`{% endraw %}
+  code tells Angular to display the value of `buttonText` on the button.
 
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
 
@@ -94,7 +101,7 @@ class PirateBadgeComponent {
   to the template for that component.
 
 * As you've seen, the HTML template uses `enableButton`
-  when displaying the button.
+  when determining whether to display the button.
 
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
 
@@ -189,16 +196,14 @@ button is enabled. Click the button. The name badge displays "Anne Bonney".
 
 ## Problems?
 
-Look in WebStorm's window for possible errors, then look
-in Dartium's JavaScript console. You can find the console under
+Look in WebStorm's window for possible errors.
+If that fails, look in your browser's JavaScript console.
+In Dartium or Chrome, bring up the console using
 **View > Developer > JavaScript Console**.
 
-Finally, check your code against the files in
+Finally, if you still haven't found the problem
+check your code against the files in
 [4-buttonbadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/4-buttonbadge).
 
 * [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/pirate_badge_component.dart)
 * [lib/pirate_badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/pirate_badge_component.html)
-
-<hr>
-
-{% include codelab-nav.html %}

@@ -1,16 +1,16 @@
 ---
 layout: codelab
-title: "Get Started"
-codelab-name: "Avast, Ye Pirates: Write a Web App"
-description: "Take your first step to learning Dart fast."
+title: "Avast, Ye Pirates: Write a Web App"
+description: "Learn how to use Dart + Angular by creating a simple web app."
 snippet_img: images/piratemap.jpg
-next: 0-setup.html
-next-title: "Step 0: Set up"
+
+nextpage:
+  url: 0-setup
+  title: "Step 0: Set Up"
+
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-{% include codelab-nav.html %}
 
 # {{ page.title }}
 
@@ -37,25 +37,13 @@ You also need:
 
 ## Map
 
-* [Step 0: Set up](0-setup.html)
-* [Step 1: Create a Basic Web app](1-skeleton.html)
-* [Step 2: Add a Pirate Badge Component](2-blankbadge.html)
-* [Step 3: Add an Input Field](3-inputnamebadge.html)
-* [Step 4: Add a Button](4-buttonbadge.html)
-* [Step 5: Create a Name Service](5-piratenameservice.html)
-* [Step 6: Read a JSON File](6-readjsonfile.html)
-* [What next?](what-next.html)
-* [Resources](resources.html)
+* [Step 0: Set Up](0-setup)
+* [Step 1: Create a Basic Web App](1-skeleton)
+* [Step 2: Add a Pirate Badge Component](2-blankbadge)
+* [Step 3: Add an Input Field](3-inputnamebadge)
+* [Step 4: Add a Button](4-buttonbadge)
+* [Step 5: Create a Name Service](5-piratenameservice)
+* [Step 6: Read a JSON File](6-readjsonfile)
+* [What Next?](what-next)
+* [Resources](resources)
 </div>
-
-<div class="row"> <div class="col-md-7" markdown="1">
-
-</div> <div class="col-md-5" markdown="1">
-
-&nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
-
-</div> </div>
-
-<hr>
-
-{% include codelab-nav.html %}
