@@ -33,6 +33,9 @@ collections:
   guides:
     output: true
     permalink: /guides/:path
+  codelabs:
+    output: true
+    permalink: /codelabs/:path
 
 defaults:
 - scope:
@@ -58,6 +61,12 @@ defaults:
     type: guides
   values:
     layout: guide
+    toc: true
+- scope:
+    path: ""
+    type: codelabs
+  values:
+    layout: codelab
     toc: true
 
 # Build settings
