@@ -5,10 +5,10 @@ description: "Create an Angular app using a Dart template and run it in Dartium.
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 2-blankbadge
+  url: /codelabs/ng2/2-blankbadge
   title: "Step 2: Add a Pirate Badge Component"
 prevpage:
-  url: 0-setup
+  url: /codelabs/ng2/0-setup
   title: "Step 0: Set Up"
 
 header:

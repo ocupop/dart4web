@@ -5,11 +5,11 @@ description: "Download any software you need and learn where to find the sample 
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 1-skeleton
+  url: /codelabs/ng2/1-skeleton
   title: "Step 1: Create a Basic Web App"
 prevpage:
-  url: index
-  prev-title: "Avast Ye Pirates: Write a Web App
+  url: /codelabs/ng2/
+  title: "Avast Ye Pirates: Write a Web App"
 
 header:
   css: ["/codelabs/ng2/darrrt.css"]

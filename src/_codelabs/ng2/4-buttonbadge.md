@@ -5,10 +5,10 @@ description: "Add a button to your Angular app."
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 5-piratenameservice
+  url: /codelabs/ng2/5-piratenameservice
   title: "Step 5: Create a Name Service"
 prevpage:
-  url: 3-inputnamebadge
+  url: /codelabs/ng2/3-inputnamebadge
   title: "Step 3: Add an Input Field"
 
 header:
@@ -35,7 +35,7 @@ Add a button to the `widgets` div.
 <div class="widgets">
   <input (input)="updateBadge($event.target.value)"
          type="text" maxlength="15">
-  [[highlight]]<button [disabled]="!enableButton" (click)="generateBadge()">[[/highlight]]
+  [[highlight]]<button [disabled]="!isButtonEnabled" (click)="generateBadge()">[[/highlight]]
     [[highlight]]{{buttonText}}[[/highlight]]
   [[highlight]]</button>[[/highlight]]
 </div>
@@ -53,10 +53,10 @@ Add a button to the `widgets` div.
 * Square brackets `[]` specify a _property_ on the element.
   This example references the `disabled` property on the button.
 
-* The `[disabled] = "!enableButton"` text enables or disables
+* The `[disabled] = "!isButtonEnabled"` text enables or disables
   the button element, based on the value of the corresponding Dart variable.
 
-* You will add `enableButton` to the Dart code in the next section.
+* You will add `isButtonEnabled` to the Dart code in the next section.
 
 * The `(click)="generateBadge()"` text sets up an event handler for button
   clicks. Whenever the user clicks the button, the `generateBadge()`
@@ -86,7 +86,7 @@ Add two variables to the PirateBadgeComponent class.
 class PirateBadgeComponent {
   String badgeName = '';
   [[highlight]]String buttonText = 'Aye! Gimme a name!';[[/highlight]]
-  [[highlight]]bool enableButton = true;[[/highlight]]
+  [[highlight]]bool isButtonEnabled = true;[[/highlight]]
   ...
 }
 {% endprettify %}
@@ -100,7 +100,7 @@ class PirateBadgeComponent {
 * All instance variables defined in an Angular component are visible
   to the template for that component.
 
-* As you've seen, the HTML template uses `enableButton`
+* As you've seen, the HTML template uses `isButtonEnabled`
   when determining whether to display the button.
 
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
@@ -122,8 +122,7 @@ Add a `generateBadge()` function.
 class PirateBadgeComponent {
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
-  bool enableButton = true;
-  bool enableInput = true;
+  bool isButtonEnabled = true;
 
   [[highlight]]void generateBadge() {[[/highlight]]
     [[highlight]]badgeName = 'Anne Bonney';[[/highlight]]
@@ -163,10 +162,10 @@ class PirateBadgeComponent {
     badgeName = inputName;
     [[highlight]]if (inputName.trim().isEmpty) {[[/highlight]]
       [[highlight]]buttonText = 'Aye! Gimme a name!';[[/highlight]]
-      [[highlight]]enableButton = true;[[/highlight]]
+      [[highlight]]isButtonEnabled = true;[[/highlight]]
     [[highlight]]} else {[[/highlight]]
       [[highlight]]buttonText = 'Arrr! Write yer name!';[[/highlight]]
-      [[highlight]]enableButton = false;[[/highlight]]
+      [[highlight]]isButtonEnabled = false;[[/highlight]]
     [[highlight]]}[[/highlight]]
   }
 {% endprettify %}

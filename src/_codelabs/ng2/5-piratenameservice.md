@@ -5,10 +5,10 @@ description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 6-readjsonfile
+  url: /codelabs/ng2/6-readjsonfile
   title: "Step 6: Read a JSON File"
 prevpage:
-  url: 4-buttonbadge
+  url: /codelabs/ng2/4-buttonbadge
   title: "Step 4: Add a Button"
 
 header:
@@ -387,7 +387,7 @@ class PirateBadgeComponent {
   final PirateNameService _nameService;
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
-  bool enableButton = true;
+  bool isButtonEnabled = true;
 
   [[highlight]]PirateBadgeComponent(this._nameService);[[/highlight]]
   ...
@@ -492,10 +492,10 @@ class PirateBadgeComponent implements OnInit {
     [[highlight]]setBadgeName(inputName);[[/highlight]]
     if (inputName.trim().isEmpty) {
       buttonText = 'Aye! Gimme a name!';
-      enableButton = true;
+      isButtonEnabled = true;
     } else {
       buttonText = 'Arrr! Write yer name!';
-      enableButton = false;
+      isButtonEnabled = false;
     }
   }
   ...

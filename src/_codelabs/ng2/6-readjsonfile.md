@@ -5,10 +5,10 @@ description: "Write asynchronous code to read a JSON file."
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: what-next
+  url: /codelabs/ng2/what-next
   title: "What Next?"
 prevpage:
-  url: 5-piratenameservice
+  url: /codelabs/ng2/5-piratenameservice
   title: "Step 5: Create a Name Service"
 
 header:
@@ -194,9 +194,9 @@ Enable the input field depending on the value of a property.
 <div class="trydart-step-details" markdown="1">
 {% prettify html %}{% raw %}
 <div class="widgets">
-  <input [[highlight]][disabled]="!enableInput"[[/highlight]] (input)="updateBadge($event.target.value)"
+  <input [[highlight]][disabled]="!isInputEnabled"[[/highlight]] (input)="updateBadge($event.target.value)"
          type="text" maxlength="15">
-  <button [disabled]="!enableButton" (click)="generateBadge()">
+  <button [disabled]="!isButtonEnabled" (click)="generateBadge()">
     {{buttonText}}
   </button>
 {% endraw %}{% endprettify %}
@@ -206,7 +206,7 @@ Enable the input field depending on the value of a property.
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* `enableInput` refers to a property that you'll add to this component's
+* `isInputEnabled` refers to a property that you'll add to this component's
   Dart file.
 
 </div></div>
@@ -228,8 +228,8 @@ class PirateBadgeComponent {
   final PirateNameService _nameService;
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
-  bool enableButton = [[highlight]]false[[/highlight]];
-  [[highlight]]bool enableInput = false[[/highlight]];
+  bool isButtonEnabled = [[highlight]]false[[/highlight]];
+  [[highlight]]bool isInputEnabled = false[[/highlight]];
 }
 {% endprettify %}
 </div>
@@ -260,8 +260,8 @@ handling both success and failure.
 {% prettify dart %}
 class PirateBadgeComponent [[highlight]]implements OnInit[[/highlight]] {
   ...
-  bool enableButton = false;
-  bool enableInput = false;
+  bool isButtonEnabled = false;
+  bool isInputEnabled = false;
 
   PirateBadgeComponent(this._nameService);
 
@@ -269,8 +269,8 @@ class PirateBadgeComponent [[highlight]]implements OnInit[[/highlight]] {
     [[highlight]]try {[[/highlight]]
       [[highlight]]await _nameService.readyThePirates();[[/highlight]]
       [[highlight]]//on success[[/highlight]]
-      [[highlight]]enableButton = true;[[/highlight]]
-      [[highlight]]enableInput = true;[[/highlight]]
+      [[highlight]]isButtonEnabled = true;[[/highlight]]
+      [[highlight]]isInputEnabled = true;[[/highlight]]
     [[highlight]]} catch (arrr) {[[/highlight]]
       [[highlight]]badgeName = 'Arrr! No names.';[[/highlight]]
       [[highlight]]print('Error initializing pirate names: $arrr');[[/highlight]]

@@ -5,10 +5,10 @@ description: "Add an input field to your Angular app."
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 4-buttonbadge
+  url: /codelabs/ng2/4-buttonbadge
   title: "Step 4: Add a Button"
 prevpage:
-  url: 2-blankbadge
+  url: /codelabs/ng2/2-blankbadge
   title: "Step 2: Add a Pirate Badge Component"
 
 header:

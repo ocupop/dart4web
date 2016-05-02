@@ -5,7 +5,7 @@ description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
 
 prevpage:
-  url: what-next
+  url: /codelabs/ng2/what-next
   title: "What Next?"
 
 header:

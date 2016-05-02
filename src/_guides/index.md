@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: guide
 title: Dart4Web Guides
-permalink: /guides
+permalink: /guides/
 ---
-
-xxx: This layout should be "guide" but it chokes the server. Tom hasn't
-implemented guides for dart4web yet.
 
 # How To...
 

@@ -5,7 +5,7 @@ description: "Learn how to use Dart + Angular by creating a simple web app."
 snippet_img: images/piratemap.jpg
 
 nextpage:
-  url: 0-setup
+  url: /codelabs/ng2/0-setup
   title: "Step 0: Set Up"
 
 header:

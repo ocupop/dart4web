@@ -216,7 +216,7 @@ To debug in Firefox:
 <li>Click <strong>Pause on exceptions</strong>, as shown in the
    following figure.<br /></li>
 
-<img src="images/ff-debug.png" alt="Firefox Toolbar"><br /><br />
+<img src="{% asset_path 'ff-debug.png' %}" alt="Firefox Toolbar"><br /><br />
 
 <li>Reload your application.</li>
 </ol>

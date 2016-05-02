@@ -1,12 +1,10 @@
 ---
-layout: tutorial
+layout: codelab
 reference: /src/site/codelabs/darrrt/
 title: "Avast, Ye Pirates: Write a Web App"
 description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
-has-permalinks: true
-tutorial:
-  id: trydart
+
 header:
   css: ["/codelabs/darrrt/darrrt.css"]
 ---
@@ -54,7 +52,7 @@ are themselves Dart apps.)
 
 <hr>
 
-##Step 1: Run the skeleton app {#step-one}
+## Step 1: Run the skeleton app {#step-one}
 
 In this step, you run the skeleton version of the app in DartPad.
 
@@ -163,7 +161,7 @@ the app.
 
 </div> </div>
 
-##Step 2: Add an input field {#step-two}
+## Step 2: Add an input field {#step-two}
 
 In this step, you add an input field to the app.
 As the user types into the text field,
@@ -384,7 +382,7 @@ what appears between the `<body>` tags in the full HTML file.
 
 <hr>
 
-##Step 3: Add a button {#step-three}
+## Step 3: Add a button {#step-three}
 
 In this step, you add a button to the app.
 The button is enabled when the text field contains no text.
@@ -656,7 +654,7 @@ Or
 
 <hr>
 
-##Step 4: Create a class {#step-four}
+## Step 4: Create a class {#step-four}
 
 In this step, you create a class to represent a pirate name.
 When created, an instance of this class
@@ -1012,7 +1010,7 @@ Or
 
 <hr>
 
-##Step 5: Read a JSON file {#step-five}
+## Step 5: Read a JSON file {#step-five}
 
 In this step, you change the PirateName class to get the list
 of names and appellations from a JSON file on dartlang.
@@ -1329,7 +1327,7 @@ covering that and also explaining the difference between the DartPad
 version and a "real" compileable version.
 {% endcomment %}
 
-##What next? {#whatnext}
+## What next? {#whatnext}
 
 Now that you've written your app, what do you do next?
 Here are some suggestions.
@@ -1397,7 +1395,7 @@ the [Dart tutorials](/tutorials/).
 
 <hr>
 
-##Summary and resources {#resources}
+## Summary and resources {#resources}
 
 ### <i class="fa fa-anchor"> </i> Think about what you've done!
 
