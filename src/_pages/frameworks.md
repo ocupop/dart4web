@@ -3,6 +3,7 @@ layout: page
 reference: new page
 title: Frameworks
 permalink: /frameworks
+toc: true
 ---
 
 # {{ page.title }}

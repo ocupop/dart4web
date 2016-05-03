@@ -1,7 +1,6 @@
 ---
-layout: page
-reference: new page
-title: The Dart Tutorials
+title: "Dart Tutorials"
+toc:true
 ---
 
 # {{ page.title }}
@@ -20,6 +19,17 @@ using the Dart language, tools, and APIs.
 
 Choose the tutorials that you need.
 
+## Forms & Data
+
+* [Fetch Data Dynamically](fetch-data)
+
+## Frameworks
+
+For Angular tutorials and other Angular documentation,
+see [Angular 2 for Dart](https://angular.io/docs/dart/latest/).
+
+* [Use Polymer Elements](using-polymer)
+
 ## Low-Level HTML
 
 * [Connect Dart & HTML](connect-dart-html)
@@ -28,12 +38,5 @@ Choose the tutorials that you need.
 
 * [Remove DOM Elements](remove-elements)
 
-## Forms & Data
-
-* [Fetch Data Dynamically](fetch-data)
-
-## Polymer
-
-* [Use Polymer Elements](using-polymer)
 
 

@@ -16,9 +16,6 @@ points:
   - "JSON is text based and human readable."
   - "The dart:convert library provides support for JSON."
   - "Use HttpRequest to dynamically load data."
-has-permalinks: true
-tutorial:
-  id: fetchdata
 ---
 
 {% comment %}
@@ -57,7 +54,7 @@ and thus are subject to the browser's security restrictions.
 * [Other resources](#other-resources)
 * [What next?](#what-next)
 
-##About JSON
+## About JSON
 
 The JSON data format is easy for humans
 to write and read because it is lightweight and text based.
@@ -231,7 +228,7 @@ automatically:
 * List
 * Map
 
-##Serializing data into JSON
+## Serializing data into JSON
 
 Use the JSON.encode() function to serialize an object that supports JSON.
 The `showJson` function, from the its_all_about_you example,
@@ -292,7 +289,7 @@ In this example,
 the keys in the map are strings.
 The values in the map vary in type but they are all JSON-parsable.
 
-##Parsing JSON data
+## Parsing JSON data
 
 Use the JSON.decode() function from the dart:convert library to
 create Dart objects from a JSON string.
@@ -334,7 +331,7 @@ including an integer, a double, a boolean value, a regular string,
 and a list.
 All of the keys in the map are strings.
 
-##About URIs and HTTP requests {#about-uris}
+## About URIs and HTTP requests {#about-uris}
 
 To make an HTTP GET request from within a web app,
 you need to provide a URI (Uniform Resource Identifier) for the resource.
@@ -410,7 +407,7 @@ formulating URIs and making HTTP requests:
 | <a href="https://api.dartlang.org/dart_io/HttpRequest.html" target="_blank">HttpRequest</a> |  dart:io | Server-side HTTP request object. Does not work in web apps. |
 {: .table}
 
-##Using the getString() function to load a file {#using-getString-function}
+## Using the getString() function to load a file {#using-getString-function}
 
 One useful HTTP request your web app *can* make is a GET request
 for a data file served from the same origin as the app.
@@ -433,7 +430,7 @@ we couldn't co-locate the JSON file because DartPad
 supports at most 3 files: one Dart file, one HTML file,
 and one CSS file.
 The workaround was to move `portmanteaux.json` to dartlang.org and
-configure dartlang.org's  CORS headers to allow read-only access
+configure dartlang.org's CORS headers to allow read-only access
 from everywhere.
 </aside>
 
@@ -517,7 +514,7 @@ If you are not familiar with these keywords, see
 in the [language tour](/guides/language-tour).
 </aside>
 
-##Using an HttpRequest object to load a file {#making-a-get-request}
+## Using an HttpRequest object to load a file {#making-a-get-request}
 
 The getString() method is good for an HTTP GET request that returns
 a string loaded from the resource.

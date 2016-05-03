@@ -1,9 +1,7 @@
 ---
 reference: new page
 
-layout: page
-title: Articles
-toc: false
+title: "Articles"
 ---
 
 # {{ page.title }}

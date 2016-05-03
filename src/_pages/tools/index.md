@@ -3,6 +3,7 @@ reference: /tools
 layout: page
 title: Dart Tools for the Web
 permalink: /tools/
+toc: true
 ---
 
 # {{ page.title }}

@@ -1,16 +1,3 @@
-- title: Effective Dart
+- title: Get Started
   label: 
-  permalink: /guides/effective-dart
-  children:
-    - title: Style
-      label:
-      permalink: https://www.dartlang.org/effective-dart/style.html
-    - title: Documentation
-      label:
-      permalink: https://www.dartlang.org/effective-dart/documentation.html
-    - title: Usage
-      label:
-      permalink: https://www.dartlang.org/effective-dart/usage.html
-    - title: Design
-      label:
-      permalink: https://www.dartlang.org/effective-dart/design.html
+  permalink: /guides/get-started

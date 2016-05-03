@@ -1,4 +1,5 @@
 ---
+layout: article
 title: "Improving the DOM"
 description: "Learn how Dart's HTML library improves the browser programming experience."
 date: 2011-10-01

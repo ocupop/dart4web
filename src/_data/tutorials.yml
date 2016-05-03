@@ -1,20 +1,20 @@
-- title: "Forms & Data"
+- title: "Web Services"
   label:
-  permalink: /articles
+  permalink: /tutorials/web-services
   children:
     - title: Fetch Data Dynamically
       label: 
       permalink: /tutorials/fetch-data
-- title: Frameworks
+- title: "Frameworks"
   label:
-  permalink: /articles
+  permalink: /tutorials/frameworks
   children:
     - title: Use Polymer Elements
       label:
       permalink: /tutorials/using-polymer
-- title: Low-Level HTML
+- title: "Low-Level HTML"
   label:
-  permalink: /articles
+  permalink: /tutorials/low-level-html
   children:
     - title: "Connect Dart & HTML"
       label:

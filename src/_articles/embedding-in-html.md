@@ -1,6 +1,7 @@
 ---
 reference: /src/site/articles/embedding-in-html/
 
+layout: article
 title: "Embedding Dart in HTML"
 description: "Find out how you can embed Dart into HTML pages."
 date: 2011-10-01
