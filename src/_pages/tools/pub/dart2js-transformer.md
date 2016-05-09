@@ -1,22 +1,21 @@
 ---
 reference: /src/site/tools/pub/dart2js-transformer.html
-
 layout: page
 title: "Configuring the Built-in dart2js Transformer for Pub"
-permalink: /tools/dart2js-transformer
-
+permalink: /tools/pub/dart2js-transformer
 ---
 
 {% include breadcrumbs.html %}
 
 # {{ page.title }}
 
-The [pub serve](cmd/pub-serve.html), [pub build](cmd/pub-build.html),
-and [pub run](cmd/pub-run.html) commands use the [dart2js](/tools/dart2js/)
+The [pub serve](pub-serve), [pub build](pub-build),
+and [pub run]({{site.dartlang}}/tools/pub/cmd/pub-run.html)
+commands use the [dart2js](/tools/dart2js)
 compiler to convert your Dart files to JavaScript.
 
-You can configure dart2js in the [pubspec](/tools/pub/pubspec.html)
-for your package.
+You can configure dart2js in the
+[pubspec]({{site.dartlang}}/tools/pub/pubspec.html) for your package.
 To do this, add `$dart2js` (note the leading dollar sign) under the
 `transformers:` field.
 
@@ -74,8 +73,8 @@ from being processed by a transformer.
 You can also configure a transformer to run
 only on a particular asset, or set of assets.
 For more information, see
-[How to exclude assets](assets-and-transformers.html#exclude-assets) in
-[Pub Assets and Transformers](assets-and-transformers.html).
+[How to exclude assets]({{site.dartlang}}/tools/pub/assets-and-transformers.html#exclude-assets) in
+[Pub Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers.html).
 
 ## Special-case options {#additional-options}
 

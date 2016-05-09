@@ -1,10 +1,8 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-build.html
-
 layout: page
 title: "pub build"
-permalink: /tools/pub/build
-
+permalink: /tools/pub/pub-build
 description: "Use pub build to deploy your Dart application."
 ---
 
@@ -20,8 +18,9 @@ $ pub build [--mode=<mode>] [<directories>] [--output=<directory>]
 $ pub build [--mode=<mode>] [--all] [--output=<directory>]
 {% endprettify %}
 
-Use `pub build` when you're ready to deploy your web app. When you run
-`pub build`, it generates the [assets](/tools/pub/glossary.html#asset)
+Use `pub build` when you're ready to deploy your web app.
+When you run `pub build`, it generates the
+[assets]({{site.dartlang}}/tools/pub/glossary#asset)
 for the current package and all of its dependencies, putting them into
 new directory named `build`.
 
@@ -38,16 +37,17 @@ If the build directory already exists, `pub build` deletes it and then creates
 it again.
 
 To generate assets, `pub build` uses
-[transformers](/tools/pub/glossary.html#transformer). Any source assets
-that aren't transformed are copied, as is, into the build directory
-or one of its subdirectories. Pub also automatically compiles your
+[transformers]({{site.dartlang}}/tools/pub/glossary#transformer).
+Any source assets that aren't transformed are copied,
+as is, into the build directory or one of its subdirectories.
+Pub also automatically compiles your
 Dart application to JavaScript using dart2js.
 
 See
-[Configuring the Built-in dart2js Transformer](/tools/pub/dart2js-transformer.html)
+[Configuring the Built-in dart2js Transformer](dart2js-transformer)
 for information on how to configure the dart2js options in your pubspec.
 
-See [Pub Assets and Transformers](/tools/pub/assets-and-transformers.html)
+See [Pub Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers)
 for information on:
 
 * Where in your package to put assets.
@@ -65,7 +65,7 @@ development server that continuously generates and serves assets.
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub/cmd/#global-options).
+[Global options](/tools/pub/#global-options).
 
 <dl>
 
@@ -120,6 +120,6 @@ top-level <code>build</code> directory.</dd>
 
 <aside class="alert alert-info" markdown="1">
 *Problems?*
-See [Troubleshooting Pub](../troubleshoot.html).
+See [Troubleshooting Pub]({{site.dartlang}}/tools/pub/troubleshoot.html).
 </aside>
 

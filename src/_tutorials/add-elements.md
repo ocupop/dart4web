@@ -4,23 +4,19 @@ reference: /src/site/docs/tutorials/add-elements/
 title: "Add Elements to the DOM"
 description: "You have an Element object, now what?"
 
-nextpage: 
+nextpage:
   url: /tutorials/remove-elements
   title: "Remove DOM Elements"
-prevpage: 
+prevpage:
   url: /tutorials/connect-dart-html
   title: "Connect Dart & HTML"
 
-points: 
+points:
   - "In Dart, page elements are of type Element."
   - "An Element knows its parent."
   - "An Element keeps its children in a List <Element>."
   - "Change the DOM by adding or removing children of elements."
   - "Respond to user input with an EventListener."
-
-has-permalinks: true
-tutorial:
-  id: add-elements
 ---
 
 {% comment %}
@@ -28,10 +24,9 @@ NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Dynamically add items to the browser page.</h3>
-</div>
+# {{ page.title }}
+
+### Dynamically add items to the browser page.
 
 As you learned in the previous tutorial,
 the DOM represents the structure
@@ -232,7 +227,7 @@ containing the task items.
 Dart code adds elements to this list
 whenever the user enters text into the input element.
 
-##Getting an element from the DOM {#dart-code}
+## Getting an element from the DOM {#dart-code}
 
 The following diagram shows
 the Dart code for the todo app.
@@ -289,7 +284,7 @@ that an input element can generate.
 For example, you can use `click` to handle mouse clicks,
 or `keyDown` for when the user presses a key on the keyboard.
 
-##About EventListener functions {#about-event-listeners}
+## About EventListener functions {#about-event-listeners}
 
 The argument passed to the listen() method is a _callback function_
 of type
@@ -319,7 +314,7 @@ the Event object also knows where the event occurred.
 
 The addToDoItem() function ignores the Event object passed to it.
 
-##Adding an element to the DOM tree {#add-elem}
+## Adding an element to the DOM tree {#add-elem}
 
 The change event handler has the following code:
 
@@ -335,7 +330,7 @@ When the DOM changes, the browser re-renders the browser page.
 The effect, in our todo app, is that a new bullet item appears
 in the to do list.
 
-##Styling the page elements {#about-css}
+## Styling the page elements {#about-css}
 
 Let's take a look at the CSS file for this app.
 
@@ -357,7 +352,7 @@ This rule matches all \<li> elements in the
 element with the ID to-do-list, thus styling
 each item in the to do list.
 
-##Moving elements within the DOM tree {#moving-elements}
+## Moving elements within the DOM tree {#moving-elements}
 
 The Anagram app shows how to move an element within the DOM.
 
@@ -492,18 +487,17 @@ data structure that contains key/value pairs.
 Use the square bracket syntax to retrieve a value by its key
 and the `length` property to get the number of pairs it contains.
 
-##Other resources
+## Other resources
 
 <ul>
   <li>
-    You can find more information about the DOM and CSS in
-    <a href="/docs/dart-up-and-running/">Dart: Up and Running</a>,
-    which also provides thorough coverage of the Dart language,
-    libraries, and tools.
+    You can find more information about the DOM and CSS in the
+    <a href="{{site.dartlang}}/guides/language-tour">language tour</a>,
+    which also provides thorough coverage of the Dart language.
   </li>
 </ul>
 
-##What next?
+## What next?
 
-The next tutorial, [Remove DOM Elements](/docs/tutorials/remove-elements/),
+The next tutorial, [Remove DOM Elements](remove-elements),
 describes how to remove elements from the DOM and items off your todo list.

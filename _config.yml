@@ -6,6 +6,20 @@ baseurl: ""
 port: 4001
 permalink: /:title
 
+# Global variables
+# use case:
+#   {{site.dartlang}}/downloads
+#
+# for now... (comment these out)
+# dart4web: "https://webdev.dartlang.org"
+# dartlang: "https://www.dartlang.org"
+# dart-vm:  "https://www.dartlang.org/dart-vm"
+dartlang: "http://localhost:4000"
+dart_vm:  "http://localhost:4000/dart-vm/"
+#
+flutter:  "https://flutter.io"
+dartino:  "https://dartino.org"
+
 collections:
   articles:
     output: true
@@ -87,11 +101,11 @@ assets:
   #   - "bundle.css"
   digest: true
   sources:
-  - _assets/icons
-  - _assets/images
-  - _assets/javascripts
-  - _assets/stylesheets
-  - _assets/page_assets
+    - _assets/icons
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/page_assets
   features:
     liquid: true # default: false
     automatic_img_size: true # default: true

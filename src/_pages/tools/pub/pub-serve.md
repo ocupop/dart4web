@@ -1,11 +1,9 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-serve.html
-
 layout: page
 title: "pub serve"
-permalink: /tools/pub/serve
+permalink: /tools/pub/pub-serve
 description: "Use pub serve to start up a development server for your Dart application."
-
 ---
 
 {% include breadcrumbs.html %}
@@ -22,7 +20,8 @@ $ pub serve [--hostname=<host>] [--port=<number>] [--mode=<mode>] [--all]
 
 This command starts up a _development server_, or _dev server_,
 for your Dart web app. The dev server is an HTTP server on localhost
-that serves up your web app's [assets](/tools/pub/glossary.html#asset).
+that serves up your web app's
+[assets]({{site.dartlang}}/tools/pub/glossary#asset).
 
 Start the dev server from the directory that contains your web app's
 `pubspec.yaml` file:
@@ -34,23 +33,24 @@ Serving helloworld on http://localhost:8080
 {% endprettify %}
 
 The dev server doesn't just serve up assets, it produces them by running
-[transformers](/tools/pub/glossary.html#transformer). A transformer converts
-input assets (such as Dart files or Polymer-formatted HTML) into output assets
+[transformers]({{site.dartlang}}/tools/pub/glossary#transformer).
+A transformer converts input assets (such as Dart files or
+Polymer-formatted HTML) into output assets
 (such as JavaScript and HTML).
 
 These output assets aren't in the file system; they exist only in the dev
 server. When you're ready to deploy, generate output files by running
-[`pub build`](pub-build.html).
+[`pub build`](pub-build).
 
 Pub automatically includes a dart2js transformer that compiles your Dart code
 to JavaScript. With this, you can change some Dart code, refresh your
 non-Dartium browser, and immediately see the changes.
 
 See
-[Configuring the Built-in dart2js Transformer](/tools/pub/dart2js-transformer.html)
+[Configuring the Built-in dart2js Transformer](dart2js-transformer)
 for information on how to configure the dart2js options in your pubspec.
 
-See [Pub Assets and Transformers](/tools/pub/assets-and-transformers.html) for
+See [Pub Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers) for
 information on:
 
 * Where in your package to put assets.
@@ -61,7 +61,7 @@ information on:
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub/cmd/#global-options).
+[Global options](/tools/pub#global-options).
 
 <dl>
 <dt><code>&lt;directories&gt;</code></dt>
@@ -133,5 +133,5 @@ If omitted, it defaults to "debug".</dd>
 
 <aside class="alert alert-info" markdown="1">
 *Problems?*
-See [Troubleshooting Pub](../troubleshoot.html).
+See [Troubleshooting Pub]({{site.dartlang}}/tools/pub/troubleshoot).
 </aside>

@@ -1,9 +1,9 @@
 ---
-layout: page
-reference: new page
+title: "Dart Tutorials"
+toc:true
 ---
 
-# The Dart Tutorials
+# {{ page.title }}
 
 The Dart tutorials teach you how to build web applications
 using the Dart language, tools, and APIs.
@@ -19,7 +19,18 @@ using the Dart language, tools, and APIs.
 
 Choose the tutorials that you need.
 
-## Straight HTML
+## Forms & Data
+
+* [Fetch Data Dynamically](fetch-data)
+
+## Frameworks
+
+For Angular tutorials and other Angular documentation,
+see [Angular 2 for Dart](https://angular.io/docs/dart/latest/).
+
+* [Use Polymer Elements](using-polymer)
+
+## Low-Level HTML
 
 * [Connect Dart & HTML](connect-dart-html)
 
@@ -27,12 +38,5 @@ Choose the tutorials that you need.
 
 * [Remove DOM Elements](remove-elements)
 
-## Forms & Data
-
-* [Fetch Data Dynamically](fetch-data)
-
-## Polymer
-
-* [Use Polymer Elements](using-polymer)
 
 

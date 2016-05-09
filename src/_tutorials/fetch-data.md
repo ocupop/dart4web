@@ -4,21 +4,18 @@ reference: /src/site/docs/tutorials/fetchdata/
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
 
-nextpage: 
-  url: /tutorials/forms
-  title: "Get Input from a Form"
-prevpage: 
-  url: /tutorials/streams
-  title: "Asynchronous Programming: Streams"
+nextpage:
+  url: /tutorials/using-polymer
+  title: "Use Polymer Elements"
+prevpage:
+  url: /tutorials/remove-elements
+  title: "Remove DOM Elements"
 
-points: 
+points:
   - "Data on the web is often formatted in JSON."
   - "JSON is text based and human readable."
   - "The dart:convert library provides support for JSON."
   - "Use HttpRequest to dynamically load data."
-has-permalinks: true
-tutorial:
-  id: fetchdata
 ---
 
 {% comment %}
@@ -26,13 +23,12 @@ NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
 
-<div class="tute-target-title">
-<h1>{{page.title}}</h1>
-<h3>Get data from a file or server.</h3>
-</div>
+# {{ page.title }}
+
+### Get data from a file or server.
 
 Web applications often use
-<a href="http://www.json.org/" target="_blank">JSON</a>
+[JSON](http://www.json.org/)
 (JavaScript Object Notation)
 to pass data between clients and servers.
 Data can be _serialized_ into a JSON string,
@@ -58,7 +54,7 @@ and thus are subject to the browser's security restrictions.
 * [Other resources](#other-resources)
 * [What next?](#what-next)
 
-##About JSON
+## About JSON
 
 The JSON data format is easy for humans
 to write and read because it is lightweight and text based.
@@ -232,7 +228,7 @@ automatically:
 * List
 * Map
 
-##Serializing data into JSON
+## Serializing data into JSON
 
 Use the JSON.encode() function to serialize an object that supports JSON.
 The `showJson` function, from the its_all_about_you example,
@@ -293,7 +289,7 @@ In this example,
 the keys in the map are strings.
 The values in the map vary in type but they are all JSON-parsable.
 
-##Parsing JSON data
+## Parsing JSON data
 
 Use the JSON.decode() function from the dart:convert library to
 create Dart objects from a JSON string.
@@ -335,7 +331,7 @@ including an integer, a double, a boolean value, a regular string,
 and a list.
 All of the keys in the map are strings.
 
-##About URIs and HTTP requests {#about-uris}
+## About URIs and HTTP requests {#about-uris}
 
 To make an HTTP GET request from within a web app,
 you need to provide a URI (Uniform Resource Identifier) for the resource.
@@ -411,7 +407,7 @@ formulating URIs and making HTTP requests:
 | <a href="https://api.dartlang.org/dart_io/HttpRequest.html" target="_blank">HttpRequest</a> |  dart:io | Server-side HTTP request object. Does not work in web apps. |
 {: .table}
 
-##Using the getString() function to load a file {#using-getString-function}
+## Using the getString() function to load a file {#using-getString-function}
 
 One useful HTTP request your web app *can* make is a GET request
 for a data file served from the same origin as the app.
@@ -434,7 +430,7 @@ we couldn't co-locate the JSON file because DartPad
 supports at most 3 files: one Dart file, one HTML file,
 and one CSS file.
 The workaround was to move `portmanteaux.json` to dartlang.org and
-configure dartlang.org's  CORS headers to allow read-only access
+configure dartlang.org's CORS headers to allow read-only access
 from everywhere.
 </aside>
 
@@ -505,7 +501,7 @@ A Future is a way to perform potentially time-consuming operations,
 such as HTTP requests, asynchronously.
 If you haven't encountered Futures yet,
 you can learn more about them in
-[Asynchronous Programming: Futures](/docs/tutorials/futures/).
+[Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures).
 Until then, you can use the code above as an idiom
 and provide your own code for the body of the processString() function
 and your own code to handle the error.
@@ -514,11 +510,11 @@ and your own code to handle the error.
 **Note:**
 The examples in this section use the `async` and `await` keywords.
 If you are not familiar with these keywords, see
-[Asynchrony support](/docs/dart-up-and-running/ch02.html#asynchrony)
-in the [language tour](/docs/dart-up-and-running/ch02.html).
+[Asynchrony support](/guides/language-tour#asynchrony)
+in the [language tour](/guides/language-tour).
 </aside>
 
-##Using an HttpRequest object to load a file {#making-a-get-request}
+## Using an HttpRequest object to load a file {#making-a-get-request}
 
 The getString() method is good for an HTTP GET request that returns
 a string loaded from the resource.
@@ -683,13 +679,10 @@ client and server programs.
 ## What next?
 
 * If you skipped the
-[Asynchronous Programming: Futures](/docs/tutorials/futures/) tutorial,
-we highly recommend that you go back and learn about Futures
-before going any further.
+  [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures)
+  tutorial, we highly recommend that you go back and learn about Futures
+  before going any further.
 
 * The next tutorial,
-[Get Input from a Form](/docs/tutorials/forms/),
-contains a client/server example that
-shows you how to use a form to get data from the user,
-and using JSON, send that form to a server,
-and handle the server's response.
+  [Use Polymer Elements](using-polymer), shows you how to use Polymer
+  Elements.

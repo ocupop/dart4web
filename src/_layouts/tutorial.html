@@ -1,12 +1,19 @@
 ---
-layout: default
+layout: page
 ---
 <article>
+  {% if page.toc %}
   <aside>
-    {% if page.toc %}
+    <div id="toc" class="content">
       {% include navigation-toc.html %}
-    {% endif %}
-
+    </div>
+  </aside>
+  {% endif %}
+  <section>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <a href="https://github.com/dart-lang/dartlang.org/issues" target="_blank" class="hide">Send feedback</a>
+    </header>
     {% if page.points %}
       <div class="panel">
         <h4>What's the point?</h4>
@@ -17,28 +24,25 @@ layout: default
         </ul>
       </div>
     {% endif %}
-
-    {% if page.examples %}
-      <div class="panel">
-        <h4>Examples</h4>
-        <ul>
-          {% for example in page.examples %}
-          <li>
-            {% if example.url %}
-              <a href="{{ exampl.url }}" target="_blank">{{ example.title }}</a>
-            {% else %}
-              {{ example.title }}
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-    <hr>
-    <a href="https://github.com/dart-lang/dartlang.org/issues" target="_blank">Send feedback</a>
-  </aside>
-  <section>
-    {% include breadcrumbs.html %}
     {{ content | inject_anchors }}
   </section>
 </article>
+
+{% comment %}
+  {% if page.examples %}
+    <div class="panel">
+      <h4>Examples</h4>
+      <ul>
+        {% for example in page.examples %}
+        <li>
+          {% if example.url %}
+            <a href="{{ exampl.url }}" target="_blank">{{ example.title }}</a>
+          {% else %}
+            {{ example.title }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endcomment %}

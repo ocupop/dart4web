@@ -1,9 +1,10 @@
 ---
 layout: page
 reference: new
+title: "Dart for the Web"
 ---
 
-# Dart for the Web
+# {{ page.title }}
 
 paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis distinctio ducimus neque harum maxime corrupti libero accusamus, voluptates ad facere quod cupiditate tenetur, saepe possimus maiores? Ut, fuga ullam hic.
 
@@ -16,11 +17,11 @@ to write your first web app using Dart and Angular.
 
 ## Next steps
 
-* Choose a [web solution](/solutions/)
-* Check out our ["how to" tips](/how-to/)
+* Choose a [framework](/frameworks)
+* Check out our [guides](/guides/)
 * Learn more about the [web tools](/tools/)
 
 ## Documentation
 
 * [API documentation](https://api.dartlang.org/)
-* [Effective Dart](dartlang.org/xxx)
+* [Effective Dart]({{site.dartlang}}/guides/effective-dart/)

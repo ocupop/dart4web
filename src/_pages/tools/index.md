@@ -1,13 +1,15 @@
 ---
 reference: /tools
-
 layout: page
+title: Dart Tools for the Web
 permalink: /tools/
+toc: true
 ---
 
-# Tools
+# {{ page.title }}
 
-The common Dart SDK tools are described on [dartlang.org](dartlang.org/xxx).
+The common Dart SDK tools are described on
+[dartlang.org]({{site.dartlang}}/tools).
 This page lists specialized tools for developing web apps.
 
 ---
@@ -30,36 +32,30 @@ Dartium is a special build of Chromium used for developing web apps.
 If you don't already have a favorite IDE,
 we recommend WebStorm, which comes with Dart support.
 
-<a href="dartlang.org/tools/webstorm/">
+<a href="webstorm/">
 <img src="{% asset_path 'webstorm.png' %}" alt="WebStorm logo"><br>
 <b>WebStorm</b>
 </a>
 
-See [dartlang](dartlang.org/tools) for a list of other IDEs.
+See [dartlang]({{site.dartlang}}/tools/) for a list of other IDEs.
 
 ---
 
 <a name="other-tools"></a>
 <h2>Command-line tools</h2>
 
-In addition to the [other Dart tools](dartlang.org/xxx)
+In addition to the [other Dart tools]({{site.dartlang}}/tools)
 included in the SDK, the following tools
 offer specialized support for web programming.
 
-<div class="row">
-  <div class="col-md-4">
-    <dt> <a href="dart2js.html">dart2js</a> </dt>
-      <dd>Dart-to-JavaScript compiler </dd>
-  </div>
-  <div class="col-md-4">
-    <dt> <a href="/tools/pub/">pub build</a> </dt>
-      <dd>Pub command for building a web app </dd>
-  </div>
-  <div class="col-md-4">
-    <dt> <a href="/tools/pub/">pub serve</a> </dt>
-      <dd>Pub command for serving a web app </dd>
-  </div>
-</div>
+* [dart2js](dart2js)
+: Dart-to-JavaScript compiler
+
+* [pub build](pub/pub-build)
+: Pub command for building a web app
+
+* [pub serve](pub/pub-serve)
+: Pub command for serving a web app
 
 ---
 
