@@ -1,16 +1,9 @@
 ---
-layout: page
+layout: default
 ---
-<article>
-  {% if page.toc %}
-  <aside>
-    <div id="toc" class="content">
-      {% include navigation-toc.html %}
-    </div>
-  </aside>
-  {% endif %}
-  <section>
-    <header>
+<div class="row">
+  <div class="content">
+    <header class="hide">
       <h1>{{ page.title }}</h1>
       <a href="https://github.com/dart-lang/dartlang.org/issues" target="_blank" class="hide">Send feedback</a>
     </header>
@@ -25,8 +18,8 @@ layout: page
       </div>
     {% endif %}
     {{ content | inject_anchors }}
-  </section>
-</article>
+  </div>
+</div>
 
 {% comment %}
   {% if page.examples %}

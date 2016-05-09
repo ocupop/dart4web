@@ -1,6 +1,6 @@
 ---
 title: "Dart Tutorials"
-toc:true
+toc: true
 ---
 
 # {{ page.title }}

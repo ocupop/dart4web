@@ -1,17 +1,10 @@
 ---
 layout: default
 ---
-<article>
-  {% if page.toc %}
-  <aside>
-    <div id="toc" class="content">
-      {% include navigation-toc.html %}
-    </div>
-  </aside>
-  {% endif %}
-  <section>
+<div class="row">
+  <div class="col-xs-12">
     <div class="content">
       {{ content | inject_anchors }}
     </div>
-  </section>
-</article>
+  </div>
+</div>

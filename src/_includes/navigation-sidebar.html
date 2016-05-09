@@ -1,0 +1,19 @@
+<div id="sidebar">
+  <div class="content">
+    <h4>
+      <a href="/guides">Guides</a>
+    </h4>
+    {% assign linklist = site.data.guides %}
+    {% include linklist.html %}
+    <h4>
+      <a href="/tutorials">Tutorials</a>
+    </h4>
+    {% assign linklist = site.data.tutorials %}
+    {% include linklist.html %}
+    <h4>
+      <a href="/articles">Articles</a>
+    </h4>
+    {% assign linklist = site.data.articles %}
+    {% include linklist.html %}
+  </div>
+</div>
