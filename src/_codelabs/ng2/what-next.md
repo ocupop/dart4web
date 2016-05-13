@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 Now that you've written your app, what do you do next?
 Here are some suggestions.
 

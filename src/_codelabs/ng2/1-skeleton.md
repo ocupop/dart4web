@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 In this step, you create an Angular app, look at its code,
 and run the app in Dartium.
 

@@ -6,10 +6,6 @@ permalink: /tools/pub/pub-serve
 description: "Use pub serve to start up a development server for your Dart application."
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 _Serve_ is one of the commands of the _pub_ tool.
 [Learn more about pub](/tools/pub/).
 

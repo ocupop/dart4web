@@ -6,8 +6,6 @@ permalink: /tools/pub/
 
 ---
 
-# Pub for the Web
-
 You can use the [pub]({{site.dartlang}}/tools/pub/)
 tool to manage Dart packages and assets.
 Pub also has specialized commands to support web development.

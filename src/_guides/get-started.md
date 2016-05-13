@@ -6,8 +6,6 @@ title: Get Started
 description: "xxx"
 ---
 
-# {{ page.title }}
-
 This is a quickstart guide to get you up and running so you
 can write Dart web apps.
 
@@ -21,14 +19,14 @@ features and core APIs.
 You can't import packages into Dart, so once you are
 ready to go beyond DartPad, you must download the Dart SDK.
 
-## Download
+## Install Dart SDK and Dartium
 
 To write a Dart app, you need to install the Dart SDK.
 We also recommend Dartium,
 a special build of Chromium with the Dart VM,
 which provides faster turnaround during the development cycle.
 
-[Download Dart and Dartium]({{site.dart_vm}}/downloads/)
+[Install Dart and Dartium]({{site.dart_vm}}/downloads/)
 
 ## Set up Your IDE
 

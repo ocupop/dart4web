@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 In this step, you add a button that's enabled
 when the input field is empty.
 When the user clicks the button,

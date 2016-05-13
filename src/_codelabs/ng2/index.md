@@ -12,8 +12,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 This code lab walks you through the process of building a simple
 web app with Dart and Angular 2.
 

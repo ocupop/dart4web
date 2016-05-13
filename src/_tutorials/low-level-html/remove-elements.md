@@ -23,8 +23,6 @@ NOTE: No sample_links section goes here because all the samples are in
 embedded DartPads.
 {% endcomment %}
 
-# {{page.title}}
-
 ### Dynamically delete items from the browser page.
 
 This tutorial shows you how to delete elements from the DOM.

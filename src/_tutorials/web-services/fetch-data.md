@@ -23,8 +23,6 @@ NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
 
-# {{ page.title }}
-
 ### Get data from a file or server.
 
 Web applications often use

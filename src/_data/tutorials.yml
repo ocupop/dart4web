@@ -4,24 +4,24 @@
   children:
     - title: Fetch Data Dynamically
       label: 
-      permalink: /tutorials/fetch-data
+      permalink: /tutorials/web-services/fetch-data
 - title: "Frameworks"
   label:
   permalink: /tutorials/frameworks
   children:
     - title: Use Polymer Elements
       label:
-      permalink: /tutorials/using-polymer
+      permalink: /tutorials/frameworks/using-polymer
 - title: "Low-Level HTML"
   label:
   permalink: /tutorials/low-level-html
   children:
     - title: "Connect Dart & HTML"
       label:
-      permalink: /tutorials/connect-dart-html
+      permalink: /tutorials/low-level-html/connect-dart-html
     - title: Add Elements to the DOM
       label:
-      permalink: /tutorials/add-elements
+      permalink: /tutorials/low-level-html/add-elements
     - title: Remove DOM Elements
       label:
-      permalink: /tutorials/remove-elements
+      permalink: /tutorials/low-level-html/remove-elements

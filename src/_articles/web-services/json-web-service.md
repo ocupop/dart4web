@@ -10,10 +10,6 @@ updated: 2013-02-02
 collection: libraries-and-apis
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 _Written by Chris Buckett<br>
 April 2012 (updated February 2013)_
 

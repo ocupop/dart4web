@@ -24,8 +24,6 @@ NOTE: No sample_links section goes here because all the samples are in embedded
 DartPads.
 {% endcomment %}
 
-# {{ page.title }}
-
 ### Dynamically add items to the browser page.
 
 As you learned in the previous tutorial,

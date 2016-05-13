@@ -12,8 +12,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 ## <i class="fa fa-anchor"> </i> Online documentation
 
 <div class="trydart-step-details" markdown="1">

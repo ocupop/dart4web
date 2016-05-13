@@ -9,10 +9,6 @@ updated: 2014-12-01
 collection: libraries-and-apis
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 <em>Written by Sigmund Cherem, Vijay Menon, and Seth Ladd <br>
 October 2011
 (updated December 2014)</em>

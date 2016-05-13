@@ -10,10 +10,6 @@ description: "Download and use Dartium, a build of Chromium with an embedded Dar
 short-title: "Dartium"
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 Dartium is a special build of Chromium that includes the Dart VM.
 Using Dartium means you don't have to compile your code to JavaScript
 until you're ready to test on other browsers.

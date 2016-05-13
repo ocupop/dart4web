@@ -7,10 +7,6 @@ permalink: /tools/webstorm
 toc: true
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 WebStorm is an IDE from JetBrains for client-side development.
 It comes with the Dart plugin pre-installed.
 

@@ -6,10 +6,6 @@ permalink: /tools/pub/pub-build
 description: "Use pub build to deploy your Dart application."
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 _Build_ is one of the commands of the _pub_ tool.
 [Learn more about pub](/tools/pub/).
 

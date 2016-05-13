@@ -39,8 +39,6 @@ Don't have the source code?
 {% endcapture %}
 
 
-# {{page.title}}
-
 ### Write a mini Dart app.
 
 To write a Dart web app,

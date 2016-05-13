@@ -6,8 +6,6 @@ permalink: /tools/
 toc: true
 ---
 
-# {{ page.title }}
-
 The common Dart SDK tools are described on
 [dartlang.org]({{site.dartlang}}/tools).
 This page lists specialized tools for developing web apps.

@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 In this step, you add an input field.
 As the user types into the input field,
 the badge updates.

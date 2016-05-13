@@ -4,14 +4,14 @@
   children:
     - title: Using Dart with JSON Web Services
       label: JSON Web Services
-      permalink: /articles/json-web-service
+      permalink: /articles/web-services/json-web-service
 - title: Low-Level HTML
   label:
   permalink: /articles/low-level-html
   children:
     - title: Embedding Dart in HTML
       label: 
-      permalink: /articles/embedding-in-html
+      permalink: /articles/low-level-html/embedding-in-html
     - title: Improving the DOM
       label: 
-      permalink: /articles/improving-the-dom
+      permalink: /articles/low-level-html/improving-the-dom

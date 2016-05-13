@@ -9,8 +9,6 @@ header:
   css: ["/codelabs/darrrt/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 This code lab introduces you to the Dart language and libraries
 by walking you through the process of building a simple web app.
 

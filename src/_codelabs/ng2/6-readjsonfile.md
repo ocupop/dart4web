@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 In this final step, you learn about Dart's support for
 asynchronous file I/O as you modify the pirate name service to fetch
 the names and appellations from a JSON file on www.dartlang.org.

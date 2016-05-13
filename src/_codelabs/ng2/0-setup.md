@@ -1,7 +1,7 @@
 ---
 layout: codelab
 title: "Step 0: Set up"
-description: "Download any software you need and learn where to find the sample code."
+description: "Install any software you need and learn where to find the sample code."
 snippet_img: images/piratemap.jpg
 
 nextpage:
@@ -14,8 +14,6 @@ prevpage:
 header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
-
-# {{ page.title }}
 
 In this step, you download any software that you need,
 and learn where to find the sample code.

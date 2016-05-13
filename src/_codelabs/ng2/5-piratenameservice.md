@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 A proper pirate name consists of a name and an appellation,
 such as "Margy the Fierce" or "Renée the Fighter".
 In this step, you learn about Angular's support for

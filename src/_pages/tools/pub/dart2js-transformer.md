@@ -5,10 +5,6 @@ title: "Configuring the Built-in dart2js Transformer for Pub"
 permalink: /tools/pub/dart2js-transformer
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 The [pub serve](pub-serve), [pub build](pub-build),
 and [pub run]({{site.dartlang}}/tools/pub/cmd/pub-run.html)
 commands use the [dart2js](/tools/dart2js)

@@ -7,10 +7,6 @@ updated: 2013-03-10
 collection: libraries-and-apis
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 _Written by Bob Nystrom<br />
 October 2011 (updated March 2013)_
 

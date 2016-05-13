@@ -7,10 +7,6 @@ permalink: /tools/dart2js
 short-title: "dart2js"
 ---
 
-{% include breadcrumbs.html %}
-
-# {{ page.title }}
-
 Use the _dart2js_ tool to compile Dart code to JavaScript.
 The [`pub serve`](pub/pub-serve),
 [`pub run`]({{site.dartlang}}/tools/pub/cmd/pub-run), and

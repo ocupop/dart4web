@@ -1,12 +1,9 @@
 ---
 layout: page
-reference: new page
 title: Frameworks
-permalink: /frameworks
+permalink: /guides/frameworks
 toc: true
 ---
-
-# {{ page.title }}
 
 What kind of support is available for web programming in Dart?
 Where can you learn more?

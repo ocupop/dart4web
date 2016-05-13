@@ -1,12 +1,14 @@
 ---
 reference: new page
-title: "Articles: Web Services"
+title: "Articles: Low-Level HTML"
 ---
 
-# {{ page.title }}
+* [Embedding Dart in HTML](embedding-in-html)
+: Learn how to embed Dart into HTML pages.
 
-* [Using Dart with JSON Web Services](json-web-service)
-: Learn how to consume JSON-based web services with Dart.
+* [Improving the DOM](improving-the-dom)
+: Learn how Dart's HTML library improves the browser programming
+experience.
 
 For articles on other Dart topics, see the
 [Dart language and library articles]({{site.dartlang}}/articles/) and

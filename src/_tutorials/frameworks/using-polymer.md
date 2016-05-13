@@ -26,8 +26,6 @@ Don't have the source code?
 </a>
 {% endcapture %}
 
-# {{ page.title }}
-
 ### Add custom elements to your web app.
 
 Writing web apps is easier when you can use custom elements developed by others.

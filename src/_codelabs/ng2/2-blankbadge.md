@@ -15,8 +15,6 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-# {{ page.title }}
-
 In this step, you extend the basic Angular app
 with a pirate badge component, which encapsulates
 the behavior and appearance of the pirate badge.
