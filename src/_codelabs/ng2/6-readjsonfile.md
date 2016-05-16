@@ -19,7 +19,7 @@ In this final step, you learn about Dart's support for
 asynchronous file I/O as you modify the pirate name service to fetch
 the names and appellations from a JSON file on www.dartlang.org.
 
-## <i class="fa fa-anchor"> </i> Edit pirate_name_service.dart.
+## <i class="fa fa-anchor"> </i> Edit name_service.dart.
 
 <div class="trydart-step-details" markdown="1">
 Add imports to the top.
@@ -91,7 +91,7 @@ Replace `_names` and `_appellations` with empty lists.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   static final Random _indexGen = new Random();
 
   final _names = [[highlight]]<String>[];[[/highlight]]
@@ -131,7 +131,7 @@ to read the names and appellations from the JSON file.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   ...
   String _randomAppellation() {
     return (_appellations[_indexGen.nextInt(_appellations.length)]);
@@ -181,7 +181,7 @@ class PirateNameService {
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.html.
+## <i class="fa fa-anchor"> </i> Edit badge_component.html.
 
 <div class="trydart-step-details" markdown="1">
 Enable the input field depending on the value of a property.
@@ -209,7 +209,7 @@ Enable the input field depending on the value of a property.
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Edit badge_component.dart.
 
 Load the pirate names and appellations from a JSON file.
 When successfully loaded, enable the UI.
@@ -222,8 +222,8 @@ At startup, disable the button and input field.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateBadgeComponent {
-  final PirateNameService _nameService;
+class BadgeComponent {
+  final NameService _nameService;
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
   bool isButtonEnabled = [[highlight]]false[[/highlight]];
@@ -256,12 +256,12 @@ handling both success and failure.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateBadgeComponent [[highlight]]implements OnInit[[/highlight]] {
+class BadgeComponent [[highlight]]implements OnInit[[/highlight]] {
   ...
   bool isButtonEnabled = false;
   bool isInputEnabled = false;
 
-  PirateBadgeComponent(this._nameService);
+  BadgeComponent(this._nameService);
 
   [[highlight]]ngOnInit() async {[[/highlight]]
     [[highlight]]try {[[/highlight]]
@@ -308,7 +308,7 @@ class PirateBadgeComponent [[highlight]]implements OnInit[[/highlight]] {
 
 <div class="trydart-step-details" markdown="1">
 
-Click <img src="images/run.png" alt="the green arrow"> to run the app.
+Click run ( {% img 'green-run.png' %} ) to run the app.
 
 The app should work as before, but this time the pirate name is
 constructed from the JSON file.
@@ -325,5 +325,5 @@ Finally, if you still haven't found the problem
 check your code against the files in
 [6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/6-readjsonfile).
 
-* [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/pirate_badge_component.dart)
-* [lib/pirate_name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/pirate_name_service.dart)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/badge_component.dart)
+* [lib/name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/name_service.dart)

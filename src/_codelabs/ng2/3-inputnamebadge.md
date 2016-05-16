@@ -19,7 +19,7 @@ In this step, you add an input field.
 As the user types into the input field,
 the badge updates.
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.html.
+## <i class="fa fa-anchor"> </i> Edit badge_component.html.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
@@ -78,17 +78,17 @@ Add a div containing an input field to the top of the file:
 
 </div> </div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Edit badge_component.dart.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
 <div class="trydart-step-details" markdown="1">
 
 Delete the hardcoded badge name and add an event handler,
-`updateBadge()`, to the PirateBadgeComponent class.
+`updateBadge()`, to the BadgeComponent class.
 
 {% prettify dart %}
-class PirateBadgeComponent {
+class BadgeComponent {
   String badgeName = [[highlight]]''[[/highlight]];
   [[highlight]]void updateBadge(String inputName) {[[/highlight]]
     [[highlight]]badgeName = inputName;[[/highlight]]
@@ -111,7 +111,7 @@ class PirateBadgeComponent {
 
 <div class="trydart-step-details" markdown="1">
 
-Click <img src="images/run.png" alt="the green arrow"> to run the app.
+Click run ( {% img 'green-run.png' %} ) to run the app.
 Type into the input field.
 The name badge updates to display what you've typed.
 </div>
@@ -136,5 +136,5 @@ Finally, if you still haven't found the problem
 check your code against the files in
 [3-inputnamebadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/3-inputnamebadge).
 
-* [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/pirate_badge_component.dart)
-* [lib/pirate_badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/pirate_badge_component.html)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/badge_component.dart)
+* [lib/badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/3-inputnamebadge/lib/badge_component.html)

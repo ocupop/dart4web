@@ -58,7 +58,7 @@ Alternate instructions are provided for some of the steps.
 
 </div>
 
-## <i class="fa fa-anchor"> </i> Know where the one-hour-codelab sample lives.
+## <i class="fa fa-anchor"> </i> Learn where the one-hour-codelab sample lives.
 
 <div class="trydart-step-details" markdown="1">
 The [one-hour-codelab](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2)

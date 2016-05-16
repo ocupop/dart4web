@@ -24,7 +24,7 @@ By the end of this step, your app will display
 a snazzy name badge. The next steps,
 where you add interactivity, are easy and fun.
 
-## <i class="fa fa-anchor"> </i> Add pirate_badge_component.html.
+## <i class="fa fa-anchor"> </i> Add badge_component.html.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
@@ -35,7 +35,7 @@ where you add interactivity, are easy and fun.
    right-click the `lib` directory and
    select **New > File** from the menu that pops up.
 </li>
-<li markdown="1">Enter `pirate_badge_component.html` as the filename
+<li markdown="1">Enter `badge_component.html` as the filename
    and click **OK**.
 </li>
 </ol>
@@ -45,17 +45,17 @@ where you add interactivity, are easy and fun.
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* WebStorm creates an empty `pirate_badge_component.html` file under `lib`.
+* WebStorm creates an empty `badge_component.html` file under `lib`.
 
 * You can also create the file by selecting **New > HTML File** from
-  the menu, and entering `pirate_badge_component` as the name, but the
+  the menu, and entering `badge_component` as the name, but the
   resulting file contains HTML required for a standalone page.
   You'll need to delete the code before proceeding.
 
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
 </div> </div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.html.
+## <i class="fa fa-anchor"> </i> Edit badge_component.html.
 
 <div class="trydart-step-details" markdown="1">
 Enter the HTML for the name badge.
@@ -143,11 +143,11 @@ but we've provided one for you to copy and paste into your project.
     right click the `lib` directory,
     and select **New -> Stylesheet** from the menu that pops up.
 </li>
-<li markdown="1">Enter `pirate_badge_component` as the filename
+<li markdown="1">Enter `badge_component` as the filename
     and click **OK**.
 </li>
 <li markdown="1">Paste the contents from
-    [pirate_badge_component.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/pirate_badge_component.css)
+    [badge_component.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.css)
     into the newly created file.
 </li>
 </ol>
@@ -157,7 +157,7 @@ but we've provided one for you to copy and paste into your project.
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* WebStorm creates an empty `pirate_badge_component.css` file under `lib`.
+* WebStorm creates an empty `badge_component.css` file under `lib`.
   Note that the CSS extension is provided for you.
 
 * Cascading Style Sheets (CSS) is a language used for describing
@@ -179,7 +179,7 @@ but we've provided one for you to copy and paste into your project.
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Add pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Add badge_component.dart.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
@@ -190,7 +190,7 @@ but we've provided one for you to copy and paste into your project.
    right-click the `lib` directory, and
    select **New > Dart File** from the menu that pops up.
 </li>
-<li markdown="1">Enter `pirate_badge_component` as the filename
+<li markdown="1">Enter `badge_component` as the filename
    and click **OK**.
 </li>
 
@@ -210,7 +210,7 @@ but we've provided one for you to copy and paste into your project.
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
 </div> </div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Edit badge_component.dart.
 
 <div class="trydart-step-details" markdown="1">
 Import Angular's core library.
@@ -227,7 +227,7 @@ Import Angular's core library.
 <hr>
 
 <div class="trydart-step-details" markdown="1">
-Create a PirateBadgeComponent class annotated with
+Create a BadgeComponent class annotated with
 `@Component`. The class contains a name badge
 instance variable&mdash;replace "Shams" with your name.
 </div>
@@ -238,9 +238,9 @@ import 'package:angular2/core.dart';
 
 [[highlight]]@Component([[/highlight]]
     [[highlight]]selector: 'pirate-badge',[[/highlight]]
-    [[highlight]]templateUrl: 'pirate_badge_component.html',[[/highlight]]
-    [[highlight]]styleUrls: const ['pirate_badge_component.css'])[[/highlight]]
-[[highlight]]class PirateBadgeComponent {[[/highlight]]
+    [[highlight]]templateUrl: 'badge_component.html',[[/highlight]]
+    [[highlight]]styleUrls: const ['badge_component.css'])[[/highlight]]
+[[highlight]]class BadgeComponent {[[/highlight]]
   [[highlight]]String badgeName = 'Shams';[[/highlight]]
 [[highlight]]}[[/highlight]]
 {% endprettify %}
@@ -268,7 +268,7 @@ import 'package:angular2/core.dart';
   (in this case the name of the CSS file).
 
 * The `const` modifier on the list literal,
-  `const ['pirate_badge_component.css']`, converts the collection
+  `const ['badge_component.css']`, converts the collection
   to a compile-time constant.
   Recall that `Component(...)` is a constant constructor,
   and all arguments to constant constructors must be compile-time
@@ -289,7 +289,7 @@ Import the pirate badge component.
 {% prettify dart %}
 import 'package:angular2/core.dart';
 
-[[highlight]]import 'pirate_badge_component.dart';[[/highlight]]
+[[highlight]]import 'badge_component.dart';[[/highlight]]
 {% endprettify %}
 </div>
 
@@ -303,13 +303,13 @@ import 'package:angular2/core.dart';
 
 * When you have multiple Dart files under `lib`, they can import
   each other using relative paths, for example,
-  `import 'pirate_badge_component.dart'`.
+  `import 'badge_component.dart'`.
   However, any file that's not under `lib` (`web/main.dart`, for example)
   must use a `package:` URL to import libraries defined under `lib`.
 
 * After you import the library, the analyzer warns that you
   have an unused import. This error goes away when you add
-  the `PirateBadgeComponent` directive.
+  the `BadgeComponent` directive.
 
 </div> </div>
 
@@ -324,7 +324,7 @@ Add a directive to the `@Component` annotation.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-@Component(selector: 'my-app', templateUrl: 'app_component.html' [[highlight]], directives: const [PirateBadgeComponent][[/highlight]])
+@Component(selector: 'my-app', templateUrl: 'app_component.html' [[highlight]], directives: const [BadgeComponent][[/highlight]])
 {% endprettify %}
 </div>
 
@@ -336,7 +336,7 @@ Add a directive to the `@Component` annotation.
   are listed in the `directives:` field.
 
 * When the app component is loaded, Angular detects the
-  `<pirate-badge>` selector and loads the PirateBadgeComponent class.
+  `<pirate-badge>` selector and loads the BadgeComponent class.
 
 
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
@@ -362,7 +362,7 @@ After formatting, the file should look like the following:
 @Component(
     selector: 'my-app',
     templateUrl: 'app_component.html',
-    directives: const [PirateBadgeComponent])
+    directives: const [BadgeComponent])
 class AppComponent {}
 {% endprettify %}
 </div>
@@ -405,7 +405,7 @@ Replace the contents of the HTML template:
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
 * When Angular detects the `<pirate-badge>` selector, it loads an
-  instance of `PirateBadgeComponent`.
+  instance of `BadgeComponent`.
 
 </div></div>
 
@@ -517,7 +517,7 @@ Add a reference to the style sheet.
 ## <i class="fa fa-anchor"> </i> Test it!
 
 <div class="trydart-step-details" markdown="1">
-Click <img src="images/run.png" alt="the green arrow"> to run the app.
+Click {% img 'green-run.png' %} to run the app.
 You should see a name badge with your name,
 or "Shams" if you didn't change the name.
 Assuming your machine has the fonts specified in the CSS file,
@@ -541,8 +541,8 @@ check your code against the files in
 
 * [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/app_component.dart)
 * [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/app_component.html)
-* [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/pirate_badge_component.dart)
-* [lib/pirate_badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/pirate_badge_component.html)
-* [lib/pirate_badge_component.css](https://github.com/dart-lang/one-hour-codelab/blob/ng2/ng2/2-blankbadge/lib/pirate_badge_component.css)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.dart)
+* [lib/badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.html)
+* [lib/badge_component.css](https://github.com/dart-lang/one-hour-codelab/blob/ng2/ng2/2-blankbadge/lib/badge_component.css)
 * [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/web/index.html)
 * [web/styles.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/web/styles.css)

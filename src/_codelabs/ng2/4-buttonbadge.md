@@ -20,7 +20,7 @@ when the input field is empty.
 When the user clicks the button,
 the app displays "Anne Bonney" on the badge.
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.html.
+## <i class="fa fa-anchor"> </i> Edit badge_component.html.
 
 <div class="trydart-step-details" markdown="1">
 Add a button to the `widgets` div.
@@ -70,10 +70,10 @@ Add a button to the `widgets` div.
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Edit badge_component.dart.
 
 <div class="trydart-step-details" markdown="1">
-Add two variables to the PirateBadgeComponent class.
+Add two variables to the BadgeComponent class.
 </div>
 
 <div class="row"> <div class="col-md-7" markdown="1">
@@ -81,7 +81,7 @@ Add two variables to the PirateBadgeComponent class.
 <div class="trydart-step-details" markdown="1">
 
 {% prettify dart %}
-class PirateBadgeComponent {
+class BadgeComponent {
   String badgeName = '';
   [[highlight]]String buttonText = 'Aye! Gimme a name!';[[/highlight]]
   [[highlight]]bool isButtonEnabled = true;[[/highlight]]
@@ -116,8 +116,8 @@ Add a `generateBadge()` function.
 
 <div class="trydart-step-details">
 {% prettify dart %}
-@Component(selector: 'pirate-badge', templateUrl: 'pirate_badge_component.html')
-class PirateBadgeComponent {
+@Component(selector: 'pirate-badge', templateUrl: 'badge_component.html')
+class BadgeComponent {
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
   bool isButtonEnabled = true;
@@ -154,7 +154,7 @@ state based on whether there is text in the input field.
 
 <div class="trydart-step-details">
 {% prettify dart %}
-class PirateBadgeComponent {
+class BadgeComponent {
   ...
   void updateBadge(String inputName) {
     badgeName = inputName;
@@ -185,7 +185,7 @@ class PirateBadgeComponent {
 
 <div class="trydart-step-details" markdown="1">
 
-Click <img src="images/run.png" alt="the green arrow"> to run the app.
+Click run ( {% img 'green-run.png' %} } to run the app.
 
 Type in the input field. The name badge updates to display what you've typed,
 and the button is disabled.  Remove the text from the input field and the
@@ -202,5 +202,5 @@ Finally, if you still haven't found the problem
 check your code against the files in
 [4-buttonbadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/4-buttonbadge).
 
-* [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/pirate_badge_component.dart)
-* [lib/pirate_badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/pirate_badge_component.html)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/badge_component.dart)
+* [lib/badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/4-buttonbadge/lib/badge_component.html)

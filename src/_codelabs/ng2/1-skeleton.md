@@ -520,7 +520,7 @@ You should see something like the following:
 
 After you've run the app using the menu, WebStorm remembers.
 In the future, you can launch the app using the enabled **Run** button
-<img src="images/run.png"> in the upper right corner of the
+{% img 'green-run.png' %} in the upper right corner of the
 WebStorm window.
 (The run button in the messages view runs the last pub command again.)
 

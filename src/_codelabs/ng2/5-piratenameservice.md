@@ -32,7 +32,7 @@ as you add a service that returns a pirate name.
    right-click the `lib` directory and
    select **New > Dart File** from the menu that pops up.
 </li>
-<li markdown="1">Enter "pirate_name_service" as the filename
+<li markdown="1">Enter "name_service" as the filename
    and click **OK**.
 </li>
 </ol>
@@ -49,7 +49,7 @@ as you add a service that returns a pirate name.
 &nbsp; {% comment %} non-breaking space required for bootstrap/markdown bogosity {% endcomment %}
 </div> </div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_name_service.dart.
+## <i class="fa fa-anchor"> </i> Edit name_service.dart.
 
 <div class="trydart-step-details" markdown="1">
 Add imports to the file.
@@ -92,7 +92,7 @@ Add a class declaration below the import and annotate it with
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
 [[highlight]]@Injectable()[[/highlight]]
-[[highlight]]class PirateNameService[[/highlight]] {
+[[highlight]]class NameService[[/highlight]] {
 [[highlight]]}[[/highlight]]
 {% endprettify %}
 </div>
@@ -107,8 +107,8 @@ Add a class declaration below the import and annotate it with
 * When Angular detects the `@Injectable()` annotation,
   it generates necessary metadata so that the annotated object is injectable.
 
-* Later, you'll add a constructor to PirateBadgeComponent
-  that enables injecting an instance of PirateNameService.
+* Later, you'll add a constructor to BadgeComponent
+  that enables injecting an instance of NameService.
 
 </div></div>
 
@@ -123,7 +123,7 @@ Create a class-level Random object.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   [[highlight]]static final Random _indexGen = new Random();[[/highlight]]
 }
 {% endprettify %}
@@ -159,7 +159,7 @@ collection of names and appellations to choose from.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   static final Random _indexGen = new Random();
 
   [[highlight]]final List _names = [[[/highlight]]
@@ -194,7 +194,7 @@ and appellation.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   ...
   final List _appellations = [
     'Jackal', 'King', 'Red', 'Stalwart', 'Axe',
@@ -238,7 +238,7 @@ Provide a method that gets a pirate name.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateNameService {
+class NameService {
   ...
   String _randomAppellation() =>
       _appellations[_indexGen.nextInt(_appellations.length)];
@@ -269,7 +269,7 @@ class PirateNameService {
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Edit pirate_badge_component.dart.
+## <i class="fa fa-anchor"> </i> Edit badge_component.dart.
 
 Hook up the pirate name service to the pirate badge component.
 
@@ -282,7 +282,7 @@ Import the pirate name service.
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
 import 'package:angular2/core.dart';
-[[highlight]]import 'pirate_name_service.dart';[[/highlight]]
+[[highlight]]import 'name_service.dart';[[/highlight]]
 {% endprettify %}
 </div>
 
@@ -301,8 +301,8 @@ import 'package:angular2/core.dart';
 
 <hr>
 
-Add `PirateNameService` as a provider by adding the text
- `, providers: const [PirateNameService]`
+Add `NameService` as a provider by adding the text
+ `, providers: const [NameService]`
 to the `@Component` annotation. After formatting,
 it should look as follows:
 </div>
@@ -313,10 +313,10 @@ it should look as follows:
 {% prettify dart %}
 @Component(
     selector: 'pirate-badge',
-    templateUrl: 'pirate_badge_component.html',
-    styleUrls: const ['pirate_badge_component.css'][[highlight]],[[/highlight]]
-    [[highlight]]providers: const [PirateNameService][[/highlight]])
-class PirateBadgeComponent {
+    templateUrl: 'badge_component.html',
+    styleUrls: const ['badge_component.css'][[highlight]],[[/highlight]]
+    [[highlight]]providers: const [NameService][[/highlight]])
+class BadgeComponent {
   ...
 }
 {% endprettify %}
@@ -349,10 +349,10 @@ Add a `_nameService` instance variable.
 {% prettify dart %}
 @Component(
     selector: 'pirate-badge',
-    templateUrl: 'pirate_badge_component.html',
-    providers: const [PirateNameService])
-class PirateBadgeComponent {
-  [[highlight]]final PirateNameService _nameService;[[/highlight]]
+    templateUrl: 'badge_component.html',
+    providers: const [NameService])
+class BadgeComponent {
+  [[highlight]]final NameService _nameService;[[/highlight]]
   String badgeName = '';
   ...
 }
@@ -381,13 +381,13 @@ Add a constructor that assigns a value to `_nameService`.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateBadgeComponent {
-  final PirateNameService _nameService;
+class BadgeComponent {
+  final NameService _nameService;
   String badgeName = '';
   String buttonText = 'Aye! Gimme a name!';
   bool isButtonEnabled = true;
 
-  [[highlight]]PirateBadgeComponent(this._nameService);[[/highlight]]
+  [[highlight]]BadgeComponent(this._nameService);[[/highlight]]
   ...
 }
 {% endprettify %}
@@ -401,13 +401,13 @@ class PirateBadgeComponent {
 
 <li markdown="1">Whenever Angular creates a pirate-badge component,
   Angular's dependency injection framework supplies the
-  PirateNameService object that the PirateBadgeComponent
+  NameService object that the BadgeComponent
   constructor needs.
 </li>
 
-<li markdown="1">The `@Injectable` annotation on PirateNameService,
-  combined with the `providers` list containing PirateNameService,
-  lets Angular create the PirateNameService object.
+<li markdown="1">The `@Injectable` annotation on NameService,
+  combined with the `providers` list containing NameService,
+  lets Angular create the NameService object.
 </li>
 
 <li markdown="1"> If you've used Java, you've seen `this` before.
@@ -416,7 +416,7 @@ class PirateBadgeComponent {
 
 </li>
 
-<li markdown="1"> Note that the PirateBadgeComponent constructor has no body.
+<li markdown="1"> Note that the BadgeComponent constructor has no body.
   The `this._nameService` text in the argument list
   assigns the passed-in parameter to the `_nameService` variable.
   Since the assignment happens in the argument list,
@@ -427,7 +427,7 @@ class PirateBadgeComponent {
   this code could be replaced with:
 
 {% prettify dart %}
-PirateBadgeComponent(var nameService) {
+BadgeComponent(var nameService) {
   _nameService = nameService;
 }
 {% endprettify %}
@@ -450,7 +450,7 @@ Add a `setBadgeName()` method.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateBadgeComponent {
+class BadgeComponent {
   ...
   [[highlight]]void setBadgeName([String newName = '']) {[[/highlight]]
     [[highlight]]if (newName == null) return;[[/highlight]]
@@ -480,7 +480,7 @@ Modify the `generateBadge()` and `updateBadge()`  methods.
 
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
-class PirateBadgeComponent implements OnInit {
+class BadgeComponent implements OnInit {
   ...
   void generateBadge() {
     [[highlight]]setBadgeName();[[/highlight]]
@@ -515,7 +515,7 @@ class PirateBadgeComponent implements OnInit {
 
 <div class="trydart-step-details" markdown="1">
 
-Click <img src="images/run.png" alt="the green arrow"> to run the app.
+Click run ( {% img 'green-run.png' %} ) to run the app.
 
 Click the button&mdash;each click displays a new pirate name composed
 of a name and an appellation.
@@ -531,5 +531,5 @@ Finally, if you still haven't found the problem
 check your code against the files in
 [5-piratenameservice](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/5-piratenameservice).
 
-* [lib/pirate_badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/pirate_badge_component.dart)
-* [lib/pirate_name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/pirate_name_service.dart)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/badge_component.dart)
+* [lib/name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/5-piratenameservice/lib/name_service.dart)

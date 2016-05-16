@@ -63,7 +63,7 @@ can be serialized and represented by strings.
 **Try it!**
 The following app, `its_all_about_you`,
 displays the JSON string for data of various types.
-Click run ( <img src="images/run.png" /> ) to start the app.
+Click run ( {% img 'run.png' %} ) to start the app.
 Then change the values of the input elements,
 and check out the JSON format for each data type.
 You might prefer to
@@ -432,7 +432,7 @@ configure dartlang.org's CORS headers to allow read-only access
 from everywhere.
 </aside>
 
-**Try it!** Click run ( <img src="images/run.png" /> )
+**Try it!** Click run ( {% img 'run.png' %} )
 and then click the **Get portmanteaux** button.
 
 {% comment %}
