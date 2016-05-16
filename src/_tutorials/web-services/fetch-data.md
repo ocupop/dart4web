@@ -266,7 +266,7 @@ void showJson(Event e) {
 Below is the JSON string that results from the code
 using the original values from the its_all_about_you app.
 
-<img class="scale-img-max" src="images/jsonstring.png"
+<img class="scale-img-max" src="../images/jsonstring.png"
      alt="The JSON string for the its_all_about_you app">
 
 Boolean and numeric values
@@ -346,7 +346,7 @@ contain three pieces of information:
 
 For example, the URL for this page breaks down as follows:
 
-<img class="scale-img-max" src="images/uri-details.png"
+<img class="scale-img-max" src="../images/uri-details.png"
      alt="The tutorial URL">
 
 This URL specifies the HTTP protocol.
@@ -356,7 +356,7 @@ the browser sends an HTTP GET request to a web server,
 and the web server sends an HTTP response that contains the
 contents of the page (or an error message).
 
-<img class="scale-img-max" src="images/client-server.png"
+<img class="scale-img-max" src="../images/client-server.png"
      alt="Basic HTTP communication between client and server">
 
 Most HTTP requests in a web browser are simple GET requests
@@ -491,7 +491,7 @@ This program uses a convenience method,
 provided by the HttpRequest class
 to request the file from the server.
 
-<img class="scale-img-max" src="images/getstringfunction.png"
+<img class="scale-img-max" src="../images/getstringfunction.png"
      alt="Use the getString() function to make a request">
 
 The getString() method uses a Future object to handle the request.
@@ -592,7 +592,7 @@ void makeRequest(Event e) {
 }
 {% endprettify %}
 
-<img class="scale-img-max" src="images/portmanteaux-code.png"
+<img class="scale-img-max" src="../images/portmanteaux-code.png"
      alt="Making an HTTP GET request">
 
 ### Sending the request
@@ -622,7 +622,7 @@ that in turn calls `requestComplete()`.
 This callback function is called when the request completes,
 either successfully or unsuccessfully.
 
-<img class="scale-img-max" src="images/set-callback.png"
+<img class="scale-img-max" src="../images/set-callback.png"
      alt="Set up a callback function for request completion">
 
 The callback function for our example,
@@ -638,7 +638,7 @@ to a Dart list of strings,
 creates a new LIElement for each one,
 and adds it to the &lt;ul&gt; element on the page.
 
-<img class="scale-img-max" src="images/portmanteaux-callback.png"
+<img class="scale-img-max" src="../images/portmanteaux-callback.png"
      alt="Getting the response text from an HTTP GET request">
 
 ### Populating the UI from JSON
@@ -663,7 +663,7 @@ The client program receives the JSON string
 and uses JSON.decode()
 to create the String objects specified by the JSON string.
 
-<img class="scale-img-max" src="images/json-parse.png"
+<img class="scale-img-max" src="../images/json-parse.png"
      alt="Decode a JSON formatted list of strings">
 
 ## Other resources

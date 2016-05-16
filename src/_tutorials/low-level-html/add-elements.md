@@ -145,7 +145,7 @@ DOM through the Element class.
 An Element has a parent Element
 and maintains references to its child Elements in a list.
 
-<img class="scale-img-max" src="images/relationships.png"
+<img class="scale-img-max" src="../images/relationships.png"
      alt="An element with multiple child elements and a parent element">
 
 An Element has at most one parent Element.
@@ -155,7 +155,7 @@ Get an Element's parent with the getter `parent`.
 For example, if you have an Element with the name `anElement`
 you would refer to its parent element with `anElement.parent`.
 
-<img class="scale-img-max" src="images/parent-reference.png"
+<img class="scale-img-max" src="../images/parent-reference.png"
      alt="Dart code reference to anElement's parent">
 
 An Element maintains references to its child elements in a list.
@@ -183,13 +183,13 @@ The List class has various methods and operators
 whereby you can refer to each child Element individually,
 iterate over the list, and add and remove elements.
 
-<img class="scale-img-max" src="images/child-references.png"
+<img class="scale-img-max" src="../images/child-references.png"
      alt="Dart code references to anElement's list of children and individual child Elements">
 
 You can change the tree structure by adding children to
 and removing children from an Element's list of children.
 
-<img class="scale-img-max" src="images/add-element.png"
+<img class="scale-img-max" src="../images/add-element.png"
      alt="Add a child element">
 
 When you change an Element or its child Elements in your Dart program,
@@ -209,12 +209,12 @@ You could get the same results using Dart code,
 but it's usually better to define the primary page elements
 in HTML code (easier to read, quicker to load).
 
-<img class="scale-img-max" src="images/todo-html.png"
+<img class="scale-img-max" src="../images/todo-html.png"
      alt="todo app and its corresponding HTML code">
 
 The following diagram shows a partial DOM tree for the todo app.
 
-<img class="scale-img-max" src="images/todo-dom.png"
+<img class="scale-img-max" src="../images/todo-dom.png"
      alt="The todo app and part of its DOM tree">
 
 Of interest are the two page elements that have IDs:
@@ -230,7 +230,7 @@ whenever the user enters text into the input element.
 The following diagram shows
 the Dart code for the todo app.
 
-<img class="scale-img-max" src="images/todo-dart.png"
+<img class="scale-img-max" src="../images/todo-dart.png"
      alt="todo app and its corresponding Dart code">
 
 The main() function uses dart:html's top-level querySelector()
@@ -267,14 +267,14 @@ The todo app defines a function, addToDoItem(),
 that can handle these change events.
 The following code connects addToDoItem() to the input field:
 
-<img class="scale-img-max" src="images/event-handler-todo.png"
+<img class="scale-img-max" src="../images/event-handler-todo.png"
      alt="Add an event handler to the toDoInput element">
 
 Rather than dissect this busy line of code,
 think of it as a Dart idiom
 for adding an event handler to an Element.
 
-<img class="scale-img-max" src="images/event-handler-idiom.png"
+<img class="scale-img-max" src="../images/event-handler-idiom.png"
      alt="Dart idiom: Add an event handler to an Element">
 
 A change event is just one of many different types of events
@@ -316,7 +316,7 @@ The addToDoItem() function ignores the Event object passed to it.
 
 The change event handler has the following code:
 
-<img class="scale-img-max" src="images/add-element-code.png"
+<img class="scale-img-max" src="../images/add-element-code.png"
      alt="The addToDoItem() function explained">
 
 The final line of code is where the DOM gets changed.
@@ -332,7 +332,7 @@ in the to do list.
 
 Let's take a look at the CSS file for this app.
 
-<img class="scale-img-max" src="images/css-code.png"
+<img class="scale-img-max" src="../images/css-code.png"
      alt="The effect of CSS styles">
 
 This code uses three different kinds of CSS selectors.
@@ -456,7 +456,7 @@ The program adds each button to a DOM element&mdash;a simple
 &lt;div&gt; element identified by the CSS selector `letterpile`&mdash;with
 a call to letterpile.children.add().
 
-<img class="scale-img-max" src="images/anagram-newletters.png"
+<img class="scale-img-max" src="../images/anagram-newletters.png"
      alt="Dart code populates the letter pile with buttons">
 
 Each button element in the letter pile
@@ -473,7 +473,7 @@ Because an element can have only one parent,
 adding the button to a different parent
 automatically removes it from its previous parent.
 
-<img class="scale-img-max" src="images/anagram-move.png"
+<img class="scale-img-max" src="../images/anagram-move.png"
      alt="The mouse click handler adds the button to the word, thus moving it">
 
 The `+=` operator is a compound assignment operator,
