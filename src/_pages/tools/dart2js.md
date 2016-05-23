@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 reference: /src/site/tools/dart2js/
 title: "dart2js: The Dart-to-JavaScript Compiler"
 permalink: /tools/dart2js

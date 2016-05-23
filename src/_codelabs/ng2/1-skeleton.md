@@ -13,6 +13,8 @@ prevpage:
 
 header:
   css: ["/codelabs/ng2/darrrt.css"]
+
+toc: false
 ---
 
 In this step, you create an Angular app, look at its code,

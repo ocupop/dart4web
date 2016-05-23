@@ -1,6 +1,6 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-build.html
-layout: page
+layout: default
 title: "pub build"
 permalink: /tools/pub/pub-build
 description: "Use pub build to deploy your Dart application."

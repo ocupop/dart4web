@@ -1,9 +1,8 @@
 ---
 reference: new page
-layout: page
+layout: default
 title: Pub for the Web
 permalink: /tools/pub/
-
 ---
 
 You can use the [pub]({{site.dartlang}}/tools/pub/)

@@ -1,9 +1,8 @@
 ---
 reference: /tools
-layout: page
+layout: default
 title: Dart Tools for the Web
 permalink: /tools/
-toc: true
 ---
 
 The common Dart SDK tools are described on

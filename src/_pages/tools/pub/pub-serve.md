@@ -1,6 +1,6 @@
 ---
 reference: /src/site/tools/pub/cmd/pub-serve.html
-layout: page
+layout: default
 title: "pub serve"
 permalink: /tools/pub/pub-serve
 description: "Use pub serve to start up a development server for your Dart application."

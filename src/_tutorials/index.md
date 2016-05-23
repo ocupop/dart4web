@@ -1,6 +1,6 @@
 ---
 title: "Dart Tutorials"
-toc: true
+
 ---
 
 The Dart tutorials teach you how to build web applications

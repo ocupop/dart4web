@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: Frameworks
 permalink: /guides/frameworks
-toc: true
 ---
 
 What kind of support is available for web programming in Dart?

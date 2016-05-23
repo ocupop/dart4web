@@ -1,14 +1,9 @@
-<div id="sidebar">
+<div id="sidenav" class="fixed open">
   <div class="content">
     <h4>
       <a href="/guides">Guides</a>
     </h4>
     {% assign linklist = site.data.guides %}
-    {% include linklist.html %}
-    <h4>
-      <a href="/codelabs">Code labs</a>
-    </h4>
-    {% assign linklist = site.data.codelabs %}
     {% include linklist.html %}
     <h4>
       <a href="/tutorials">Tutorials</a>
@@ -20,11 +15,20 @@
     </h4>
     {% assign linklist = site.data.articles %}
     {% include linklist.html %}
-    </h4>
     <h4>
       <a href="/tools">Tools</a>
+    </h4>
     {% assign linklist = site.data.tools %}
     {% include linklist.html %}
+    <h4>
+      <a href="/community">Community</a>
     </h4>
+    {% assign linklist = site.data.community %}
+    {% include linklist.html %}
+    <h4>
+      <a href="/dart-vm">Targets</a>
+    </h4>
+    {% assign linklist = site.data.dartvm %}
+    {% include linklist.html %}
   </div>
 </div>
