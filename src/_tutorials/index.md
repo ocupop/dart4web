@@ -21,13 +21,6 @@ Choose the tutorials that you need.
 
 * [Fetch Data Dynamically](/tutorials/web-services/fetch-data)
 
-## Frameworks
-
-For Angular tutorials and other Angular documentation,
-see [Angular 2 for Dart](https://angular.io/docs/dart/latest/).
-
-* [Use Polymer Elements](/tutorials/frameworks/using-polymer)
-
 ## Low-Level HTML
 
 * [Connect Dart & HTML](/tutorials/low-level-html/connect-dart-html)

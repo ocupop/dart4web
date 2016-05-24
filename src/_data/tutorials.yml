@@ -5,13 +5,6 @@
     - title: Fetch Data Dynamically
       label: 
       permalink: /tutorials/web-services/fetch-data
-- title: "Frameworks"
-  label:
-  permalink: /tutorials/frameworks
-  children:
-    - title: Use Polymer Elements
-      label:
-      permalink: /tutorials/frameworks/using-polymer
 - title: "Low-Level HTML"
   label:
   permalink: /tutorials/low-level-html

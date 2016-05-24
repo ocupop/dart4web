@@ -626,7 +626,7 @@ Check out the
 
 Speaking of browser programming, you might be interested in
 [Angular 2 for Dart](https://angular.io/docs/dart/latest/quickstart.html)
-or [Polymer Dart](/tutorials/using-polymer).
+or [Polymer Dart](https://github.com/dart-lang/polymer-dart/wiki).
 
 {% comment %}
 The tests for this article are at /tests/site/articles/improving-the-dom.
