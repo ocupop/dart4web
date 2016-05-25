@@ -4,11 +4,8 @@ reference: /src/site/docs/tutorials/remove-elements/
 title: "Remove DOM Elements"
 description: "Remove a child element from the DOM"
 
-nextpage:
-  url: /tutorials/fetch-data
-  title: "Fetch Data Dynamically"
 prevpage:
-  url: /tutorials/add-elements
+  url: /tutorials/low-level-html/add-elements
   title: "Add Elements to the DOM"
 
 points:
@@ -258,11 +255,12 @@ it returns no value and takes an Event object as a parameter.
 ## What next? {#what-next}
 
 * The next tutorial,
-[Fetch Data Dynamically](fetch-data),
-shows you how to use code written and shared by others.
+  [Fetch Data Dynamically](fetch-data),
+  shows you how to use code written and shared by others.
 
 * One of those packages is polymer.dart,
-which makes manipulating the DOM even easier
-with data binding, templates, and declarative event handlers.
-Check out [Use Polymer Elements](using-polymer)
-for an introduction to polymer.dart.
+  which makes manipulating the DOM even easier
+  with data binding, templates, and declarative event handlers.
+  Check out the
+  [Polymer Dart wiki](https://github.com/dart-lang/polymer-dart/wiki)
+  for more information.

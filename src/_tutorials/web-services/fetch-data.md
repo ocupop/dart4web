@@ -5,11 +5,8 @@ title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
 
 nextpage:
-  url: /tutorials/using-polymer
-  title: "Use Polymer Elements"
-prevpage:
-  url: /tutorials/remove-elements
-  title: "Remove DOM Elements"
+  url: /tutorials/low-level-html/connect-dart-html
+  title: "Connect Dart & HTML"
 
 points:
   - "Data on the web is often formatted in JSON."
@@ -680,7 +677,3 @@ client and server programs.
   [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures)
   tutorial, we highly recommend that you go back and learn about Futures
   before going any further.
-
-* The next tutorial,
-  [Use Polymer Elements](using-polymer), shows you how to use Polymer
-  Elements.

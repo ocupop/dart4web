@@ -5,10 +5,10 @@ title: "Add Elements to the DOM"
 description: "You have an Element object, now what?"
 
 nextpage:
-  url: /tutorials/remove-elements
+  url: /tutorials/low-level-html/remove-elements
   title: "Remove DOM Elements"
 prevpage:
-  url: /tutorials/connect-dart-html
+  url: /tutorials/low-level-html/connect-dart-html
   title: "Connect Dart & HTML"
 
 points:

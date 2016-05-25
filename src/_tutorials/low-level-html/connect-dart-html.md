@@ -5,11 +5,11 @@ title: "Connect Dart &amp; HTML"
 description: "Shows basic scaffolding of a Dart web app"
 
 nextpage:
-  url: /tutorials/add-elements
+  url: /tutorials/low-level-html/add-elements
   title: "Add Elements to the DOM"
 prevpage:
-  url: /tutorials/
-  title: "The Dart Tutorials"
+  url: /tutorials/web-services/fetch-data
+  title: "Fetch Data Dynamically"
 
 points:
   - "DartPad lets you write a simple Dart web app without HTML boilerplate."
