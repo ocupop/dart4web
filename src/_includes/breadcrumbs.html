@@ -1,3 +1,5 @@
+{% if page.breadcrumbs == true %}
+
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 {% if crumbs.size >= 3 %}
 <div class="breadcrumbs">
@@ -13,3 +15,10 @@
   {% endfor %}
 </div>
 {% endif %}
+
+{% endif %}
+
+<script type="text/javascript">
+  var breadcrumbs = "{{ page.breadcrumbs }}";
+  window.console.log("BREADCRUMBS: ", breadcrumbs);
+</script>

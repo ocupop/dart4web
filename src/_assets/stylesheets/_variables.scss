@@ -5,10 +5,10 @@
 // Color Palette
 $black:                     #000000;
 $white:                     #ffffff;
-$grey:                      #D3D3D3;
-$grey-light:                #eeeeee;
-$grey-lighter:              #fafafa;
-$grey-dark:                 #434343;
+$gray:                      #D3D3D3;
+$gray-light:                #eeeeee;
+$gray-lighter:              #f0f0f0;
+$gray-dark:                 #434343;
 $teal:                      #1FBAAC;
 $blue:                      #1b87c9;
 $blue-light:                #e2f4fd;
@@ -86,7 +86,7 @@ $popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%
 //##
 
 $code-color:                  #c7254e;
-$code-bg:                     transparent;
+$code-bg:                     #f9f9f9;
 
 $kbd-color:                   #fff;
 $kbd-bg:                      #333;

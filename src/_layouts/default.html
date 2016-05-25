@@ -4,21 +4,22 @@ layout: compress
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{% include class.html %}">
+  <body class="{{ page.layout }}{% if page.toc == false %} hide_toc{% endif %}">
     {% include page-header.html %}
-    {% include navigation-side.html %}
     <main id="page-content">
-      <header class="page-header">
-        {% include breadcrumbs.html %}
-        <h1>{{ page.title }}</h1>
-        <a href="https://github.com/dart-lang/dartlang.org/issues" target="_blank" class="hide">Send feedback</a>
-      </header>
-      <div class="content">
-        {{ content | inject_anchors }}
-      </div>
+      {% include navigation-side.html %}
+      {% include navigation-toc.html %}
+      <article>
+        <div class="content">
+          {% include navigation-sub.html %}
+          {% include breadcrumbs.html %}
+          <h1>{{ page.title }}</h1>
+          <a href="https://github.com/dart-lang/dartlang.org/issues" target="_blank" class="hide">Send feedback</a>
+          <hr>
+          {{ content | inject_anchors }}
+        </div>
+      </article>
     </main>
-    {% include navigation-toc.html %}
-    {% include dartpad.html %}
     {% include page-footer.html %}
   </body>
 </html>
