@@ -1,11 +1,8 @@
 ---
-reference: /src/site/tools/dartium/
-
 layout: default
 title: "Dartium: Chromium with the Dart VM"
 permalink: /tools/dartium
 description: "Download and use Dartium, a build of Chromium with an embedded Dart VM."
-
 short-title: "Dartium"
 ---
 

@@ -1,6 +1,4 @@
 ---
-reference: new page
-
 title: "Articles"
 ---
 

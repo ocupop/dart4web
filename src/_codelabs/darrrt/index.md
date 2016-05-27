@@ -1,6 +1,5 @@
 ---
 layout: codelab
-reference: /src/site/codelabs/darrrt/
 title: "Avast, Ye Pirates: Write a Web App"
 description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg

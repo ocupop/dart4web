@@ -1,9 +1,6 @@
 ---
-reference: new page
-
 layout: guide
 title: Get Started
-description: "xxx"
 ---
 
 This is a quickstart guide to get you up and running so you
