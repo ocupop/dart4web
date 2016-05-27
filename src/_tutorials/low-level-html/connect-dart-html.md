@@ -8,7 +8,7 @@ nextpage:
   url: /tutorials/low-level-html/add-elements
   title: "Add Elements to the DOM"
 prevpage:
-  url: /tutorials/web-services/fetch-data
+  url: /tutorials/get-data/fetch-data
   title: "Fetch Data Dynamically"
 
 points:

@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/fetchdata/
-
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
 
