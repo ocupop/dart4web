@@ -10,4 +10,4 @@ For articles on other Dart topics, see the
 [Dart VM articles]({{site.dart_vm}}/articles/).
 
 See also: [Dart Tutorials](/resources/tutorials/)
-and [Effective Dart]({{site.dartlang}}/guides/effective-dart/).
+and [Effective Dart]({{site.dartlang}}/guides/language/effective-dart/).

@@ -134,7 +134,7 @@ to keep the code simpler.
 An element is removed from
 the DOM when it is removed from its parent's list of children.
 The
-<a href="https://api.dartlang.org/dart_core/List.html" target="_blank">List</a>
+<a href="{{site.dart_api}}/dart-core/List-class.html" target="_blank">List</a>
 class provides functions for finding an item in the list
 and removing it.
 But, in this case,

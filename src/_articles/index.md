@@ -5,7 +5,7 @@ title: "Articles"
 Read these articles for insight into programming Dart for the
 web.
 
-* [Using Dart with JSON Web Services](/articles/web-services/json-web-service)
+* [Using Dart with JSON Web Services](/articles/get-data/json-web-service)
 : Learn how to consume JSON-based web services with Dart.
 
 * [Embedding Dart in HTML](/articles/low-level-html/embedding-in-html)
@@ -20,4 +20,4 @@ For articles on other Dart topics, see the
 [Dart VM articles]({{site.dart_vm}}/articles/).
 
 See also: [Dart Tutorials](/resources/tutorials/)
-and [Effective Dart]({{site.dartlang}}/guides/effective-dart/).
+and [Effective Dart]({{site.dartlang}}/guides/language/effective-dart/).

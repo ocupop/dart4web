@@ -15,10 +15,13 @@ permalink: /:title
 # dartlang: "https://www.dartlang.org"
 # dart-vm:  "https://www.dartlang.org/dart-vm"
 dartlang: "http://localhost:4000"
-dart_vm:  "http://localhost:4000/dart-vm/"
+dart_vm:  "http://localhost:4000/dart-vm"
 #
 flutter:  "https://flutter.io"
 dartino:  "https://dartino.org"
+dart_api: "https://api.dartlang.org/stable"
+flutter_api: "http://docs.flutter.io"
+dartino_api: "https://dartino.github.io/api"
 
 collections:
   articles:

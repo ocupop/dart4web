@@ -25,7 +25,7 @@ Angular documentation
   Cheat Sheet</a>.
 
 The Dart language
-: <a href="{{site.dartlang}}/guides/language-tour">
+: <a href="{{site.dartlang}}/guides/langauge/language-tour">
   A Tour of the Dart Language</a> shows you how to use
   each major Dart feature, from variables and operators to
   classes and libraries.
@@ -38,32 +38,32 @@ shows you how to use the major features in Dart’s libraries.
 API documentation
 : Check out the reference docs for the APIs you've used:
 
-* [dart:async](https://api.dartlang.org/dart_async/) classes:
-  [Future](https://api.dartlang.org/dart_async/Future.html),
-  [Stream](https://api.dartlang.org/dart_async/Stream.html)
+* [dart:async]({{site.dart_api}}/dart-async/dart-async-library.html) classes:
+  [Future]({{site.dart_api}}/dart-async/Future-class.html),
+  [Stream]({{site.dart_api}}/dart-async/Stream-class.html)
 
-* [dart:core](https://api.dartlang.org/dart_core/) classes:
-  [List](https://api.dartlang.org/dart_core/List.html),
-  [String](https://api.dartlang.org/dart_core/String.html)
+* [dart:core]({{site.dart_api}}/dart-core/dart-core-library.html) classes:
+  [List]({{site.dart_api}}/dart-core/List-class.html),
+  [String]({{site.dart_api}}/dart-core/String-class.html)
 
-* [dart:html](https://api.dartlang.org/dart_html/) classes:
-  [Event](https://api.dartlang.org/dart_html/Event.html),
-  [HttpRequest](https://api.dartlang.org/dart_html/HttpRequest.html)
+* [dart:html]({{site.dart_api}}/dart-html/dart-html-library.html) classes:
+  [Event]({{site.dart_api}}/dart-html/Event-class.html),
+  [HttpRequest]({{site.dart_api}}/dart-html/HttpRequest-class.html)
 
-* Other APIs: [dart:convert](https://api.dartlang.org/dart_convert/),
-  [dart:math](https://api.dartlang.org/dart_math/),
-  [JSON](https://api.dartlang.org/dart_convert/),
-  [Random](https://api.dartlang.org/dart_math/Random.html)
+* Other APIs: [dart:convert]({{site.dart_api}}/dart-convert/dart-convert-library.html),
+  [dart:math]({{site.dart_api}}/dart-convert/dart-math-library.html),
+  [JSON]({{site.dart_api}}/dart-convert/JsonCodec-class.html),
+  [Random]({{site.dart_api}}/dart-math/Random-class.html)
 
 API documentation for libraries
-: <a href="https://api.dartlang.org/dart_core.html" target="_blank">dart:core</a>,
-<a href="https://api.dartlang.org/dart_math.html" target="_blank">dart:math</a>,
-<a href="https://api.dartlang.org/dart_html.html" target="_blank">dart:html</a>,
-<a href="https://api.dartlang.org/dart_async.html" target="_blank">dart:async</a>, and
-<a href="https://api.dartlang.org/dart_convert.html" target="_blank">dart:convert</a>
+: <a href="{{site.dart_api}}/dart-async/dart-core-library.html" target="_blank">dart:core</a>,
+<a href="{{site.dart_api}}/dart-async/dart-math-library.html" target="_blank">dart:math</a>,
+<a href="{{site.dart_api}}/dart-async/dart-html-library.html" target="_blank">dart:html</a>,
+<a href="{{site.dart_api}}/dart-async/dart-async-library.html" target="_blank">dart:async</a>, and
+<a href="{{site.dart_api}}/dart-convert/dart-convert-library.html" target="_blank">dart:convert</a>
 
 API documentation for the JSON constant
-: <a href="https://api.dartlang.org/dart:convert#id_JSON" target="_blank">JSON</a>
+: <a href="{{site.dart_api}}/dart-convert/JsonCodec-class.html" target="_blank">JSON</a>
 
 Cascading Style Sheets (CSS)
 : There are many resources on CSS, but you might want to look at
