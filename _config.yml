@@ -13,7 +13,7 @@ permalink: /:title
 # for now... (comment these out)
 # dart4web: "https://webdev.dartlang.org"
 # dartlang: "https://www.dartlang.org"
-# dart-vm:  "https://www.dartlang.org/dart-vm"
+# dart_vm:  "https://www.dartlang.org/dart-vm"
 dartlang: "http://localhost:4000"
 dart_vm:  "http://localhost:4000/dart-vm"
 #

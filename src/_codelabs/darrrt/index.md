@@ -1379,7 +1379,7 @@ The [server side code lab](https://dart-lang.github.io/server/codelab/)
 allows you create a pirate crew by storing pirate names to a RESTful
 Dart server.
 
-Also, see the [Write HTTP Clients & Servers]({{site.dart-vm}}/tutorials/httpserver)
+Also, see the [Write HTTP Clients & Servers]({{site.dart_vm}}/tutorials/httpserver)
 tutorial if you are interested in server-side programming.
 </div>
 

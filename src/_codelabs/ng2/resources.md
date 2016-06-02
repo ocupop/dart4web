@@ -25,13 +25,13 @@ Angular documentation
   Cheat Sheet</a>.
 
 The Dart language
-: <a href="{{site.dartlang}}/guides/langauge/language-tour">
+: <a href="{{site.dartlang}}/guides/language/language-tour">
   A Tour of the Dart Language</a> shows you how to use
   each major Dart feature, from variables and operators to
   classes and libraries.
 
 The Dart libraries
-: <a href="{{site.dartlang}}/guides/library-tour">
+: <a href="{{site.dartlang}}/guides/libraries/library-tour">
 A Tour of the Dart Libraries</a>
 shows you how to use the major features in Dart’s libraries.
 
@@ -51,14 +51,14 @@ API documentation
   [HttpRequest]({{site.dart_api}}/dart-html/HttpRequest-class.html)
 
 * Other APIs: [dart:convert]({{site.dart_api}}/dart-convert/dart-convert-library.html),
-  [dart:math]({{site.dart_api}}/dart-convert/dart-math-library.html),
+  [dart:math]({{site.dart_api}}/dart-math/dart-math-library.html),
   [JSON]({{site.dart_api}}/dart-convert/JsonCodec-class.html),
   [Random]({{site.dart_api}}/dart-math/Random-class.html)
 
 API documentation for libraries
-: <a href="{{site.dart_api}}/dart-async/dart-core-library.html" target="_blank">dart:core</a>,
-<a href="{{site.dart_api}}/dart-async/dart-math-library.html" target="_blank">dart:math</a>,
-<a href="{{site.dart_api}}/dart-async/dart-html-library.html" target="_blank">dart:html</a>,
+: <a href="{{site.dart_api}}/dart-core/dart-core-library.html" target="_blank">dart:core</a>,
+<a href="{{site.dart_api}}/dart-math/dart-math-library.html" target="_blank">dart:math</a>,
+<a href="{{site.dart_api}}/dart-html/dart-html-library.html" target="_blank">dart:html</a>,
 <a href="{{site.dart_api}}/dart-async/dart-async-library.html" target="_blank">dart:async</a>, and
 <a href="{{site.dart_api}}/dart-convert/dart-convert-library.html" target="_blank">dart:convert</a>
 

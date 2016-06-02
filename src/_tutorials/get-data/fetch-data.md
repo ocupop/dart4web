@@ -503,8 +503,8 @@ and your own code to handle the error.
 **Note:**
 The examples in this section use the `async` and `await` keywords.
 If you are not familiar with these keywords, see
-[Asynchrony support](/guides/language/language-tour#asynchrony)
-in the [language tour](/guides/language/language-tour).
+[Asynchrony support]({{site.dartlang}}/guides/language/language-tour#asynchrony)
+in the [language tour]({{site.dartlang}}/guides/language/language-tour).
 </aside>
 
 ## Using an HttpRequest object to load a file {#making-a-get-request}

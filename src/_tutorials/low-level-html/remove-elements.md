@@ -247,7 +247,7 @@ it returns no value and takes an Event object as a parameter.
 <ul>
   <li>
     You can find more information about the DOM and CSS in the
-    <a href="{{site.dartlang}}/guides/language-tour">language tour</a>,
+    <a href="{{site.dartlang}}/guides/language/language-tour">language tour</a>,
     which also provides thorough coverage of the Dart language.
   </li>
 </ul>
@@ -255,7 +255,7 @@ it returns no value and takes an Event object as a parameter.
 ## What next? {#what-next}
 
 * The next tutorial,
-  [Fetch Data Dynamically](fetch-data),
+  [Fetch Data Dynamically](/tutorials/get-data/fetch-data),
   shows you how to use code written and shared by others.
 
 * One of those packages is polymer.dart,
