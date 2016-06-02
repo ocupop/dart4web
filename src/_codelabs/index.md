@@ -1,9 +1,7 @@
 ---
 layout: default
-reference: new page
+title: "Code Labs"
 ---
-
-## Code Labs
 
 Choose from one or more of these step-by-step introductions to
 writing Dart code.

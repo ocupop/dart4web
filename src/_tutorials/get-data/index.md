@@ -12,7 +12,7 @@ client with IndexedDB.
 
 <div class="card-grid">
   <div class="card">
-    <h3><a name="/tutorials/web-services/fetch-data">Fetch Data Dynmically</a></h3>
+    <h3><a name="/tutorials/get-data/fetch-data">Fetch Data Dynmically</a></h3>
     <p>Load data from a static file or from a server.</p>
   </div>
 </div>

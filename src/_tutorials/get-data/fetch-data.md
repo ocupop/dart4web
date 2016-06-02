@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/fetchdata/
-
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
 
@@ -30,7 +28,7 @@ Data can be _serialized_ into a JSON string,
 which is then passed between a client and server,
 and revived as an object at its destination.
 This tutorial shows you how to use functions in the
-<a href="https://api.dartlang.org/dart_convert.html"
+<a href="{{site.dart_api}}/dart-convert/dart-convert-library.html"
    target="_blank">dart:convert</a>
 library to produce and consume JSON data.
 Because JSON data is typically loaded dynamically,
@@ -202,8 +200,8 @@ for working with JSON strings:
 
 | dart:convert function | Description |
 |---|---|
-| <a href="https://api.dartlang.org/dart_convert.html" target="_blank">JSON.decode()</a> | Builds Dart objects from a string containing JSON data. |
-| <a href="https://api.dartlang.org/dart_convert.html" target="_blank">JSON.encode()</a> |  Serializes a Dart object into a JSON string. |
+| <a href="{{site.dart_api}}/dart-convert/JsonCodec/decode.html" target="_blank">JSON.decode()</a> | Builds Dart objects from a string containing JSON data. |
+| <a href="{{site.dart_api}}/dart-convert/JsonCodec/encode.html" target="_blank">JSON.encode()</a> |  Serializes a Dart object into a JSON string. |
 {: .table}
 
 To use these functions,
@@ -397,9 +395,9 @@ formulating URIs and making HTTP requests:
 
 | Dart code | Library | Description |
 |---|---|
-| <a href="https://api.dartlang.org/dart_core/Uri.html" target="_blank">Uri</a> | (core library) | An object representing a URI. |
-| <a href="https://api.dartlang.org/dart_html/HttpRequest.html" target="_blank">HttpRequest</a> |  dart:html | Client-side HTTP request object. For use in web apps. |
-| <a href="https://api.dartlang.org/dart_io/HttpRequest.html" target="_blank">HttpRequest</a> |  dart:io | Server-side HTTP request object. Does not work in web apps. |
+| <a href="{{site.dart_api}}/dart-core/Uri-class.html" target="_blank">Uri</a> | (core library) | An object representing a URI. |
+| <a href="{{site.dart_api}}/dart-html/HttpRequest-class.html" target="_blank">HttpRequest</a> |  dart:html | Client-side HTTP request object. For use in web apps. |
+| <a href="{{site.dart_api}}/dart-io/HttpRequest-class.html" target="_blank">HttpRequest</a> |  dart:io | Server-side HTTP request object. Does not work in web apps. |
 {: .table}
 
 ## Using the getString() function to load a file {#using-getString-function}
@@ -496,7 +494,7 @@ A Future is a way to perform potentially time-consuming operations,
 such as HTTP requests, asynchronously.
 If you haven't encountered Futures yet,
 you can learn more about them in
-[Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures).
+[Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/language/futures).
 Until then, you can use the code above as an idiom
 and provide your own code for the body of the processString() function
 and your own code to handle the error.
@@ -505,8 +503,8 @@ and your own code to handle the error.
 **Note:**
 The examples in this section use the `async` and `await` keywords.
 If you are not familiar with these keywords, see
-[Asynchrony support](/guides/language-tour#asynchrony)
-in the [language tour](/guides/language-tour).
+[Asynchrony support]({{site.dartlang}}/guides/language/language-tour#asynchrony)
+in the [language tour]({{site.dartlang}}/guides/language/language-tour).
 </aside>
 
 ## Using an HttpRequest object to load a file {#making-a-get-request}
@@ -666,7 +664,7 @@ to create the String objects specified by the JSON string.
 ## Other resources
 
 Check out Chris Buckett's article,
-<a href="/articles/json-web-service/"
+<a href="/articles/get-data/json-web-service/"
    target="_blank">Using Dart with JSON Web Services</a>,
 for more information and an example with source code for both
 client and server programs.
@@ -674,6 +672,6 @@ client and server programs.
 ## What next?
 
 * If you skipped the
-  [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/futures)
+  [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/language/futures)
   tutorial, we highly recommend that you go back and learn about Futures
   before going any further.

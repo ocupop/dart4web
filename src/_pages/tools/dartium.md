@@ -1,11 +1,8 @@
 ---
-reference: /src/site/tools/dartium/
-
 layout: default
 title: "Dartium: Chromium with the Dart VM"
 permalink: /tools/dartium
 description: "Download and use Dartium, a build of Chromium with an embedded Dart VM."
-
 short-title: "Dartium"
 ---
 
@@ -110,7 +107,7 @@ are added for you in the generated code.
 </aside>
 
 For more information on linking to source code, see the article
-[Embedding Dart in HTML.](/articles/embedding-in-html/)
+[Embedding Dart in HTML.](/articles/low-level-html/embedding-in-html/)
 
 ## Advanced use cases
 

@@ -1,5 +1,4 @@
 ---
-reference: /tools
 layout: default
 title: Dart Tools for the Web
 permalink: /tools/

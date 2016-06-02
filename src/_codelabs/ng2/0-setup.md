@@ -22,7 +22,7 @@ and learn where to find the sample code.
 
 <div class="trydart-step-details" markdown="1">
 
-If you haven't already done so, get the [Dart SDK](/downloads/)
+If you haven't already done so, get the [Dart SDK]({{site.dart_vm}}/downloads/)
 and [Dartium](/tools/dartium/#getting-dartium).
 
 The Dart SDK download includes several Dart tools that you'll need.

@@ -8,7 +8,7 @@ nextpage:
   url: /tutorials/low-level-html/add-elements
   title: "Add Elements to the DOM"
 prevpage:
-  url: /tutorials/web-services/fetch-data
+  url: /tutorials/get-data/fetch-data
   title: "Fetch Data Dynamically"
 
 points:
@@ -296,13 +296,13 @@ Key classes include:
 
 | Dart class | Description |
 |---|---|
-| <a href="https://api.dartlang.org/dart_html/Node.html" target="_blank">Node</a> | Implements a DOM node. |
-| <a href="https://api.dartlang.org/dart_html/Element.html" target="_blank">Element</a> | A subclass of Node; implements a web page element. |
-| <a href="https://api.dartlang.org/dart_html/Document.html" target="_blank">Document</a> | Another subclass of Node; implements the document object. |
+| <a href="{{site.dart_api}}/dart-html/Node-class.html" target="_blank">Node</a> | Implements a DOM node. |
+| <a href="{{site.dart_api}}/dart-html/Element-class.html" target="_blank">Element</a> | A subclass of Node; implements a web page element. |
+| <a href="{{site.dart_api}}/dart-html/Document-class.html" target="_blank">Document</a> | Another subclass of Node; implements the document object. |
 {: .table}
 
 The Dart core library contains another useful class:
-<a href="https://api.dartlang.org/dart_core/List.html" target="_blank">List</a>,
+<a href="{{site.dart_api}}/dart-core/List-class.html" target="_blank">List</a>,
 a parameterized class that can specify the type of its members.
 An instance of Element keeps its list of child Elements
 in a List\<Element>.
@@ -561,7 +561,7 @@ for example, it sets the text color to Yellow.
 PENDING: Link to WebStorm docs? DartPad docs?
 {% endcomment %}
 
-* The <a href="{{site.dartlang}}/guides/language-tour">language tour</a>
+* The <a href="{{site.dartlang}}/guides/language/language-tour">language tour</a>
   provides thorough coverage of the Dart language.
 * <a href="{{site.dartlang}}/tools/">Dart Tools</a>
   lists IDEs and editors that have Dart plugins.

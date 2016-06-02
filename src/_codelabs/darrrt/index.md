@@ -1,6 +1,5 @@
 ---
 layout: codelab
-reference: /src/site/codelabs/darrrt/
 title: "Avast, Ye Pirates: Write a Web App"
 description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
@@ -1380,7 +1379,7 @@ The [server side code lab](https://dart-lang.github.io/server/codelab/)
 allows you create a pirate crew by storing pirate names to a RESTful
 Dart server.
 
-Also, see the [Write HTTP Clients & Servers]({{dart-vm}}/tutorials/httpserver)
+Also, see the [Write HTTP Clients & Servers]({{site.dart_vm}}/tutorials/httpserver)
 tutorial if you are interested in server-side programming.
 </div>
 
@@ -1405,7 +1404,7 @@ Here's where to go to learn more.
 
 #### The Dart language
 
-<a href="/language/language-tour">A Tour of the Dart Language</a>
+<a href="{{site.dartlang}}/guides/language/language-tour">A Tour of the Dart Language</a>
 shows you how to use each major Dart feature,
 from variables and operators to classes and libraries.
 This code lab introduced the following Dart language features,
@@ -1435,32 +1434,32 @@ all of which are covered in more detail in the language tour.
 
 #### The Dart libraries
 
-* <a href="/libraries/library-tour">A Tour of the Dart Libraries</a>
+* <a href="{{site.dartlang}}/guides/libraries/library-tour">A Tour of the Dart Libraries</a>
 shows you how to use the major features in Dart’s libraries.
 
 #### API documentation for classes
 
-* <a href="https://api.dartlang.org/dart_core/String.html" target="_blank">String</a>,
-<a href="https://api.dartlang.org/dart_core/List.html" target="_blank">List</a>,
-<a href="https://api.dartlang.org/dart_core/Map.html" target="_blank">Map</a>,
-<a href="https://api.dartlang.org/dart_math/Random.html" target="_blank">Random</a>,
-<a href="https://api.dartlang.org/dart_html/InputElement.html" target="_blank">InputElement</a>,
-<a href="https://api.dartlang.org/dart_html/ButtonElement.html" target="_blank">ButtonElement</a>,
-<a href="https://api.dartlang.org/dart_html/Event.html" target="_blank">Event</a>,
-<a href="https://api.dartlang.org/dart_async/Future.html" target="_blank">Future</a>, and
-<a href="https://api.dartlang.org/dart_async/Stream.html" target="_blank">Stream</a>
+* <a href="{{site.dart_api}}/dart-core/String-class.html" target="_blank">String</a>,
+<a href="{{site.dart_api}}/dart-core/List-class.html" target="_blank">List</a>,
+<a href="{{site.dart_api}}/dart-core/Map-class.html" target="_blank">Map</a>,
+<a href="{{site.dart_api}}/dart-math/Random-class.html" target="_blank">Random</a>,
+<a href="{{site.dart_api}}/dart-html/InputElement-class.html" target="_blank">InputElement</a>,
+<a href="{{site.dart_api}}/dart-html/ButtonElement-class.html" target="_blank">ButtonElement</a>,
+<a href="{{site.dart_api}}/dart-html/Event-class.html" target="_blank">Event</a>,
+<a href="{{site.dart_api}}/dart-async/Future-class.html" target="_blank">Future</a>, and
+<a href="{{site.dart_api}}/dart-async/Stream-class.html" target="_blank">Stream</a>
 
 #### API documentation for libraries
 
-* <a href="https://api.dartlang.org/dart_core.html" target="_blank">dart:core</a>,
-<a href="https://api.dartlang.org/dart_math.html" target="_blank">dart:math</a>,
-<a href="https://api.dartlang.org/dart_html.html" target="_blank">dart:html</a>,
-<a href="https://api.dartlang.org/dart_async.html" target="_blank">dart:async</a>, and
-<a href="https://api.dartlang.org/dart_convert.html" target="_blank">dart:convert</a>
+* <a href="{{site.dart_api}}/dart-core/dart-core-library.html" target="_blank">dart:core</a>,
+<a href="{{site.dart_api}}/dart-math/dart-math-library.html" target="_blank">dart:math</a>,
+<a href="{{site.dart_api}}/dart-html/dart-html-library.html" target="_blank">dart:html</a>,
+<a href="{{site.dart_api}}/dart-async/dart-async-library.html" target="_blank">dart:async</a>, and
+<a href="{{site.dart_api}}/dart-convert/dart-convert-library.html" target="_blank">dart:convert</a>
 
 #### API documentation for the JSON constant
 
-* <a href="https://api.dartlang.org/dart:convert#id_JSON" target="_blank">JSON</a>
+* <a href="{{site.dart_api}}/dart-convert/JSON-constant.html" target="_blank">JSON</a>
 </div>
 
 ### <i class="fa fa-anchor"> </i> Feedback

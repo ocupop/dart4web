@@ -1,5 +1,4 @@
 ---
-reference: "https://www.dartlang.org/tools/webstorm/"
 layout: default
 title: "WebStorm"
 description: "Try WebStorm for developing Dart web apps."

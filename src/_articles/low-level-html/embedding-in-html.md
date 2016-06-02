@@ -1,6 +1,4 @@
 ---
-reference: /src/site/articles/embedding-in-html/
-
 layout: article
 title: "Embedding Dart in HTML"
 description: "Find out how you can embed Dart into HTML pages."
@@ -153,11 +151,12 @@ In JavaScript, additional script tags are used to import third party libraries
 (e.g., jQuery).  In Dart, this is not necessary: import is part of the language.
 
 Web components and HTML imports are an important caveat to the one
-script per document rule.  For example, the [polymer.dart](/polymer/)
+script per document rule.
+For example, the [Polymer Dart](https://github.com/dart-lang/polymer-dart/wiki)
 framework uses HTML imports to allow developers to include HTML components into a
 Dart application.  Dart scripts in imported HTML documents are
-injected into the main application.  See the [polymer.dart
-documentation](/polymer/) for more details.
+injected into the main application.  See the [Polymer Dart
+documentation](https://github.com/dart-lang/polymer-dart/wiki) for more details.
 
 ### Execution timing
 

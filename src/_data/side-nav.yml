@@ -1,0 +1,30 @@
+- title: "Get Started"
+  permalink: /guides/get-started
+  children:
+  - title: "Write a Pirate App"
+    permalink: /codelabs/ng2/
+  - title: "Install Dart + Dartium"
+    permalink: http://localhost:4000/dart-vm/downloads/
+
+- title: "Web Programming"
+  permalink: /guides/web-programming
+  children:
+  - title: "Angular 2 for Dart"
+    permalink: https://angular.io/dart
+  - title: "Polymer Dart"
+    permalink: https://github.com/dart-lang/polymer-dart/wiki
+  - title: "JS Interop"
+    permalink: /guides/web-programming#js-interop
+  - title: "Low-Level HTML"
+    permalink: /guides/web-programming#low-level-html
+
+- title: "Getting Data"
+  permalink: /guides/get-data
+  children:
+  - title: "Fetch Data Dynamically"
+    permalink: /tutorials/get-data/fetch-data
+  - title: "JSON Web Services"
+    permalink: /articles/get-data/json-web-service
+
+- title: "Tools"
+  permalink: /tools/

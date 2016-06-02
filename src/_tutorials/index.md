@@ -19,7 +19,7 @@ Choose the tutorials that you need.
 
 ## Forms & Data
 
-* [Fetch Data Dynamically](/tutorials/web-services/fetch-data)
+* [Fetch Data Dynamically](/tutorials/get-data/fetch-data)
 
 ## Low-Level HTML
 

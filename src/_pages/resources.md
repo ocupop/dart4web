@@ -1,10 +1,8 @@
 ---
 layout: default
-reference: new page
 permalink: /resources
+title: "Resources"
 ---
-
-# Resources
 
 Check out the following resources:
 

@@ -111,9 +111,9 @@ Array type, which trips users up when methods they use on one aren't available
 on the other. For Dart, we've cleaned that up. Methods like
 `children`, `nodes`, and `querySelectorAll()` return
 _actual_
-Dart [lists](http://api.dartlang.org/docs/releases/latest/dart_core/List.html),
-[maps](http://api.dartlang.org/docs/releases/latest/dart_core/Map.html),
-and [sets](http://api.dartlang.org/docs/releases/latest/dart_core/Set.html).
+Dart [lists]({{site.dart_api}}/dart-core/List-class.html),
+[maps]({{site.dart_api}}/dart-core/Map-class.html),
+and [sets]({{site.dart_api}}/dart-core/Set-class.html).
 
 {% prettify dart %}
 // From dart:html
@@ -239,7 +239,8 @@ TableElement table = new Element.html(
     '<table><tr><td>Hello <em>Dart!</em></table>');
 {% endprettify %}<!--- END(element_table) -->
 
-Dart's [named constructors](/guides/language-tour#named-constructors)
+Dart's [named
+constructors]({{site.dartlang}}/guides/language/language-tour#named-constructors)
 make it easier to conjure up DOM objects in a
 variety of ways.
 
@@ -259,7 +260,7 @@ play nice with the type system.
 
 **We've simplified things.** We killed all of the `on___` properties
 on Element and then used the
-[Stream API](http://api.dartlang.org/docs/releases/latest/dart_async/Stream.html)
+[Stream API]({{site.dart_api}}/dart-async/Stream-class.html)
 for a unified event model. For each of the known
 event types, there is a property on that class: `onClick`,
 `onMouseDown`, etc. Each of those properties is a Stream object
@@ -306,7 +307,7 @@ void handleMouseDown(e) {
 
 On the off chance that you _do_ want to register a dynamically-named
 event, or work with events generically, we also put a subscript operator on
-[Events](http://api.dartlang.org/docs/releases/latest/dart_html/Events.html):
+[Events]({{site.dart_api}}/dart-html/Events-class.html):
 
 <div class="row">
   <div class="col-md-6">
@@ -622,7 +623,7 @@ var button = new ButtonElement()
 {: #know-more}
 
 Check out the
-[dart:html API docs](http://api.dartlang.org/docs/releases/latest/dart_html.html).
+[dart:html API docs]({{site.dart_api}}/dart-html/dart-html-library.html).
 
 Speaking of browser programming, you might be interested in
 [Angular 2 for Dart](https://angular.io/docs/dart/latest/quickstart.html)
