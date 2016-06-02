@@ -2,9 +2,9 @@
 layout: article
 title: "Improving the DOM"
 description: "Learn how Dart's HTML library improves the browser programming experience."
-date: 2011-10-01
+written: 2011-10-01
 updated: 2013-03-10
-collection: libraries-and-apis
+category: libraries-and-apis
 ---
 
 _Written by Bob Nystrom<br />
