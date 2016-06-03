@@ -6,7 +6,7 @@
   - title: "Install Dart + Dartium"
     permalink: http://localhost:4000/dart-vm/downloads/
 
-- title: "Web Programming"
+- title: "Libraries"
   permalink: /guides/web-programming
   children:
   - title: "Angular 2 for Dart"
@@ -18,13 +18,16 @@
   - title: "Low-Level HTML"
     permalink: /guides/web-programming#low-level-html
 
-- title: "Getting Data"
-  permalink: /guides/get-data
-  children:
-  - title: "Fetch Data Dynamically"
-    permalink: /tutorials/get-data/fetch-data
-  - title: "JSON Web Services"
-    permalink: /articles/get-data/json-web-service
-
 - title: "Tools"
   permalink: /tools/
+
+- title: "Tips & Techniques"
+  children:
+  - title: "Getting Data"
+    permalink: /guides/get-data
+    children:
+    - title: "Fetch Data Dynamically"
+      permalink: /tutorials/get-data/fetch-data
+    - title: "JSON Web Services"
+      permalink: /articles/get-data/json-web-service
+
