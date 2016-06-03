@@ -1,6 +1,8 @@
 //= require vendor/jquery-1.12.3.min
 //= require bootstrap
 //= require _utilities
+//= require _search
+//= require vendor/lunr.min.js
 //= require vendor/code-prettify/prettify
 //= require vendor/code-prettify/lang-dart
 //= require vendor/code-prettify/lang-yaml
@@ -9,13 +11,14 @@ function fixNav() {
   var t = $(document).scrollTop(),
       f = $("#page-footer").offset().top,
       h = window.innerHeight,
-      mh = f - t - 90;
+      whenAtBottom = f - t,
+      mh = Math.min(h, whenAtBottom) - 90;
   $("#sidenav, #toc").css({maxHeight: mh});
 }
 
 // Add scroll on page load for hash
 $(window).on('load', function (e){
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
   if (window.location.hash) {
     $('html, body').animate({ scrollTop: $(window.location.hash).offset().top-70 }, 500, function (){
       // Mark as active
@@ -88,16 +91,20 @@ $(document).on('ready', function(){
   // open - close mobile navigation
   $('#menu-toggle').on('click', function(e) {
     e.stopPropagation();
-    $("body").toggleClass('open-menu');
+    $("body").toggleClass('open_menu');
   });
 
   $("#page-content").on('click', function() {
-    if ($('body').hasClass('open-menu')) {
-      $('body').removeClass("open-menu");
+    if ($('body').hasClass('open_menu')) {
+      $('body').removeClass("open_menu");
     }
   });
 
   $(window).smartresize(fixNav());
+
+  // Add external link indicators
+  $('a[target="_blank"]').addClass('external');
+  $('a[href^="http"]').addClass('external');
 
 });
 
