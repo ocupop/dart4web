@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web Programming
+title: Libraries
 ---
 
 What kind of support is available for web programming in Dart?
