@@ -116,6 +116,7 @@ exclude: ['vendor', '.asset-cache']
 gems:
 - jekyll-assets
 - jekyll-toc
+- jekyll-sitemap
 
 assets:
   compress:

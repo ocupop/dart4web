@@ -13,6 +13,10 @@ $teal:                      #1FBAAC;
 $blue:                      #1b87c9;
 $blue-light:                #e2f4fd;
 
+// From: https://www.w3.org/TR/html5/rendering.html#phrasing-content-0
+$default-link:              #0000EE;
+$default-link-visited:      #0000EE; /*#551A8B;*/
+
 // Typeography
 $font-family-base:          'Source Sans Pro', sans-serif;
 $font-family-condensed:     'Trade Gothic W01', sans-serif;

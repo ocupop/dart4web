@@ -3,6 +3,7 @@
   // font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
   /* Put a border around prettyprinted code snippets. */
   // pre.prettyprint { padding: 2px; border: 1px solid #888 }
+  overflow: auto;
   a {
     text-decoration: none;
     background: rgba(255,255,255,0.8);
@@ -16,6 +17,13 @@
   &::-webkit-scrollbar-thumb {
     background: rgba(0,0,0,0.26);
   }
+}
+.prettify-filename {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  top: -40px;
+  color: $gray;
 }
 
 /* SPAN elements with the classes below are added by prettyprint. */
