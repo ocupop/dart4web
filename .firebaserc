@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "<< ENTER PROJECT ID >>"
+    "default": "webtools-dartlang-org.firebaseio.com"
   }
 }
