@@ -57,7 +57,7 @@ information on:
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub#global-options).
+[Global options]({{site.dartlang}}/tools/pub/cmd#global-options).
 
 <dl>
 <dt><code>&lt;directories&gt;</code></dt>

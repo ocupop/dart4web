@@ -38,15 +38,6 @@ For web apps,
 HTTP requests are served by the browser in which the app is running,
 and thus are subject to the browser's security restrictions.
 
-* [About JSON](#about-json)
-* [Serializing data into JSON](#serializing-data-into-json)
-* [Parsing JSON data](#parsing-json-data)
-* [About URIs and HTTP requests](#about-uris)
-* [Using the getString() function to load a file](#using-getString-function)
-* [Using an HttpRequest object to load a file](#making-a-get-request)
-* [Other resources](#other-resources)
-* [What next?](#what-next)
-
 ## About JSON
 
 The JSON data format is easy for humans
@@ -664,7 +655,7 @@ to create the String objects specified by the JSON string.
 ## Other resources
 
 Check out Chris Buckett's article,
-<a href="/articles/get-data/json-web-service/"
+<a href="/articles/get-data/json-web-service"
    target="_blank">Using Dart with JSON Web Services</a>,
 for more information and an example with source code for both
 client and server programs.

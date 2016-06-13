@@ -9,7 +9,7 @@ title: "Dart Tutorials: Low-Level HTML"
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="/tutorials/low-level-html/connect-dart-html)">Connect Dart & HTML</a></h3>
+    <h3><a href="/tutorials/low-level-html/connect-dart-html">Connect Dart & HTML</a></h3>
     <p>Include a Dart script in an HTML page.</p>
   </div>
   <div class="card">

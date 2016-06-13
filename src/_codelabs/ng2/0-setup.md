@@ -23,7 +23,7 @@ and learn where to find the sample code.
 <div class="trydart-step-details" markdown="1">
 
 If you haven't already done so, get the [Dart SDK]({{site.dart_vm}}/downloads/)
-and [Dartium](/tools/dartium/#getting-dartium).
+and [Dartium](/tools/dartium#getting-dartium).
 
 The Dart SDK download includes several Dart tools that you'll need.
 If you wish to run the Dart tools from the command line, add
@@ -44,7 +44,7 @@ which comes with a Dart plugin. You can also download
 If this is the first time you've used your IDE with Dart, you'll
 need to configure the plugin with the location of the Dart SDK and
 Dartium. See
-[Configuring Dart support](/tools/webstorm/#configuring-dart-support)
+[Configuring Dart support](/tools/webstorm#configuring-dart-support)
 for instructions on configuring WebStorm. The
 [Dart Tools](/tools/) page has links where you can find more information
 about other plugins.

@@ -28,7 +28,7 @@ and then tell it where to find the Dart SDK and
   to try out the latest Dart language features,
   [download WebStorm EAP](https://confluence.jetbrains.com/display/WI/WebStorm+EAP)
 * [Download the Dart SDK]({{site.dart_vm}}/downloads/)
-* [Download Dartium](/tools/dartium/) (optional)
+* [Download Dartium](/tools/dartium) (optional)
 
 
 ### Configuring Dart support

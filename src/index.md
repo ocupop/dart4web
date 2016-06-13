@@ -7,7 +7,7 @@ paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis d
 
 ## Get Dart
 
-First, [set up your machine](/guides/get-started/)
+First, [set up your machine](/guides/get-started)
 with the Dart SDK, Dartium, and your preferred IDE.
 Then, try out the [code lab](/codelabs/ng2/)
 to write your first web app using Dart and Angular.

@@ -20,10 +20,6 @@ points:
   - "Use querySelector() with an ID to get an element from the DOM."
   - "CSS selectors are patterns used to select matching elements in the DOM."
   - "Use CSS rules to style elements."
-
-has-permalinks: true
-tutorial:
-  id: connect-dart-html
 ---
 
 {% capture sample_links %}
@@ -62,20 +58,6 @@ app to an HTML page and
 one way that a Dart app can interact with items on the page.
 These concepts provide the foundation
 for more interesting and useful web apps.
-
-* [About the Dart, HTML, and CSS triumvirate](#source-files)
-* [About the DOM](#dom-intro)
-* [Create a new Dart app](#create-dart-app)
-* [Edit the HTML source code](#create-html)
-* [About the HTML source code](#about-html-code)
-* [Edit the Dart source code](#dart-editor-happiness)
-* [About the Dart source code](#about-dart-code)
-* [HTML and Dart connections](#summary)
-* [Give the app some style with CSS](#add-css)
-* [About CSS selectors](#about-css-selectors)
-* [Other resources](#other-resources)
-* [What next?](#what-next)
-
 
 ## About the Dart, HTML, and CSS triumvirate {#source-files}
 

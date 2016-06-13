@@ -46,7 +46,6 @@ Here is a minimal example, which works in all browsers (even if they don't
 {% endprettify %}
 
 ## Dart MIME type and the &lt;script&gt; tag
-{:#dart-mime-type}
 
 HTML `script` tags provide a
 `type` attribute to define the language of the script.
@@ -72,7 +71,6 @@ page. The dart2js compiler produces JavaScript that assumes it is
 the only Dart app on the page.
 
 ## Dart semantics in HTML
-{:#dart-html-semantics}
 
 The precise semantics of Dart execution on an HTML page are evolving
 and likely to change by the time Dart is natively supported in a
@@ -96,7 +94,6 @@ As such, we recommend the following:
 1. Do not rely upon script injection of Dart code.
 
 ## The dart.js script
-{:#dartjs-script}
 
 Use the dart.js script, part of the
 [browser package](https://pub.dartlang.org/packages/browser),

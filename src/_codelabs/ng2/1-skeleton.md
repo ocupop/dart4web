@@ -13,8 +13,6 @@ prevpage:
 
 header:
   css: ["/codelabs/ng2/darrrt.css"]
-
-toc: false
 ---
 
 In this step, you create an Angular app, look at its code,
@@ -46,7 +44,7 @@ or you can start from scratch.
 <div class="trydart-step-details" markdown="1">
 
 <ol>
-<li markdown="1">Launch WebStorm. <img src="images/WebStorm.png">
+<li markdown="1">Launch WebStorm. <img src="images/WebStorm.png" alt="WebStorm icon">
   <br><br>
   If this is the first time you are running WebStorm, or if
   you have no open projects from a previous session,
@@ -56,7 +54,7 @@ or you can start from scratch.
 <li markdown="1">If you haven't already,
 set the paths for Dartium and the SDK.
 You can find the instructions at
-[Configuring Dart Support](/tools/webstorm/#configuring-dart-support).
+[Configuring Dart Support](/tools/webstorm#configuring-dart-support).
 </li>
 
 <li markdown="1">Choose **Create New Project** from the welcome screen,
@@ -154,10 +152,10 @@ Dart's static analyzer over the code to look for errors and warnings.
 </li>
 
 <li markdown="1"> If the currently opened file passes analysis,
-  a green checkmark <img src="images/WebStorm-checkmark.png">
+  a green checkmark <img src="images/WebStorm-checkmark.png" alt="green checkmark">
   displays in the upper right corner of the editor view.
   If the code fails analysis, a yellow box
-  <img src="images/WebStorm-warning.png"> displays.
+  <img src="images/WebStorm-warning.png" "alt="yellow square"> displays.
   Hover over the tick marks (yellow for warnings or red for errors)
   along the right edge of the editor view for more information.<br>
 
