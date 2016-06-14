@@ -1,12 +1,12 @@
 - title: "Get Started"
   permalink: /guides/get-started
   children:
-  - title: "Write a Pirate App"
+  - title: "Write an Angular App"
     permalink: /codelabs/ng2/
   - title: "Install Dart + Dartium"
     permalink: http://localhost:4000/dart-vm/downloads/
 
-- title: "Libraries"
+- title: "Web Libraries"
   permalink: /guides/web-programming
   children:
   - title: "Angular 2 for Dart"
