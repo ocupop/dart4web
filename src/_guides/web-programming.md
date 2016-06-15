@@ -24,12 +24,14 @@ to implement Dart-JavaScript interoperability.
 The [chartjs](https://github.com/google/chartjs.dart/)
 example provides an end-to-end example of using package:js.
 
+<!--
 ## Polymer
 
 For information on Polymer, see the
 [Polymer Dart Developer Guide](https://github.com/dart-lang/polymer-dart/wiki).
 For information on using Polymer in the Angular framework, see
 [Dart Academy](https://dart.academy/).
+-->
 
 ## Low-Level HTML
 

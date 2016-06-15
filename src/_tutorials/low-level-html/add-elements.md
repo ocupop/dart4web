@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/add-elements/
-
 title: "Add Elements to the DOM"
 description: "You have an Element object, now what?"
 

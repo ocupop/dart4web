@@ -4,7 +4,7 @@ title: "Improving the DOM"
 description: "Learn how Dart's HTML library improves the browser programming experience."
 written: 2011-10-01
 updated: 2013-03-10
-category: libraries-and-apis
+category: low-level-html
 ---
 
 _Written by Bob Nystrom<br />

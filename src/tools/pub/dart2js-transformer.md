@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/dart2js-transformer.html
 layout: default
 title: "Configuring the Built-in dart2js Transformer for Pub"
 permalink: /tools/pub/dart2js-transformer

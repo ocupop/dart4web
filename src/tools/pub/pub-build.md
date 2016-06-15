@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/cmd/pub-build.html
 layout: default
 title: "pub build"
 permalink: /tools/pub/pub-build

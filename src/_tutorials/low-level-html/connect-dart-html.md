@@ -1,6 +1,4 @@
 ---
-reference: /Users/shaza/GoogleDrive/repos/active/www.dartlang.org/src/site/docs/tutorials/connect-dart-html/
-
 title: "Connect Dart &amp; HTML"
 description: "Shows basic scaffolding of a Dart web app"
 

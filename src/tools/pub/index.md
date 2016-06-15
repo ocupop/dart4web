@@ -1,5 +1,4 @@
 ---
-reference: new page
 layout: default
 title: Pub for the Web
 permalink: /tools/pub/

@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/remove-elements/
-
 title: "Remove DOM Elements"
 description: "Remove a child element from the DOM"
 

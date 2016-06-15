@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/cmd/pub-serve.html
 layout: default
 title: "pub serve"
 permalink: /tools/pub/pub-serve

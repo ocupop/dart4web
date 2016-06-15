@@ -4,7 +4,7 @@ title: "Embedding Dart in HTML"
 description: "Find out how you can embed Dart into HTML pages."
 written: 2011-10-01
 updated: 2014-12-01
-category: libraries-and-apis
+category: low-level-html
 ---
 
 <em>Written by Sigmund Cherem, Vijay Menon, and Seth Ladd <br>
