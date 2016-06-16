@@ -120,7 +120,7 @@ input, select {
   background-color: $gray-light;
   color: $gray-dark;
   &:focus, &:active {
-    outline-color: $blue;
+    outline-color: #fff;
   } 
 }
 
@@ -155,7 +155,7 @@ pre {
   }
 }
 code {
-  background-color: $gray-lighter;
+  background-color: transparent;
   padding: 0;
   color: darken($default-link, 20%);
 }
@@ -176,6 +176,7 @@ img {
   left: 0;
   right: 0;
   background-color: $gray-light;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
   z-index: 1030;
 }
 #page-content {
@@ -274,8 +275,8 @@ img {
         line-height: 70px;
         button {
           position: absolute;
-          top: 0;
-          right: 15px;
+          top: 1px;
+          right: 16px;
           line-height: 70px;
           height: 70px;
           padding: 0;
@@ -484,7 +485,8 @@ img {
   padding: $content-padding;
   border: 1px solid $gray;
   height: 100%;
-  min-height: 105px;
+  min-height: 130px;
+  margin-top: 15px;
 }
 
 #site-search-results {
@@ -530,10 +532,15 @@ img {
 /* -----------------------------------------
  Search
  ----------------------------------------- */
-#search {
+#q {
   position: relative;
   width: 225px;
   background-color: #ffffff;
+}
+
+input.gsc-search-button {
+  @extend .btn;
+  @extend .btn-primary;
 }
 
 #search-icon {
@@ -687,6 +694,25 @@ img {
  }
 }
 
+.good {
+  padding:10px;
+  margin-bottom: 11px;
+  @extend .alert-success;
+  pre {
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+}
+.bad {
+  padding:10px;
+  margin-bottom: 11px;
+  @extend .alert-danger;
+  pre {
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+}
+
 .muted {
   color: $gray;
 }
@@ -823,10 +849,21 @@ body.homepage {
   #page-content {
     padding: 0;
   }
+  #code-sample {
+    h3 { margin-top: 0; }
+  }
+  section {
+    padding: 30px 0;
+  }
   pre.prettyprint {
    margin-top: 0;
-   height: 185px;
+   height: 200px;
    overflow: auto;
+  }
+  .card-grid {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -891,6 +928,19 @@ body.condensed_header {
     top: 40px;
     position: fixed;
     left: 20px;
+  }
+}
+body.obsolete {
+  #page-header {
+    .alert {
+      position: relative;
+      top: 5px;
+      margin: 0;
+    }
+  }
+  #page-content {
+    margin-top: 120px;
+    border: 10px solid $alert-danger-bg;
   }
 }
 /* -----------------------------------------

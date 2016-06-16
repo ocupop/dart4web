@@ -8,7 +8,7 @@ $white:                     #ffffff;
 $gray:                      #D3D3D3;
 $gray-light:                #eeeeee;
 $gray-lighter:              #f0f0f0;
-$gray-dark:                 #434343;
+$gray-dark:                 #111111;
 $teal:                      #1FBAAC;
 $blue:                      #1b87c9;
 $blue-light:                #e2f4fd;
@@ -26,16 +26,16 @@ $font-family-serif:         'Trade Gothic W01', sans-serif;
 $font-family-monospace:     Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
 
 // Baseline
-// $font-size-base:          15px;
+$font-size-base:          16px;
 // $line-height-base:        1.428571429 !default;
 
 // Headings
-$font-size-h1:            44px;
-$font-size-h2:            37px;
-$font-size-h3:            30px;
+$font-size-h1:            37px;
+$font-size-h2:            28px;
+$font-size-h3:            24px;
 $font-size-h4:            21px;
-$font-size-h5:            16px;
-$font-size-h6:            14px;
+$font-size-h5:            18px;
+$font-size-h6:            16px;
 
 // Spacing
 $live-content-width:      1280px;
