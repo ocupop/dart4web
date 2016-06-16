@@ -107,7 +107,7 @@ are added for you in the generated code.
 </aside>
 
 For more information on linking to source code, see the article
-[Embedding Dart in HTML.](/articles/low-level-html/embedding-in-html/)
+[Embedding Dart in HTML.](/articles/low-level-html/embedding-in-html)
 
 ## Advanced use cases
 

@@ -14,7 +14,7 @@ DartPad allows you to try out Dart's language
 features and core APIs.
 
 You can't import packages into Dart, so once you are
-ready to go beyond DartPad, you must download the Dart SDK.
+ready to go beyond DartPad, you must install the Dart SDK.
 
 ## Install Dart SDK and Dartium
 
@@ -80,6 +80,6 @@ that you may encounter.
 ## Write a web app
 
 The [Avast Ye Pirates](/codelabs/ng2/) code lab walks you
-through a mission critical Angular Dart app for generating
+through an Angular Dart app that generates
 pirate name badges.
 

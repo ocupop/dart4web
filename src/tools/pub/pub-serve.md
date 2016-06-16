@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/cmd/pub-serve.html
 layout: default
 title: "pub serve"
 permalink: /tools/pub/pub-serve
@@ -57,7 +56,7 @@ information on:
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub#global-options).
+[Global options]({{site.dartlang}}/tools/pub/cmd#global-options).
 
 <dl>
 <dt><code>&lt;directories&gt;</code></dt>

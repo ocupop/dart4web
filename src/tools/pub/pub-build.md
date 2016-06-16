@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/cmd/pub-build.html
 layout: default
 title: "pub build"
 permalink: /tools/pub/pub-build
@@ -61,7 +60,7 @@ development server that continuously generates and serves assets.
 ## Options {#options}
 
 For options that apply to all pub commands, see
-[Global options](/tools/pub/#global-options).
+[Global options]({{site.dartlang}}/tools/pub/cmd#global-options).
 
 <dl>
 

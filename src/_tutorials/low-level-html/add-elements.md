@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/add-elements/
-
 title: "Add Elements to the DOM"
 description: "You have an Element object, now what?"
 
@@ -50,18 +48,6 @@ class, which is a subclass of Node.
 Because the nodes you care about most are usually elements,
 this tutorial focuses on Element,
 rather than on Node.
-
-* [Running the Todo app](#try-app)
-* [About parent and child Elements in Dart](#tree-structure)
-* [Setting up the page in HTML](#html-code)
-* [Getting an element from the DOM](#dart-code)
-* [Registering an event handler](#event-handler)
-* [About EventListener functions](#about-event-listeners)
-* [Adding an element to the DOM tree](#add-elem)
-* [Styling the page elements](#about-css)
-* [Moving elements within the DOM tree](#moving-elements)
-* [Other resources](#other-resources)
-* [What next?](#what-next)
 
 ## Running the Todo app {#try-app}
 

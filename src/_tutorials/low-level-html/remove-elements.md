@@ -1,6 +1,4 @@
 ---
-reference: /src/site/docs/tutorials/remove-elements/
-
 title: "Remove DOM Elements"
 description: "Remove a child element from the DOM"
 
@@ -27,14 +25,6 @@ A new and improved version of the todo app from
 [the previous tutorial](add-elements)
 now allows the user to delete items from the list
 either one at a time, or all at once.
-
-* [Try the app](#try-app)
-* [Changing the appearance when cursor is over an element](#css-hover)
-* [Removing an element from the DOM tree](#remove-elem)
-* [Removing all child elements from an element](#remove-all-elem)
-* [About function expressions and =>](#about-function-expressions)
-* [Other resources](#other-resources)
-* [What next?](#what-next)
 
 ## Try the app {#try-app}
 

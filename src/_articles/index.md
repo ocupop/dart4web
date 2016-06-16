@@ -1,23 +1,35 @@
 ---
+layout: default
 title: "Articles"
+toc: false
 ---
 
-Read these articles for insight into programming Dart for the
-web.
+<p class="lead">Read these articles for insight into programming Dart for the
+web.</p>
 
-* [Using Dart with JSON Web Services](/articles/get-data/json-web-service)
-: Learn how to consume JSON-based web services with Dart.
+<div class="break-80">
+  <h2>Get Data</h2>
+  {% assign articles = site.articles | filter: 'get-data' | order: 'date' | reverse %}
+  <ul class="nav-list">
+    {% for article in articles %}
+      <li>{% include article_summary.html %}</li>
+    {% endfor %}
+  </ul>
+</div>
 
-* [Embedding Dart in HTML](/articles/low-level-html/embedding-in-html)
-: Learn how to embed Dart into HTML pages.
-
-* [Improving the DOM](/articles/low-level-html/improving-the-dom)
-: Learn how Dart's HTML library improves the browser programming
-experience.
+<div class="break-80">
+  <h2>Low-Level HTML</h2>
+  {% assign articles = site.articles | filter: 'low-level-html' | order: 'date' | reverse %}
+  <ul class="nav-list">
+    {% for article in articles %}
+      <li>{% include article_summary.html %}</li>
+    {% endfor %}
+  </ul>
+</div>
 
 For articles on other Dart topics, see the
 [Dart language and library articles]({{site.dartlang}}/articles/) and
-[Dart VM articles]({{site.dart_vm}}/articles/).
+[Dart VM articles]({{site.dartlang}}/articles/dart-vm/).
 
-See also: [Dart Tutorials](/resources/tutorials/)
+See also: [Dart Tutorials](/tutorials/)
 and [Effective Dart]({{site.dartlang}}/guides/language/effective-dart/).

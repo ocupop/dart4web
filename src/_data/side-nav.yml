@@ -1,22 +1,31 @@
 - title: "Get Started"
   permalink: /guides/get-started
   children:
-  - title: "Write a Pirate App"
+  - title: "Write an Angular App"
     permalink: /codelabs/ng2/
   - title: "Install Dart + Dartium"
     permalink: http://localhost:4000/dart-vm/downloads/
 
-- title: "Libraries"
+- title: "Web Libraries"
   permalink: /guides/web-programming
   children:
   - title: "Angular 2 for Dart"
     permalink: https://angular.io/dart
-  - title: "Polymer Dart"
-    permalink: https://github.com/dart-lang/polymer-dart/wiki
   - title: "JS Interop"
     permalink: /guides/web-programming#js-interop
   - title: "Low-Level HTML"
     permalink: /guides/web-programming#low-level-html
+    children:
+    - title: "Connect Dart & HTML"
+      permalink: /tutorials/low-level-html/connect-dart-html
+    - title: "Add Elements to the DOM"
+      permalink: /tutorials/low-level-html/add-elements
+    - title: "Remove DOM Elements"
+      permalink: /tutorials/low-level-html/remove-elements
+    - title: "Embedding Dart in HTML"
+      permalink: /articles/low-level-html/embedding-in-html
+    - title: "Improving the DOM"
+      permalink: /articles/low-level-html/improving-the-dom
 
 - title: "Tools"
   permalink: /tools/

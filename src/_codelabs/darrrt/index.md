@@ -1343,8 +1343,8 @@ right corner.
 
 <div class="trydart-step-details" markdown="1">
 Once you are ready to use a real editor or IDE,
-like [WebStorm](/tools/webstorm/),
-read the [Get Started]({{site.dart_vm}}/tutorials/get-started) tutorial
+like [WebStorm](/tools/webstorm),
+read the [Get Started]({{site.dartlang}}/tutorials/dart-vm/get-started) tutorial
 for information on getting Dart, using the Dart tools,
 and the directory structure used by Dart apps.
 
@@ -1366,7 +1366,7 @@ pub build
 {% endprettify %}
 
 For more information, see
-[Get Started]({{site.dart_vm}}/tutorials/get-started) and
+[Get Started]({{site.dartlang}}/tutorials/dart-vm/get-started) and
 [pub build](/tools/pub/pub-build), one of the
 [pub](/tools/pub/) commands.
 </div>
@@ -1379,7 +1379,7 @@ The [server side code lab](https://dart-lang.github.io/server/codelab/)
 allows you create a pirate crew by storing pirate names to a RESTful
 Dart server.
 
-Also, see the [Write HTTP Clients & Servers]({{site.dart_vm}}/tutorials/httpserver)
+Also, see the [Write HTTP Clients & Servers]({{site.dartlang}}/tutorials/dart-vm/httpserver)
 tutorial if you are interested in server-side programming.
 </div>
 

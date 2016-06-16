@@ -11,7 +11,7 @@ experience.
 
 For articles on other Dart topics, see the
 [Dart language and library articles]({{site.dartlang}}/articles/) and
-[Dart VM articles]({{site.dart_vm}}/articles/).
+[Dart VM articles]({{site.dartlang}}/articles/dart-vm).
 
-See also: [Dart Tutorials](/resources/tutorials/)
+See also: [Dart Tutorials](/tutorials/)
 and [Effective Dart]({{site.dartlang}}/guides/language/effective-dart/).

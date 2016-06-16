@@ -1,5 +1,4 @@
 ---
-reference: /src/site/tools/pub/dart2js-transformer.html
 layout: default
 title: "Configuring the Built-in dart2js Transformer for Pub"
 permalink: /tools/pub/dart2js-transformer
@@ -42,7 +41,7 @@ transformers:
 ## Options {#options}
 
 The following options are available. For more information on how these options
-work, see the [documentation](/tools/dart2js/#options) for dart2js:
+work, see the [documentation](/tools/dart2js#options) for dart2js:
 
 {% prettify yaml %}
 transformers:

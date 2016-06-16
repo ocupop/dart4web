@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Libraries
+title: Web Libraries
 ---
 
 What kind of support is available for web programming in Dart?
@@ -12,7 +12,7 @@ Once you have worked through the
 [Angular code lab](/codelabs/ng2/),
 learn more from the
 [Angular for Dart](https://angular.io/docs/dart/latest/guide/) docs.
-If you are interested in using Polymer Elements in the Angular framework,
+If you are interested in using Polymer Elements from an Angular app,
 check out [Dart Academy](https://dart.academy/).
 
 ## JS Interop
@@ -24,12 +24,14 @@ to implement Dart-JavaScript interoperability.
 The [chartjs](https://github.com/google/chartjs.dart/)
 example provides an end-to-end example of using package:js.
 
+<!--
 ## Polymer
 
 For information on Polymer, see the
 [Polymer Dart Developer Guide](https://github.com/dart-lang/polymer-dart/wiki).
 For information on using Polymer in the Angular framework, see
 [Dart Academy](https://dart.academy/).
+-->
 
 ## Low-Level HTML
 
