@@ -45,7 +45,7 @@ Here is a minimal example, which works in all browsers (even if they don't
 </html>
 {% endprettify %}
 
-## Dart MIME type and the &lt;script&gt; tag
+## Dart MIME type and the script tag
 
 HTML `script` tags provide a
 `type` attribute to define the language of the script.
