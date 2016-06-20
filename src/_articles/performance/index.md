@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Articles: Get Data"
+title: "Articles: Performance"
 ---
 
 <div class="break-80">
-  <h2>Get Data</h2>
-  {% assign articles = site.articles | filter: 'get-data' | order: 'date' | reverse %}
+  <h2>Performance</h2>
+  {% assign articles = site.articles | filter: 'performance' | order: 'date' | reverse %}
   <ul class="nav-list">
     {% for article in articles %}
       <li>{% include article_summary.html %}</li>

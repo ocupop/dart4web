@@ -4,7 +4,7 @@
   - title: "Write an Angular App"
     permalink: /codelabs/ng2/
   - title: "Install Dart + Dartium"
-    permalink: http://localhost:4000/dart-vm/downloads/
+    permalink: http://localhost:4000/install/
 
 - title: "Web Libraries"
   permalink: /guides/web-programming

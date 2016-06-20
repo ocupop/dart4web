@@ -25,10 +25,10 @@ see [Dart Tools](/tools/).
 
 ## Getting Dartium
 
-If you use [Homebrew on the Mac]({{site.dart_vm}}/downloads/mac),
-you can include Dartium as part of the Dart SDK download.
+If you use [Homebrew on the Mac]({{site.dartlang}}/install/mac),
+you can include Dartium when you install the Dart SDK.
 
-Otherwise, you can download Dartium directly:
+Otherwise, you can install Dartium directly:
 
 * <a
     data-bits="32" data-os="windows" data-tool="dartium"
@@ -44,12 +44,12 @@ Otherwise, you can download Dartium directly:
     href="{{ site.custom.downloads.dartarchive-stable-url-prefix }}/latest/dartium/dartium-macos-ia32-release.zip">Dartium for Mac</a>
 
 For other versions of Dartium, including dev channel releases, see the
-[download index]({{site.dart_vm}}/downloads/archive/).
+[download index]({{site.dartlang}}/install/archive/).
 
 <aside class="alert alert-info" markdown="1">
 **Note:**
 The Dartium binary expires after 1 year. When that happens,
-you’ll need to download a new binary.
+you’ll need to install a new binary.
 </aside>
 
 ## Installing Dartium

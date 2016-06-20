@@ -23,7 +23,7 @@ We also recommend Dartium,
 a special build of Chromium with the Dart VM,
 which provides faster turnaround during the development cycle.
 
-[Install Dart and Dartium]({{site.dart_vm}}/downloads/)
+[Install Dart and Dartium]({{site.dartlang}}/install/)
 
 ## Set up Your IDE
 
@@ -32,7 +32,7 @@ which comes with Dart support. You can also use a plugin to
 add Dart support to other IDEs.
 (See [dartlang]({{site.dartlang}}/tools) for a list of other IDEs.)
 
-Click the WebStorm image to learn more about downloading and
+Click the WebStorm image to learn more about installing and
 configuring WebStorm with the paths to the Dart SDK and Dartium.
 
 <a href="/tools/webstorm">
@@ -42,7 +42,7 @@ configuring WebStorm with the paths to the Dart SDK and Dartium.
 
 ## Meet your tools
 
-When you download the Dart SDK, you get a number of tools
+When you install the Dart SDK, you get a number of tools
 that you will use directly or indirectly (through your IDE).
 
 This is just a brief introduction to the most common Dart tools

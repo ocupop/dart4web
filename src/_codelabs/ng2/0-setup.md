@@ -15,17 +15,17 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
-In this step, you download any software that you need,
+In this step, you install any software that you need,
 and learn where to find the sample code.
 
 ## <i class="fa fa-anchor"> </i> Get Dart and Dartium.
 
 <div class="trydart-step-details" markdown="1">
 
-If you haven't already done so, get the [Dart SDK]({{site.dart_vm}}/downloads/)
+If you haven't already done so, get the [Dart SDK]({{site.dartlang}}/install/)
 and [Dartium](/tools/dartium#getting-dartium).
 
-The Dart SDK download includes several Dart tools that you'll need.
+The Dart SDK installation includes several Dart tools that you'll need.
 If you wish to run the Dart tools from the command line, add
 `<path-to-the-SDK>/dart-sdk/bin` to your path.
 
@@ -38,7 +38,7 @@ You will need Dartium to test your app during development.
 
 If you don't have a favorite editor already, try
 [WebStorm](https://confluence.jetbrains.com/display/WI/Getting+started+with+Dart),
-which comes with a Dart plugin. You can also download
+which comes with a Dart plugin. You can also install
 [Dart plugins for other IDEs and editors](/tools/).
 
 If this is the first time you've used your IDE with Dart, you'll
