@@ -21,7 +21,7 @@ compiled to JavaScript or when run in the Dart VM.
 ## Quick start
 
 1. Compile your Dart app to JavaScript with
-   [dart2js](/tools/dart2js/).
+   [dart2js](/tools/dart2js).
    If your Dart file is `app.dart` then name your JavaScript version
    `app.dart.js`.
 1. Load your Dart app with a `<script type="application/dart">` tag
@@ -64,7 +64,7 @@ scripts.
 
 The Dart app must have a visible top-level function called `main()`.
 The browser invokes `main()` when the DOM content is loaded (but see
-caveat in the [next section](#dart-html-semantics)).
+caveat in the [next section](#dart-semantics-in-html)).
 
 You should use only one `<script type="application/dart">` inside the HTML
 page. The dart2js compiler produces JavaScript that assumes it is
