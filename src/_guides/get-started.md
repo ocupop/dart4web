@@ -4,7 +4,7 @@ title: Get Started
 ---
 
 This is a quickstart guide to get you up and running so you
-can write Dart web apps.
+can write web apps using Dart.
 
 ## Try it!
 
