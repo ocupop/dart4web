@@ -7,4 +7,4 @@ description: "Read about the Dart language and tools with this collection of gui
 Placeholder...
 (We don't actually link here.)
 
-* [Get Started](/guides/get-started)
+* [Quick Start](/guides/quick-start)
