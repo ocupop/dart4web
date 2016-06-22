@@ -4,8 +4,9 @@ title: "Articles"
 toc: false
 ---
 
-<p class="lead">Read these articles for insight into programming Dart for the
-web.</p>
+Read these articles for insight into programming Dart for the web.
+
+Also see: [Articles about the Dart language and libraries]({{site.dartlang}}/articles/)
 
 <div class="break-80">
   <h2>Get Data</h2>
@@ -37,9 +38,3 @@ web.</p>
   </ul>
 </div>
 
-For articles on other Dart topics, see the
-[Dart language and library articles]({{site.dartlang}}/articles/) and
-[Dart VM articles]({{site.dartlang}}/articles/dart-vm/).
-
-See also: [Dart Tutorials](/tutorials/)
-and [Effective Dart]({{site.dartlang}}/guides/language/effective-dart/).
