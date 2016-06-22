@@ -12,10 +12,48 @@ code {
 
 /* Make code-font links look like links. Should also change the hover color. */
 a code {
-    color: $default-link
+    color: $brand-primary
 }
 
-/* Make links in page footer white, not blue. */
-#page-footer h4 a {
-	color: #fff;
+
+#page-header {
+  background-color: $gray-base;
+}
+
+#mainnav {
+  color: $white-base;
+  ul {
+    li {
+      a {
+        color: $white-base;
+      }
+    }
+  }
+  .brand {
+    width: 180px;
+    line-height: 40px;
+  }
+}
+#sidenav {
+  .brand {
+    img {
+      width: 180px;
+    }
+  }
+}
+
+body.homepage {
+  p {
+    font-weight: 300;
+  }
+  pre {
+    &.prettyprint {
+      height: auto;
+    }
+  }
+  .btn {
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
 }

@@ -4,15 +4,8 @@
   <body class="homepage">
     {% include page-header.html %}
     <main id="page-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="content">
-              {{ content }}
-            </div>
-          </div>
-        </div>
-      </div>
+      {% include navigation-side.html %}
+      {{ content }}
     </main>
     {% include page-footer.html %}
   </body>

@@ -37,9 +37,9 @@ $(window).scroll(function(){
   fixNav();
   var currentScreenPosition = $(document).scrollTop();
   if(currentScreenPosition > 50) {
-    $('body').addClass('condensed_header');
+    $('body').addClass('fixed_nav');
   } else {
-    $('body').removeClass('condensed_header');
+    $('body').removeClass('fixed_nav');
   }
 });
 
@@ -52,13 +52,12 @@ $(document).on('ready', function(){
     $('#code-display p').text(text);
   });
   $('.highlight').mouseleave(function(){
-    $('#code-display p').text('Hover over code snippet on the left to learn more.');
+    $('#code-display p').text('(Hover over code snippet on the left to learn more.)');
   });
 
   // Sidenav
   $('#sidenav i').on('click', function(e) {
-    window.console.log("CLICKED");
-    e.preventDefault();
+    e.stopPropagation();
     $(this).parent('li').toggleClass('active');
   });
 
