@@ -1,8 +1,10 @@
 ---
-layout: default
-title: "Guides"
+layout: guide
+title: "webdev Guides"
 description: "Read about the Dart language and tools with this collection of guides."
 ---
 
+Placeholder...
+(We don't actually link here.)
+
 * [Get Started](/guides/get-started)
-* [Future Guides](/guides/future-guides)

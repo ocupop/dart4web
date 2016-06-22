@@ -1,6 +1,7 @@
 ---
 layout: guide
-title: Get Started
+title: "webdev QuickStart"
+description: "A guide to get you quickly writing web apps in Dart."
 ---
 
 This is a quickstart guide to get you up and running so you

@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Get Data
-permalink: /guides/get-data
----
+layout: guide
+title: "Get Data"
+--
 
 <div class="row">
   <div class="col-md-6">

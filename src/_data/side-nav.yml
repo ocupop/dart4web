@@ -1,14 +1,16 @@
 - title: "Get Started"
-  permalink: /guides/get-started
   children:
+  - title: webdev Quick Start
+    permalink: /guides/quick-start
   - title: "Write an Angular App"
     permalink: /codelabs/ng2/
   - title: "Install Dart + Dartium"
     permalink: http://localhost:4000/install/
 
 - title: "Web Libraries"
-  permalink: /guides/web-programming
   children:
+  - title: "Libraries Overview"
+    permalink: /guides/web-programming
   - title: "Angular 2 for Dart"
     permalink: https://angular.io/dart
   - title: "JS Interop"
@@ -28,7 +30,9 @@
       permalink: /articles/low-level-html/improving-the-dom
 
 - title: "Tools"
-  permalink: /tools/
+  children:
+  - title: "Tools Overview"
+    permalink: /tools/
 
 - title: "Tips & Techniques"
   children:
