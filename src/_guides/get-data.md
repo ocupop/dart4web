@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: "Get Data"
+toc: false
 ---
 
 <div class="row">
