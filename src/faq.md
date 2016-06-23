@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /faq
-title: "WebDev FAQ"
+title: "webdev FAQ"
 short-title: "FAQ"
 description: "FAQ and other tips for using Dart's Web."
 ---
