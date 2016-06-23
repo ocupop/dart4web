@@ -9,10 +9,10 @@ Where can you learn more?
 
 ## Angular
 
-Once you have worked through the
-[Angular code lab](/codelabs/ng2/),
-learn more from the
-[Angular for Dart](https://angular.io/docs/dart/latest/guide/) docs.
+Work through the
+[Angular 2 code lab](/codelabs/ng2/),
+and then learn more from the
+[Angular 2 for Dart](https://angular.io/dart) docs.
 
 ## JS interop
 
@@ -27,13 +27,19 @@ example provides an end-to-end example of using package:js.
 
 Web apps are programmed in HTML and represented in the browser as
 a tree structure called the DOM (Document Object Model).
-Dart apps can modify the DOM programmatically, thus dynamically
-changing the web page. For an introduction to programming in HTML,
+Modifying the DOM programmatically is how web apps
+dynamically change the web page.
+Dart web apps can use the dart:html library to modify the DOM.
+
+For an introduction to low-level DOM programming,
 check out the original
 [Pirate code lab](/codelabs/darrrt). The
 [tutorials](/tutorials/) have further information on
 how to include a Dart script in an HTML page,
 and how to add and remove elements from a web page.
+The article [Improving the DOM](/articles/low-level-html/improving-the-dom)
+gives an overview of Dart's DOM API,
+and how it differs from the JavaScript DOM API.
 
 ## Other libraries
 
