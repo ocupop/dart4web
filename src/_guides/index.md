@@ -1,10 +1,7 @@
 ---
 layout: guide
-title: "webdev Guides"
-description: "Read about the Dart language and tools with this collection of guides."
+title: "Guides"
+description: "Guides to web programming with Dart."
 ---
-
-Placeholder...
-(We don't actually link here.)
 
 * [Quick Start](/guides/quick-start)

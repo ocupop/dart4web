@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "webdev QuickStart"
+title: "Quick Start"
 description: "A guide to get you quickly writing web apps in Dart."
 ---
 
-This is a quickstart guide to get you up and running so you
+This guide aims get you up and running so you
 can write web apps using Dart.
 
 ## Try it!
@@ -17,7 +17,7 @@ features and core APIs.
 You can't import packages into Dart, so once you are
 ready to go beyond DartPad, you must install the Dart SDK.
 
-## Install Dart SDK and Dartium
+## Install the Dart SDK and Dartium
 
 To write a Dart app, you need to install the Dart SDK.
 We also recommend Dartium,
@@ -26,7 +26,7 @@ which provides faster turnaround during the development cycle.
 
 [Install Dart and Dartium]({{site.dartlang}}/install/)
 
-## Set up Your IDE
+## Set up your IDE
 
 If you don't already have a favorite IDE, we recommend WebStorm,
 which comes with Dart support. You can also use a plugin to
@@ -70,17 +70,17 @@ that you may encounter.
   editor view and selecting **Reformat with Dart Style**.
 
 * [dart2js](/tools/dart2js)
-: Dart's JavaScript compiler builds your app so that it
-  can be viewed in any browser.
-  You rarely use `dart2js` directly, as the `pub build` and
-  `pub serve` commands handle this for you. WebStorm provides
-  a direct link to the `Build...` command, or you can right-click
-  the `index.html` file and select **Open in Browser >**
-  to launch your app in the selected browser.
+: This compiler converts your app to JavaScript so that your app
+  can run in any modern browser.
+  Usually, instead of running `dart2js` directly,
+  you use an IDE or a command such as `pub build` or `pub serve`.
+  In WebStorm, you can launch your app in whichever browser you choose
+  by right-clicking `index.html` and selecting **Open in Browser >**.
+  To build a deployable version of your app from within WebStorm,
+  the `Build...` command.
 
 ## Write a web app
 
 The [Avast Ye Pirates](/codelabs/ng2/) code lab walks you
 through an Angular Dart app that generates
 pirate name badges.
-
