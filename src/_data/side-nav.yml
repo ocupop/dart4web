@@ -25,14 +25,6 @@
   children:
   - title: "Overview"
     permalink: /tutorials
-  - title: "Fetch Data Dynamically"
-    permalink: /tutorials/get-data/fetch-data
-  - title: "Connect Dart & HTML"
-    permalink: /tutorials/low-level-html/connect-dart-html
-  - title: "Add Elements to the DOM"
-    permalink: /tutorials/low-level-html/add-elements
-  - title: "Remove DOM Elements"
-    permalink: /tutorials/low-level-html/remove-elements
 
 - title: "Articles"
   children:
