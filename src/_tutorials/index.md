@@ -1,21 +1,25 @@
 ---
 layout: default
-title: "Dart Tutorials"
+title: "Overview: Web Tutorials"
 toc: false
 ---
 
-The Dart tutorials teach you how to build web applications
-using the Dart language, tools, and APIs.
+These tutorials cover topics relevant to Dart web applications.
 
-## Get Data
+
+## Get data
 
 * [Fetch Data Dynamically](/tutorials/get-data/fetch-data)
 
-## Low-Level HTML
+## Low-level HTML
 
 * [Connect Dart & HTML](/tutorials/low-level-html/connect-dart-html)
-
 * [Add Elements to the DOM](/tutorials/low-level-html/add-elements)
-
 * [Remove DOM Elements](/tutorials/low-level-html/remove-elements)
 
+## More tutorials
+
+The following pages link to other Dart-related tutorials:
+
+* [Dart Tutorials]({{site.dartlang}}/tutorials/)
+* [Dart Academy](https://dart.academy)
