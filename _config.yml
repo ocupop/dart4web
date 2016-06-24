@@ -1,7 +1,7 @@
 # Site settings
-title: Dart4Web.com
+title: Dart webdev
 description: ""
-url: https://stage.dart4web.com
+url: https://webdev.dartlang.org
 baseurl: ""
 port: 4001
 permalink: /:title
