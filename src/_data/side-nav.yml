@@ -19,12 +19,12 @@
 - title: "Tools"
   children:
   - title: "Dart Tools for the Web"
-    permalink: /tools/
+    permalink: /tools
 
 - title: "Tutorials"
   children:
   - title: "Overview"
-    permalink: /tutorials/
+    permalink: /tutorials
   - title: "Fetch Data Dynamically"
     permalink: /tutorials/get-data/fetch-data
   - title: "Connect Dart & HTML"
@@ -37,4 +37,4 @@
 - title: "Articles"
   children:
   - title: "Overview"
-    permalink: /articles/
+    permalink: /articles
