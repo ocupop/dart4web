@@ -1,6 +1,6 @@
 ---
 layout: codelab
-title: "Avast, Ye Pirates: Write a Web App"
+title: "Low-Level HTML Pirate Code Lab"
 description: "Take your first step to learning Dart fast."
 snippet_img: images/piratemap.jpg
 

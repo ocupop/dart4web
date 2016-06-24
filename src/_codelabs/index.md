@@ -16,6 +16,8 @@ you build a pirate badge generator that runs in any modern browser.
 : Learn Dart language and library features while you build
 a pirate badge generator using Dart's HTML support.
 
+## Other code labs
+
 [Beware the Nest o' Pirates: Write a Server App](https://dart-lang.github.io/server/codelab/)
 : Learn how to use the RPC package to write a RESTful server that you
 can message from the command line or from a client app.
