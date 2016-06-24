@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Configuring the Built-in dart2js Transformer for Pub"
+description: "How to configure the dart2js transformer in your pubspec file."
 permalink: /tools/pub/dart2js-transformer
 ---
 

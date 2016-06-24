@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Code Labs"
+description: "Code labs to help you quickly get started with web programming in Dart."
+toc: false
 ---
 
 Choose from one or more of these step-by-step introductions to

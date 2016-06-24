@@ -1,7 +1,9 @@
 ---
 layout: default
-permalink: /resources
 title: "Resources"
+description: "A list of resources available for web programming in Dart."
+permalink: /resources
+toc: false
 ---
 
 Check out the following resources:

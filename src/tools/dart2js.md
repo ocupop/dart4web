@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "dart2js: The Dart-to-JavaScript Compiler"
+description: "Dart's dart2js tool compiles Dart code to JavaScript."
 permalink: /tools/dart2js
 short-title: "dart2js"
 ---

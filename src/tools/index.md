@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Dart Tools for the Web
+description: "The tools that support web development using Dart."
 permalink: /tools/
 ---
 

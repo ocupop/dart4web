@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Articles: Get Data"
+description: "Articles that describe how to get data, such as JSON files."
+toc: false
 ---
 
 <div class="break-80">

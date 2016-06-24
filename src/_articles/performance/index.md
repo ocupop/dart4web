@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Articles: Performance"
+description: "Articles relating to performance aspects of web programming in Dart, such as the event loop."
+toc: false
 ---
 
 <div class="break-80">

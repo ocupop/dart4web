@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Dart Tutorials: Web Services"
+description: "Tutorials related to using web services."
+toc: false
 ---
 
 Various classes in the Dart libraries help you get, send, receive,

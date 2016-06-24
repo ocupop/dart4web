@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Dart Tutorials: Low-Level HTML"
+description: "Dart Tutorials related to low-level web programming using HTML."
+toc: false
 ---
 
 <p>

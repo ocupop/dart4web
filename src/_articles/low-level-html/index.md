@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Articles: Low-Level HTML"
+description: "Articles relating to web programming in Dart using low-level HTML."
+toc: false
 ---
 
 <div class="break-80">

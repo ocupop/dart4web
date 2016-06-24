@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Articles"
+description: "Articles relating to programming Dart for the web."
 toc: false
 ---
 
