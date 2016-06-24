@@ -4,9 +4,9 @@ title: Dart Tools for the Web
 permalink: /tools/
 ---
 
-The common Dart SDK tools are described on
-[dartlang.org]({{site.dartlang}}/tools).
 This page lists specialized tools for developing web apps.
+For information about general tools for Dart apps, see
+[Dart Tools]({{site.dartlang}}/tools).
 
 ---
 
