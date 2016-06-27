@@ -3,6 +3,7 @@ layout: codelab
 title: "Avast, Ye Pirates: Write a Web App"
 description: "Learn how to use Dart + Angular by creating a simple web app."
 toc: false
+permalink: /codelabs/ng2/
 snippet_img: images/piratemap.jpg
 
 nextpage:

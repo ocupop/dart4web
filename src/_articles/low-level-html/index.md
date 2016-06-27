@@ -2,6 +2,7 @@
 layout: default
 title: "Articles: Low-Level HTML"
 description: "Articles relating to web programming in Dart using low-level HTML."
+permalink: /articles/low-level-html/
 toc: false
 ---
 

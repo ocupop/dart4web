@@ -2,6 +2,7 @@
 layout: default
 title: "Code Labs"
 description: "Code labs to help you quickly get started with web programming in Dart."
+permalink: /codelabs/
 toc: false
 ---
 

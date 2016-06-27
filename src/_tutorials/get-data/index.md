@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "Dart Tutorials: Web Services"
-description: "Tutorials related to using web services."
+title: "Dart Tutorials: Get Data"
+description: "Tutorials related to getting data."
+permalink: /tutorials/get-data/
 toc: false
 ---
 
