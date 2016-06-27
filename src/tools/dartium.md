@@ -2,7 +2,7 @@
 layout: default
 title: "Dartium: Chromium with the Dart VM"
 permalink: /tools/dartium
-description: "Download and use Dartium, a build of Chromium with an embedded Dart VM."
+description: "Install and use Dartium, a build of Chromium with an embedded Dart VM."
 short-title: "Dartium"
 ---
 
@@ -44,7 +44,7 @@ Otherwise, you can install Dartium directly:
     href="{{ site.custom.downloads.dartarchive-stable-url-prefix }}/latest/dartium/dartium-macos-ia32-release.zip">Dartium for Mac</a>
 
 For other versions of Dartium, including dev channel releases, see the
-[download index]({{site.dartlang}}/install/archive/).
+[zip file index]({{site.dartlang}}/install/archive/).
 
 <aside class="alert alert-info" markdown="1">
 **Note:**

@@ -7,22 +7,11 @@ description: "A guide to get you quickly writing web apps in Dart."
 This guide aims get you up and running so you
 can write web apps using Dart.
 
-## Try it!
-
-Play with Dart in any modern browser using
-[DartPad]({{site.dartlang}}/tools/dartpad).
-DartPad allows you to try out Dart's language
-features and core APIs.
-
-You can't import packages into Dart, so once you are
-ready to go beyond DartPad, you must install the Dart SDK.
-
 ## Install the Dart SDK and Dartium
 
-To write a Dart app, you need to install the Dart SDK.
-We also recommend Dartium,
-a special build of Chromium with the Dart VM,
-which provides faster turnaround during the development cycle.
+To write a Dart app, you need to install the Dart SDK and Dartium,
+a special build of Chromium with the Dart VM.
+Dartium provides faster turnaround during the development cycle.
 
 [Install Dart and Dartium]({{site.dartlang}}/install/)
 
@@ -41,6 +30,7 @@ configuring WebStorm with the paths to the Dart SDK and Dartium.
 <b>WebStorm</b>
 </a>
 
+{% comment %}
 ## Meet your tools
 
 When you install the Dart SDK, you get a number of tools
@@ -78,9 +68,12 @@ that you may encounter.
   by right-clicking `index.html` and selecting **Open in Browser >**.
   To build a deployable version of your app from within WebStorm,
   the `Build...` command.
+{% endcomment %}
 
 ## Write a web app
 
-The [Avast Ye Pirates](/codelabs/ng2/) code lab walks you
-through an Angular Dart app that generates
-pirate name badges.
+Angular 2 is an application framework designed to make it easy to build
+web applications, even large-scale applications.
+
+Learn how to write a web app using Angular 2 for Dart in the
+[Avast Ye Pirates: Write an Angular App](/codelabs/ng2/) code lab.

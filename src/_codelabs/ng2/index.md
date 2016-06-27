@@ -1,6 +1,6 @@
 ---
 layout: codelab
-title: "Avast, Ye Pirates: Write a Web App"
+title: "Avast, Ye Pirates: Write an Angular App"
 description: "Learn how to use Dart + Angular by creating a simple web app."
 toc: false
 permalink: /codelabs/ng2/
