@@ -17,9 +17,8 @@ Dartium provides faster turnaround during the development cycle.
 
 ## Set up your IDE
 
-If you don't already have a favorite IDE, we recommend WebStorm,
-which comes with Dart support. You can also use a plugin to
-add Dart support to other IDEs.
+We recommend WebStorm, which comes with Dart support.
+You can also use a plugin to add Dart support to other IDEs.
 (See [dartlang]({{site.dartlang}}/tools) for a list of other IDEs.)
 
 Click the WebStorm image to learn more about installing and
