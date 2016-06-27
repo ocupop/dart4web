@@ -23,5 +23,7 @@ These tutorials cover topics relevant to Dart web applications.
 
 The following pages link to other Dart-related tutorials:
 
+* [Tour of Heroes](https://angular.io/docs/dart/latest/tutorial/) tutorial on
+  [angular.io](https://angular.io/dart/).
 * [Dart Tutorials]({{site.dartlang}}/tutorials/)
 * [Dart Academy](https://dart.academy)
