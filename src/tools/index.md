@@ -2,7 +2,7 @@
 layout: default
 title: Dart Tools for the Web
 description: "The tools that support web development using Dart."
-permalink: /tools
+permalink: /tools/
 ---
 
 This page lists specialized tools for developing web apps.

@@ -19,7 +19,7 @@
 - title: "Tools"
   children:
   - title: "Dart Tools for the Web"
-    permalink: /tools
+    permalink: /tools/
 
 - title: "Tutorials"
   children:
