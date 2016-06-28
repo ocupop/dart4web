@@ -24,9 +24,9 @@
 - title: "Tutorials"
   children:
   - title: "Overview"
-    permalink: /tutorials
+    permalink: /tutorials/
 
 - title: "Articles"
   children:
   - title: "Overview"
-    permalink: /articles
+    permalink: /articles/
