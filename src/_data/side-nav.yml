@@ -12,9 +12,9 @@
   - title: "Angular 2 for Dart"
     permalink: https://angular.io/dart
   - title: "JS Interop"
-    permalink: /guides/web-programming#js-interop
+    permalink: "/guides/web-programming#js-interop"
   - title: "Low-Level HTML"
-    permalink: /guides/web-programming#low-level-html
+    permalink: "/guides/web-programming#low-level-html"
 
 - title: "Tools"
   children:
