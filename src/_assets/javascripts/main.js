@@ -74,7 +74,10 @@ $(document).on('ready', function(){
     // do something…
   });
 
-  $('a[href^="#"]').on('click', function(e) {
+  $('a[href*="#"]').on('click', function(e) {
+    var h = $(this).attr('href'),
+        p = window.location.pathname;
+    if(h.includes(p)) {
       e.preventDefault();
       var target = $(this.hash);
       var hash = this.hash;
@@ -86,6 +89,7 @@ $(document).on('ready', function(){
       // Mark as active
       // $('a[href^="#"]').parent('li').removeClass('active');
       $(this).parent('li').addClass('active');
+    }
   });
 
 
