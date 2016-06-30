@@ -45,6 +45,7 @@ $(window).scroll(function(){
 
 
 $(document).on('ready', function(){
+  fixNav();
   // Initiate Syntax Highlighting
   prettyPrint();
 
