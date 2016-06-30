@@ -47,12 +47,26 @@ $(window).scroll(function(){
 $(document).on('ready', function(){
   // Initiate Syntax Highlighting
   prettyPrint();
-  $('.highlight').mouseenter(function(){
+
+  // Frontpage footnotes
+  function highlightFootnote() {
+    var footnote = $('#code-display');
+    footnote.removeClass('blink');
+    footnote.addClass('blink');
+    window.setTimeout(function() {
+      footnote.removeClass('blink');
+    }, 1000);
+  }
+
+  var footnotesParagraph = $('#code-display p');
+  var allFrontpageHighlights = $('.frontpage-highlight');
+
+  allFrontpageHighlights.click(function(){
     var text = $(this).data('text');
-    $('#code-display p').text(text);
-  });
-  $('.highlight').mouseleave(function(){
-    $('#code-display p').text('(Hover over code snippet on the left to learn more.)');
+    footnotesParagraph.text(text);
+    allFrontpageHighlights.removeClass('selected')
+    $(this).addClass('selected');
+    highlightFootnote();
   });
 
   // Sidenav
@@ -92,7 +106,6 @@ $(document).on('ready', function(){
     }
   });
 
-
   
   // Popovers
   $('[data-toggle="popover"], .dart-popover').popover()
@@ -112,8 +125,7 @@ $(document).on('ready', function(){
   $(window).smartresize(fixNav());
 
   // Add external link indicators
-  $('a[target="_blank"]').addClass('external');
-  $('a[href^="http"]').addClass('external');
+  $('a[href^="http"], a[target="_blank"]').not('.run-in-dartpad').addClass('external');
 
 });
 
