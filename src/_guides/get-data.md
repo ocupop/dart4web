@@ -5,18 +5,12 @@ description: "Tutorials pertaining to fetching data in Dart, such as using the J
 toc: false
 ---
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card">
-      <h3><a href="/tutorials/get-data/fetch-data">Fetch Data Dynamically</a></h3>
-      <p>Load data from a static file or from a server.</p>
-    </div>
-  </div>
+Web apps often have to load data.
+Here are some resources to help with that common task.
 
-  <div class="col-md-6">
-    <div class="card">
-      <h3><a href="/articles/get-data/json-web-service">Using Dart with JSON Web Services</a></h3>
-      <p>Learn how to consume JSON-based web services with Dart.</p>
-    </div>
-  </div>
-</div>
+[Fetch Data Dynamically](/tutorials/get-data/fetch-data)
+: A tutorial that teaches you how to load data from a static file or
+  from a server.
+
+[Using Dart with JSON Web Services](/articles/get-data/json-web-service)
+: An article about how to consume JSON-based web services with Dart.

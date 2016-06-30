@@ -102,7 +102,7 @@ You can change it to the 2-character indentation used in Dart code files:
 * The `<div class =...>` code defines areas of content that you can style.
   Later in this step, you add a style sheet (a CSS file) that defines how
   the badge should be displayed. This lab doesn't cover how to write CSS.
-  The [resources](resources.html) page has information on where you
+  The [resources](resources) page has information on where you
   can learn more about CSS styling.
 
 * You will add `badgeName` to the Dart code as an instance variable
