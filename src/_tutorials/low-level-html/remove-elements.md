@@ -5,12 +5,6 @@ description: "Remove a child element from the DOM"
 prevpage:
   url: /tutorials/low-level-html/add-elements
   title: "Add Elements to the DOM"
-
-points:
-  - "Use _element_.remove() to remove an element from the DOM."
-  - "Remove all children from an element with _element_.children.clear()."
-  - "Function expressions are a convenient way to define single-use functions."
-  - "=> is a shorthand syntax for defining functions that contain just one expression."
 ---
 
 {% comment %}
@@ -19,6 +13,17 @@ embedded DartPads.
 {% endcomment %}
 
 ### Dynamically delete items from the browser page.
+
+<div class="panel" markdown="1">
+
+#### <a id="whats-the-point" class="anchor" href="#whats-the-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's the point?
+
+* Use _element_.remove() to remove an element from the DOM.
+* Remove all children from an element with _element_.children.clear().
+* Function expressions are a convenient way to define single-use functions.
+* => is a shorthand syntax for defining functions that contain just one expression.
+
+</div>
 
 This tutorial shows you how to delete elements from the DOM.
 A new and improved version of the todo app from
@@ -244,12 +249,13 @@ it returns no value and takes an Event object as a parameter.
 
 ## What next? {#what-next}
 
-* The next tutorial,
-  [Fetch Data Dynamically](/tutorials/get-data/fetch-data),
-  shows you how to use code written and shared by others.
+Rather than implement your web app using low-level APIs, you can leverage
+existing toolkits.
 
-* One of those packages is polymer.dart,
-  which makes manipulating the DOM even easier
+* We recommend Angular 2, an application framework designed for building scalable
+  web apps. You can start by following the [Angular for Dart code lab](/codelabs/ng2/).
+
+* Another package is Polymer Dart, which makes manipulating the DOM easier
   with data binding, templates, and declarative event handlers.
   Check out the
   [Polymer Dart wiki](https://github.com/dart-lang/polymer-dart/wiki)

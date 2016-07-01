@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Overview: Web Tutorials"
+short-title: "Web Tutorials"
 description: "Tutorials for writing Dart web apps."
 permalink: /tutorials/
 toc: false

@@ -7,7 +7,7 @@ permalink: /tools/
 
 This page lists specialized tools for developing web apps.
 For information about general tools for Dart apps, see
-[Dart Tools]({{site.dartlang}}/tools).
+[Dart Tools.]({{site.dartlang}}/tools)
 
 ---
 
@@ -59,5 +59,5 @@ offer specialized support for web programming.
 ## Other tools {#other-tools}
 
 Many fine tools have been developed by the Dart community.
-This page highlights one of them. You can find other projects and tools on
+You can find other projects and tools on
 [GitHub](https://github.com/search?l=Dart&q=dart&type=Repositories).

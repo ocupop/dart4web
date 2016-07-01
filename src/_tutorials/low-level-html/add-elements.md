@@ -8,13 +8,6 @@ nextpage:
 prevpage:
   url: /tutorials/low-level-html/connect-dart-html
   title: "Connect Dart & HTML"
-
-points:
-  - "In Dart, page elements are of type Element."
-  - "An Element knows its parent."
-  - "An Element keeps its children in a List <Element>."
-  - "Change the DOM by adding or removing children of elements."
-  - "Respond to user input with an EventListener."
 ---
 
 {% comment %}
@@ -23,6 +16,18 @@ DartPads.
 {% endcomment %}
 
 ### Dynamically add items to the browser page.
+
+<div class="panel" markdown="1">
+
+#### <a id="whats-the-point" class="anchor" href="#whats-the-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's the point?
+
+* In Dart, page elements are of type Element.
+* An Element knows its parent.
+* An Element keeps its children in a List &lt;Element&gt;.
+* Change the DOM by adding or removing children of elements.
+* Respond to user input with an EventListener.
+
+</div>
 
 As you learned in the previous tutorial,
 the DOM represents the structure

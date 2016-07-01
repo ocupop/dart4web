@@ -5,12 +5,6 @@ description: "Use HttpRequest to fetch data from a file or a server."
 nextpage:
   url: /tutorials/low-level-html/connect-dart-html
   title: "Connect Dart & HTML"
-
-points:
-  - "Data on the web is often formatted in JSON."
-  - "JSON is text based and human readable."
-  - "The dart:convert library provides support for JSON."
-  - "Use HttpRequest to dynamically load data."
 ---
 
 {% comment %}
@@ -19,6 +13,17 @@ DartPads.
 {% endcomment %}
 
 ### Get data from a file or server.
+
+<div class="panel" markdown="1">
+
+#### <a id="whats-the-point" class="anchor" href="#whats-the-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's the point?
+
+* Data on the web is often formatted in JSON.
+* JSON is text based and human readable.
+* The dart:convert library provides support for JSON.
+* Use HttpRequest to dynamically load data.
+
+</div>
 
 Web applications often use
 [JSON](http://www.json.org/)
