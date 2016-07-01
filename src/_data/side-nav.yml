@@ -21,6 +21,11 @@
   - title: "Dart Tools for the Web"
     permalink: /tools/
 
+- title: "Community"
+  children:
+  - title: "Community and Support"
+    permalink: /community
+
 - title: "Tutorials"
   children:
   - title: "Overview"
