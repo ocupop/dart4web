@@ -5,7 +5,11 @@ title: "FAQ"
 description: "FAQ and other tips for using Dart for web development."
 ---
 
-## General questions
+This FAQ applies to web programming. For more general Dart questions,
+see the [FAQ]({{site.dartlang}}/faq), or the [Tools FAQ]({{site.dartlang}}/tools/faq),
+both on dartlang.
+
+## General
 
 #### Q. What browsers do you support as JavaScript compilation targets?
 
@@ -59,7 +63,7 @@ But otherwise, yes, you can build a Chrome App with Dart.
 
 ---
 
-## Questions about JavaScript and other web technologies
+## JavaScript and other web technologies
 
 #### Does Google want to replace JavaScript with Dart?
 
@@ -184,7 +188,7 @@ library.
 
 ---
 
-## Questions about JavaScript Compilation
+## JavaScript compilation
 
 #### Q. Will any valid Dart code compile to JavaScript, or are there limitations?
 
@@ -257,7 +261,7 @@ if either of those lists is used.
 
 ---
 
-## Historical questions
+## Historical
 
 #### Q. Why Dart?
 

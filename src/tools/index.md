@@ -54,10 +54,3 @@ offer specialized support for web programming.
 * [pub serve](pub/pub-serve)
 : Pub command for serving a web app
 
----
-
-## Other tools {#other-tools}
-
-Many fine tools have been developed by the Dart community.
-You can find other projects and tools on
-[GitHub](https://github.com/search?l=Dart&q=dart&type=Repositories).

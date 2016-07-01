@@ -35,8 +35,7 @@ You can start by following the Angular for Dart code lab:
 Try another code lab or tutorial, or read documentation to learn more about
 using Dart for web development.
 
-<!-- PENDING: add link to code samples, e.g. https://github.com/angular-examples,
-and community -->
+<!-- PENDING: add link to code samples, e.g. https://github.com/angular-examples -->
 
 Dart webdev tutorials and code labs:
 
@@ -53,3 +52,6 @@ Tools & library documentation:
 * [IDEs]({{site.dartlang}}/tools/#ides)
 * [angular.io/dart](https://angular.io/dart)
 * [Overview: Web Libraries](/guides/web-programming)
+
+There are a number of communities where you can ask, or answer, Dart
+related questions. For a list, see [Community and Support](/community)

@@ -21,12 +21,13 @@ and do not distribute Dartium to users!**
 </aside>
 
 To learn about other tools you can use for Dart development,
-see [Dart Tools](/tools/).
+see [Dart Tools for the web](/tools/).
 
 ## Getting Dartium
 
 If you use [Homebrew on the Mac]({{site.dartlang}}/install/mac),
-you can include Dartium when you install the Dart SDK.
+or [Chocolately on Windows]({{site.dartlang/install/windows),
+you can install Dartium that way.
 
 Otherwise, you can install Dartium directly:
 
@@ -63,7 +64,8 @@ type or browse to the location of the **Chromium** executable.
 
 <aside class="alert alert-info" markdown="1">
 **Note**: While this tool is _referred to_ as Dartium,
-the executable is named `Chromium`.
+on Mac and Linux the executable is named `Chromium`,
+and on Windows it's named `chrome.exe`.
 </aside>
 
 ## Launching Dartium

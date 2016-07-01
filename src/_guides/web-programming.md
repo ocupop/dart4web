@@ -47,3 +47,8 @@ and how it differs from the JavaScript DOM API.
 You're free to use whatever open-source libraries you like
 when creating web apps.
 For example, you can use [Polymer](/guides/polymer) elements.
+
+---
+
+Also see the [FAQ](/faq).
+

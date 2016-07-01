@@ -667,7 +667,5 @@ client and server programs.
 
 ## What next?
 
-* If you skipped the
+* If you haven't yet read
   [Asynchronous Programming: Futures]({{site.dartlang}}/tutorials/language/futures)
-  tutorial, we highly recommend that you go back and learn about Futures
-  before going any further.
