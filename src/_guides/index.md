@@ -12,7 +12,7 @@ TODO: Consider fleshing out this page or automating it.
 
 Guides on this site:
 
-* [Quick Start](quick-start)
+* [Get Started](get-started)
 * [Overview: Web Libraries](web-programming)
 * [Get Data](get-data)
 * [Polymer](polymer)
