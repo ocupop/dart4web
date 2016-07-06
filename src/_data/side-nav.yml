@@ -1,7 +1,7 @@
-- title: "Get Started"
+- title: "Quick Start"
   children:
-  - title: Quick Start
-    permalink: /guides/quick-start
+  - title: Get Started
+    permalink: /guides/get-started
   - title: "Write an Angular App"
     permalink: /codelabs/ng2/
 
@@ -11,10 +11,6 @@
     permalink: /guides/web-programming
   - title: "Angular 2 for Dart"
     permalink: https://angular.io/dart
-  - title: "JS Interop"
-    permalink: "/guides/web-programming#js-interop"
-  - title: "Low-Level HTML"
-    permalink: "/guides/web-programming#low-level-html"
 
 - title: "Tools"
   children:
