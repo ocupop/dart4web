@@ -31,7 +31,7 @@ for working from the command line.
 </aside>
 </div>
 
-## <i class="fa fa-anchor"> </i> Create a basic web app.
+## <i class="fa fa-anchor"> </i> Create a simple Angular app.
 
 WebStorm provides a set of templates
 for creating a variety of Dart apps.
@@ -88,6 +88,11 @@ The form should look similar to the following:
 <li markdown="1">Click **Create**.
 </li>
 </ol>
+
+WebStorm takes several seconds to analyze the sources and do other housekeeping.
+This only happens once. After that, you'll be able to do the usual things, like
+using **F1** to get help on any method, class or field, or **Command+B** to
+navigate to a method's declaration, or **Shift+F6** to refactor or rename.
 
 </div>
 
@@ -250,6 +255,9 @@ Double clicking a file opens that file in the editor view.
 <div class="trydart-step-details" markdown="1">
 Get familiar with the HTML and the Dart code for the skeleton
 version of the app.
+Double-click a filename in the project view to see its contents in the editor view.
+Double click the ellipsis (`...`) highlighted in green to see the hidden text.
+You should the following code (all copyright notices are omitted here):
 </div>
 
 <div class="trydart-step-details" markdown="1">
@@ -502,16 +510,19 @@ transformers:
 
 </div> </div>
 
-## <i class="fa fa-anchor"> </i> Run the app.
+## <i class="fa fa-anchor"> </i> Run the sample app.
 
 Run the app using Dartium.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
 <div class="trydart-step-details" markdown="1">
-In WebStorm's Project view,
-right-click `index.html` and select **Run 'index.html'** from the menu
-that pops up.
+In WebStorm,
+double-click the web/index.html file to open the file in the editor view.
+Hover your mouse pointer over the code to show the browser icons bar,
+and click the Dartium icon on the far right.
+
+<img src="images/dartium-icon.png" alt="the browser bar with the Dartium icon circled">
 
 WebStorm launches the app in a Dartium window.
 You should see something like the following:
