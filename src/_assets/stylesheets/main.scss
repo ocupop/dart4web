@@ -573,15 +573,27 @@ input.gsc-search-button {
   color: $blue;
   border-radius: 8px;
 }
-.run-in-dartpad {
+
+.codesample__open-in-dartpad {
   display: block;
-  position: relative;
-  width: 100%;
-  padding: 5px 10px 5px 40px;
-  top: -12px;
+  position: absolute;
+  width: auto;
+  z-index: 10;
+  padding: 5px 10px 5px 35px;
+  top: 35px;
+  right: 38px;
   background-color: $gray;
   color: $gray-base;
+
   font-weight: normal;
+  font-size: $font-size-base * 0.8;
+  @media (min-width: $screen-sm-min) {
+    font-size: $font-size-base * 0.7;
+  }
+  @media (min-width: $screen-md-min) {
+    font-size: $font-size-base * 0.8;
+  }
+
   &.top {
     top: 0;
   }
@@ -597,9 +609,9 @@ input.gsc-search-button {
     display: block;
     position: absolute;
     top: 5px;
-    left: 15px;
-    width: 20px;
-    height: 20px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
     background-image: url('{% asset_path "logo-no-wordmark.svg" %}');
     background-size: cover;
     background-position: center center;
@@ -609,18 +621,20 @@ input.gsc-search-button {
 
 // Columns
 .col2 {
- column-count: 2;
- column-gap: 0;
- li {
-   page-break-inside: avoid;
- }
+  list-style: none;
+  column-count: 2;
+  column-gap: 0;
+  li {
+    page-break-inside: avoid;
+  }
 }
 .col3 {
- column-count: 3;
- column-gap: 0;
- li {
+  list-style: none;
+  column-count: 3;
+  column-gap: 0;
+  li {
    page-break-inside: avoid;
- }
+  }
 }
 
 .break-50 {
@@ -820,6 +834,9 @@ input.gsc-search-button {
 .alert {
   padding: $content-padding;
   border: none;
+  pre, code {
+    background-color: transparent;
+  }
   p {
     margin-bottom: 0;
   }
@@ -893,19 +910,6 @@ body.homepage {
   }
   section {
     padding: 30px 0;
-
-    &.no-padding {
-      padding: 0;
-      h2 {
-        margin-top: 0;
-        margin-bottom: 1em;
-      }
-    }
-
-    .content {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
   }
   pre.prettyprint {
    margin-top: 0;
@@ -1058,7 +1062,7 @@ body.obsolete {
   .break-60,
   .break-70,
   .break-80,
-  .break-90 {
+  .break-90, {
     width: 100% !important;
   }
 }
