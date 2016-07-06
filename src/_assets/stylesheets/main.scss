@@ -874,6 +874,19 @@ body.homepage {
   }
   section {
     padding: 30px 0;
+
+    &.no-padding {
+      padding: 0;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 1em;
+      }
+    }
+
+    .content {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
   pre.prettyprint {
    margin-top: 0;
@@ -1026,7 +1039,7 @@ body.obsolete {
   .break-60,
   .break-70,
   .break-80,
-  .break-90, {
+  .break-90 {
     width: 100% !important;
   }
 }

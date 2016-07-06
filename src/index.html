@@ -12,71 +12,221 @@ description: "Dart is a modern language well suited to writing fast, scalable, w
     </div>
   </div>
 </section>
+
 <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="content">
-          <p class="text-center">{% img 'screenshot01.png' %}</p>
-          <h2>Used in Production At Google & Everywhere</h2>
-          <p>Google builds many critical web apps in Dart. The next generation of Google AdWords is built in it. Google Fiber's web app is built in it. Google's internal CRM is built in it.</p>
-          <p>Outside Google, amazing companies like Blossom, Workiva, and DGLogik have been building their products in Dart.</p>
-          <h2>Easy to learn</h2>
-          <div class="row">
-            <div class="col-sm-6">
-{% prettify dart %}
-var headline = querySelector('#headline');
-headline.scrollIntoView(ScrollAlignment.CENTER);
-headline.classes.add("highlighted");
-{% endprettify %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-lg-4">
+                <div class="content">
+                    <h1>Used in production at Google &amp; elsewhere</h1>
+                    <p>Google builds many critical web apps in Dart. The next generation of Google AdWords is built in it. Google Fiber's web app is built in it. Google's internal CRM is built in it.</p>
+                    <p>Outside Google, amazing companies like Blossom, Workiva, and DGLogik have been building their products in Dart.</p>
+                </div>
             </div>
-            <div class="col-sm-6">
-              <p>
-                With a consistent language, well-crafted standard libraries, and cleaner DOM, Dart is a good choice even for programmers with limited or no JavaScript experience. Things work the way C, C#, ActionScript, and Java developers have come to expect.
-              </p>
+            <div class="col-sm-7 col-lg-8">
+                <div class="content">
+                    <p class="text-center">{% img 'screenshot01.png' %}</p>
+                </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-6 col-sm-push-6">
+        </div>
+    </div>
+</section>
+
+<section class="no-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+            </div>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <h2>Easy to learn</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
 {% prettify dart %}
-for (int i = 100; i >= 0; i--) {
- countdown.text = "Time: $i";
- await window.animationFrame;
+import 'dart:html';
+
+main() async {
+  var countdown = querySelector("#countdown");
+  for (int i = 100; i >= 0; i--) {
+    countdown.text = "Time: $i";
+    await window.animationFrame;
+  }
 }
 {% endprettify %}
+                </div>
             </div>
-            <div class="col-sm-6 col-sm-pull-6">
-              <p>Dart has one way to manage dependencies, and one way to import them. Its standard libraries have many classes that would otherwise had to be provided by micro-libraries or built from scratch. This makes codebases consistent, with one preferred way to do most things.</p>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <p>
+                        With a consistent language, well-crafted standard libraries, and cleaner DOM, Dart is a good choice even for programmers with limited or no JavaScript experience. Things work the way C, C#, ActionScript, and Java developers have come to expect.
+                    </p>
+                    <p>
+                        Dart has one way to manage dependencies, and one way to import them. Its standard libraries have many classes that would otherwise had to be provided by micro-libraries or built from scratch. This makes codebases consistent, with one preferred way to do most things.
+                    </p>
+                    <p>
+                        Optimizing compilation, tree shaking, minification, and asset transformation are all baked into one build step, configured by one file.
+                    </p>
+                </div>
             </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-sm-6">
-{% prettify dart %}
-countdown.onDoubleClick.listen((ev) {
- ev.stopPropagation();
- restart(countdown);
-});
-{% endprettify %}
-            </div>
-            <div class="col-sm-6">
-              <p>Optimizing compilation, tree shaking, minification, and asset transformation are all baked into one build step, configured by one file.</p>
-            </div>
-          </div>
-          <h2>Stable</h2>
-          <p>Google and other companies have been using Dart for years now. Despite hundreds of commits to the SDK each month, the API stays stable.</p>
-          <p>And because there is a sane wrapper around the DOM and window APIs, you don't need to worry about browser support. Most of that volatility is taken care of for you.</p>
-          <p class="text-center">{% img 'screenshot02.png' %}</p>
-          <h2>Made for application programming</h2>
-          <p>Client-side development has challenges that are different from, say, backend development. Dart recognizes that. Client apps have a lot of asynchronicity, so Dart has `async/await`. Clients have many streams (of events), so Dart has a well crafted `Stream` class and generators. OOP is a great fit for UI development, and Dart is purely object-oriented.</p>
-          <h2>Batteries included</h2>
-          <p>Code completion, refactoring, step-by-step debugging, powerful static analysis, profiling, code coverage, a standard unit test library—all these are supported by the preferred IDE, IntelliJ WebStorm. Another IDE with great Dart support is the open-source Atom editor. Plugins also exist for Sublime Text 3, Emacs, and Vim.</p>
-          <p>The Dart language and tools help you find bugs early on, before they can become big problems.</p>
-          <h2>Sporting a solid web framework</h2>
-          <p>You can do Dart web development with whatever web framework (or lack of one) you choose. We recommend Angular 2 Dart, which Google uses in production.</p>
         </div>
-      </div>
     </div>
-  </div>
+</section>
+
+<!--<hr>-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+                    <h2>Stable</h2>
+                </div>
+
+            </div>
+            <div class="col-sm-5 col-lg-6">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+                    <p>
+                        Google and other companies have been using Dart for years now. Despite hundreds of commits to the SDK each month, the API stays stable.
+                    </p>
+                    <p>
+                        And because there is a sane wrapper around the DOM and window APIs, you don't need to worry about browser support. Most of that volatility is taken care of for you.
+                    </p>
+                </div>
+            </div>
+            <div class="huge-number col-sm-5 col-lg-6">
+                <div class="content">
+                    <p class="huge-number__number">516</p>
+                    <p>average number of commits to <a href="https://github.com/dart-lang">dart-lang GitHub repositories</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<hr>-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+
+            </div>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <h2>Made for application programming</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+{% prettify dart %}
+void highlight(ParagraphElement focus, Element container) {
+  var all = container.querySelectorAll("p");
+  all.forEach(
+      (paragraph) => paragraph.classes.remove("highlight"));
+  focus.classes.add("highlight");
+}
+{% endprettify %}
+                </div>
+            </div>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <p>
+                        Client-side development has challenges that are different from, say, backend development. Dart recognizes that. Client apps have a lot of asynchronicity, so Dart has <code>async/await</code>. Clients have many streams (of events), so Dart has a well crafted <code>Stream</code> class and generators. Object-oriented programming is a great fit for UI development, and Dart is purely object-oriented.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+                    <h2>Comes with batteries included</h2>
+                </div>
+
+            </div>
+            <div class="col-sm-5 col-lg-6">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+                    <p>
+                        Code completion, refactoring, step-by-step debugging, powerful static analysis, profiling, code coverage, a standard unit test library—all these are supported by the preferred IDE, IntelliJ WebStorm. Another IDE with great Dart support is the open-source Atom editor. Plugins also exist for Sublime Text 3, Emacs, and Vim.
+                    </p>
+                    <p>
+                        The Dart language and tools help you find bugs early on, before they can become big problems.
+                    </p>
+                </div>
+            </div>
+            <div class="huge-number col-sm-5 col-lg-6">
+                <div class="content">
+                    <p class="text-center">{% img 'screenshot02.png' %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+            </div>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <h2>Sports a solid web framework</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-lg-6">
+                <div class="content">
+{% prettify dart %}
+TODO: angular sample
+{% endprettify %}
+                </div>
+            </div>
+            <div class="col-sm-5 col-lg-6">
+                <div class="content">
+                    <p>You can do Dart web development with whatever web framework (or lack of one) you choose. We recommend Angular 2 Dart, which Google uses in production.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="get-started-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-lg-4">
+                <div class="content">
+
+                </div>
+            </div>
+            <div class="col-sm-7 col-lg-8">
+                <div class="content">
+                    <a href="/guides/quick-start" class="btn btn-default btn-lg">Get started</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
