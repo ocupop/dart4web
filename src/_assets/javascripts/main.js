@@ -109,7 +109,7 @@ $(document).on('ready', function(){
 
   
   // Popovers
-  $('[data-toggle="popover"], .dart-popover').popover()
+  $('[data-toggle="popover"], .dart-popover').popover();
 
   // open - close mobile navigation
   $('#menu-toggle').on('click', function(e) {
@@ -126,7 +126,7 @@ $(document).on('ready', function(){
   $(window).smartresize(fixNav());
 
   // Add external link indicators
-  $('a[href^="http"], a[target="_blank"]').not('.run-in-dartpad').addClass('external');
+  $('a[href^="http"], a[target="_blank"]').not('.codesample__open-in-dartpad').addClass('external');
 
 });
 
