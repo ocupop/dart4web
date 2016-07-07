@@ -55,7 +55,7 @@ body.homepage {
     border: none;
     border-radius: 4px;
     margin: 20px 0;
-    &:visited {
+    &.btn-primary:visited {
       color: white;
     }
   }
