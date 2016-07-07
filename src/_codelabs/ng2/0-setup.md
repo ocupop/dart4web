@@ -61,28 +61,28 @@ Alternate instructions are provided for some of the steps.
 ## <i class="fa fa-anchor"> </i> Learn where the one-hour-codelab sample lives.
 
 <div class="trydart-step-details" markdown="1">
-The [one-hour-codelab](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2)
+The [one-hour-codelab](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2)
 repo on GitHub contains several examples.
 Each example corresponds to a completed step in this code lab:
 
-[1-skeleton](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/1-skeleton)
+[1-skeleton](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/1-skeleton)
 : Displays some text&mdash;a basic Angular 2 app.
 
-[2-blankbadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/2-blankbadge)
+[2-blankbadge](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/2-blankbadge)
 : Displays a pirate name badge.
 
-[3-inputnamebadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/3-inputnamebadge)
+[3-inputnamebadge](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/3-inputnamebadge)
 : As you type into the input field,
   the text displays on the name badge.
 
-[4-buttonbadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/4-buttonbadge)
+[4-buttonbadge](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/4-buttonbadge)
 : An empty input field enables the button;
   clicking the button displays "Anne Bonney" on the name badge.
 
-[5-piratenameservice](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/5-piratenameservice)
+[5-piratenameservice](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/5-piratenameservice)
 : Clicking the button displays a pirate name chosen at random from a list.
 
-[6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/6-readjsonfile)
+[6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/6-readjsonfile)
 : Loads the pirate names from a JSON file on the web.
 
 <aside class="alert alert-success" markdown="1">

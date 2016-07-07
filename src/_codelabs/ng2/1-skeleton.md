@@ -114,7 +114,7 @@ mkdir pirate_badge
 
 </li>
 <li markdown="1">Copy the contents of the
-    [one-hour-code-lab/ng2/1-skeleton](https://github.com/dart-lang/one-hour-codelab/archive/ng2.zip)
+    [one-hour-code-lab/ng2/1-skeleton](https://github.com/dart-lang/one-hour-codelab/archive/master.zip)
     directory into your new project's directory.
     Or, better yet, use `stagehand` to get the starting files:
 
@@ -625,9 +625,9 @@ In Dartium or Chrome, bring up the console using
 
 Finally, if you still haven't found the problem
 check your code against the files in
-[1-skeleton](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/1-skeleton).
+[1-skeleton](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/1-skeleton).
 
-* [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/lib/app_component.dart)
-* [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/lib/app_component.html)
-* [web/main.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/web/main.dart)
-* [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/1-skeleton/web/index.html)
+* [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/lib/app_component.dart)
+* [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/lib/app_component.html)
+* [web/main.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/web/main.dart)
+* [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/web/index.html)

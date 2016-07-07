@@ -147,7 +147,7 @@ but we've provided one for you to copy and paste into your project.
     and click **OK**.
 </li>
 <li markdown="1">Paste the contents from
-    [badge_component.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.css)
+    [badge_component.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/lib/badge_component.css)
     into the newly created file.
 </li>
 </ol>
@@ -537,12 +537,12 @@ In Dartium or Chrome, bring up the console using
 
 Finally, if you still haven't found the problem
 check your code against the files in
-[2-blankbadge](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/2-blankbadge).
+[2-blankbadge](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/2-blankbadge).
 
-* [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/app_component.dart)
-* [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/app_component.html)
-* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.dart)
-* [lib/badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/lib/badge_component.html)
-* [lib/badge_component.css](https://github.com/dart-lang/one-hour-codelab/blob/ng2/ng2/2-blankbadge/lib/badge_component.css)
-* [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/web/index.html)
-* [web/styles.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/2-blankbadge/web/styles.css)
+* [lib/app_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/lib/app_component.dart)
+* [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/lib/app_component.html)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/lib/badge_component.dart)
+* [lib/badge_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/lib/badge_component.html)
+* [lib/badge_component.css](https://github.com/dart-lang/one-hour-codelab/blob/master/ng2/2-blankbadge/lib/badge_component.css)
+* [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/web/index.html)
+* [web/styles.css](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/2-blankbadge/web/styles.css)

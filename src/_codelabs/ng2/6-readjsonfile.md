@@ -323,7 +323,7 @@ In Dartium or Chrome, bring up the console using
 
 Finally, if you still haven't found the problem
 check your code against the files in
-[6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/ng2/ng2/6-readjsonfile).
+[6-readjsonfile](https://github.com/dart-lang/one-hour-codelab/tree/master/ng2/6-readjsonfile).
 
-* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/badge_component.dart)
-* [lib/name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/ng2/ng2/6-readjsonfile/lib/name_service.dart)
+* [lib/badge_component.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/6-readjsonfile/lib/badge_component.dart)
+* [lib/name_service.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/6-readjsonfile/lib/name_service.dart)
