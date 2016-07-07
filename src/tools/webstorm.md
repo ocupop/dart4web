@@ -41,10 +41,9 @@ Here's one way to configure Dart support in WebStorm:
   </p>
 
   <ol type="a">
-    <li> From the Welcome screen, click <b>Create New Project</b>. </li>
+    <li> From the Welcome screen, click <b>Create New Project</b>.</li>
     <li> In the next dialog, click <b>Dart</b>.</li>
   </ol>
-  </li>
 </li>
 <br>
 
