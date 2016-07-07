@@ -920,6 +920,18 @@ body.homepage {
     }
   }
 
+  .row.quotes {
+    $quote-indent: 10px;
+
+    p {
+      padding-left: $quote-indent;
+    }
+
+    .lead {
+      text-indent: -$quote-indent;
+    }
+  }
+
   pre.prettyprint {
    margin-top: 0;
    height: 200px;
