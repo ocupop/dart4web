@@ -1,6 +1,6 @@
 ---
 layout: codelab
-title: "Step 2: Add a Pirate Badge Component"
+title: "Step 2: Add a Badge Component"
 description: "Extend the basic Angular app with a custom component.."
 snippet_img: images/piratemap.jpg
 
@@ -16,7 +16,7 @@ header:
 ---
 
 In this step, you extend the basic Angular app
-with a pirate badge component, which encapsulates
+with a badge component, which encapsulates
 the behavior and appearance of the pirate badge.
 
 This is the hardest step in this code lab.
@@ -128,7 +128,7 @@ You can change it to the 2-character indentation used in Dart code files:
 
 </div></div>
 
-## <i class="fa fa-anchor"> </i> Create a style sheet for the pirate badge component.
+## <i class="fa fa-anchor"> </i> Create a style sheet for the badge component.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 
@@ -229,7 +229,7 @@ Import Angular's core library.
 <div class="trydart-step-details" markdown="1">
 Create a BadgeComponent class annotated with
 `@Component`. The class contains a name badge
-instance variable&mdash;replace "Shams" with your name.
+instance variable&mdash;replace "Sundar" with your name.
 </div>
 
 <div class="trydart-step-details" markdown="1">
@@ -241,7 +241,7 @@ import 'package:angular2/core.dart';
     [[highlight]]templateUrl: 'badge_component.html',[[/highlight]]
     [[highlight]]styleUrls: const ['badge_component.css'])[[/highlight]]
 [[highlight]]class BadgeComponent {[[/highlight]]
-  [[highlight]]String badgeName = 'Shams';[[/highlight]]
+  [[highlight]]String badgeName = 'Sundar';[[/highlight]]
 [[highlight]]}[[/highlight]]
 {% endprettify %}
 </div>
@@ -519,7 +519,7 @@ Add a reference to the style sheet.
 <div class="trydart-step-details" markdown="1">
 Click {% img 'green-run.png' %} to run the app.
 You should see a name badge with your name,
-or "Shams" if you didn't change the name.
+or "Sundar" if you didn't change the name.
 Assuming your machine has the fonts specified in the CSS file,
 the badge should look similar to the following:
 

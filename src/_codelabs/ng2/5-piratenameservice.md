@@ -21,7 +21,7 @@ In this step, you learn about Angular's support for
 [dependency injection](https://angular.io/docs/dart/latest/guide/dependency-injection.html)
 as you add a service that returns a pirate name.
 
-## <i class="fa fa-anchor"> </i> Create a class for the pirate name service.
+## <i class="fa fa-anchor"> </i> Create a class for the name service.
 
 <div class="row"> <div class="col-md-7" markdown="1">
 

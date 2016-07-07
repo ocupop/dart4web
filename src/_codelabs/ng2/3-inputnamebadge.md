@@ -102,7 +102,7 @@ class BadgeComponent {
 
 <i class="fa fa-key key-header"> </i> <strong> Key information </strong>
 
-* When an input event occurs on pirate badge component,
+* When an input event occurs on the badge component,
   Angular calls `updateBadge()` with the value entered by the user.
 
 </div> </div>
