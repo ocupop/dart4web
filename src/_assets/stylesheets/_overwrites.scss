@@ -55,6 +55,9 @@ body.homepage {
     border: none;
     border-radius: 4px;
     margin: 20px 0;
+    &:visited {
+      color: white;
+    }
   }
 
   .huge-number {
