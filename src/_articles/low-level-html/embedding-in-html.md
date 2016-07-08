@@ -12,12 +12,12 @@ obsolete: true
 October 2011
 (updated December 2014)</em>
 
-<aside class="alert alert-info" markdown="1">
+<aside class="alert alert-warning" markdown="1">
 **Note:**
 This article doesn't reflect more recent recommendations such as building
 to JavaScript using the [pub]({{site.dartlang}}/tools/pub/) tool
 (specifically, the [pub build](/tools/pub-build) command).
-Also, the recommended `&lt;script ...&gt;` tags are out of date.
+Also, the recommended `<script ...>` tags are out of date.
 See the [Stagehand](https://github.com/google/stagehand)
 templates for our current recommendations.
 </aside>
