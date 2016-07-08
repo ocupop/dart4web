@@ -160,7 +160,7 @@ Dart's static analyzer over the code to look for errors and warnings.
   a green checkmark <img src="images/WebStorm-checkmark.png" alt="green checkmark">
   displays in the upper right corner of the editor view.
   If the code fails analysis, a yellow box
-  <img src="images/WebStorm-warning.png" "alt="yellow square"> displays.
+  <img src="images/WebStorm-warning.png" alt="yellow square"> displays.
   Hover over the tick marks (yellow for warnings or red for errors)
   along the right edge of the editor view for more information.<br>
 
