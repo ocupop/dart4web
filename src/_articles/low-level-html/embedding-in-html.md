@@ -5,11 +5,22 @@ description: "Find out how you can embed Dart into HTML pages."
 written: 2011-10-01
 updated: 2014-12-01
 category: low-level-html
+obsolete: true
 ---
 
 <em>Written by Sigmund Cherem, Vijay Menon, and Seth Ladd <br>
 October 2011
 (updated December 2014)</em>
+
+<aside class="alert alert-info" markdown="1">
+**Note:**
+This article doesn't reflect more recent recommendations such as building
+to JavaScript using the [pub]({{site.dartlang}}/tools/pub/) tool
+(specifically, the [pub build](/tools/pub-build) command).
+Also, the recommended `&lt;script ...&gt;` tags are out of date.
+See the [Stagehand](https://github.com/google/stagehand)
+templates for our current recommendations.
+</aside>
 
 Dart apps compile to JavaScript to run across modern desktop and mobile
 browsers. Dart apps can also run inside a Dart virtual machine (VM), which can be

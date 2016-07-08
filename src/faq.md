@@ -15,10 +15,10 @@ both on dartlang.
 
 We support the following browsers:
 
-  * Internet Explorer, versions 10 and 11.
+  * Internet Explorer, versions 10 and 11
     * Dart v1.5 was the last release to support Internet Explorer 9.
-  * Firefox, latest version.
-  * Chrome, latest version.
+  * Firefox, latest version
+  * Chrome, latest version
   * Safari for desktop, latest version
   * Safari for mobile, latest version
 

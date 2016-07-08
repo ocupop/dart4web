@@ -7,7 +7,7 @@ permalink: /tools/
 
 This page lists specialized tools for developing web apps.
 For information about general tools for Dart apps, see
-[Dart Tools.]({{site.dartlang}}/tools)
+[dartlang.]({{site.dartlang}}/tools)
 
 ---
 

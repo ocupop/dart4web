@@ -6,7 +6,8 @@ permalink: /tools/pub/
 ---
 
 You can use the [pub]({{site.dartlang}}/tools/pub/)
-tool to manage Dart packages and assets.
+tool to manage Dart packages and assets. For more information, see
+[Assets and Transformers]({{site.dartlang}}/tools/pub/assets-and-transformers).
 Pub also has specialized commands to support web development.
 The `pub serve` command starts up a dev server.
 The `pub build` command builds a deployable version of your app,

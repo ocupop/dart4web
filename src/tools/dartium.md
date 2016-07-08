@@ -21,12 +21,12 @@ and do not distribute Dartium to users!**
 </aside>
 
 To learn about other tools you can use for Dart development,
-see [Dart Tools for the web](/tools/).
+see [Dart Tools for the Web](/tools/).
 
 ## Getting Dartium
 
 If you use [Homebrew on the Mac]({{site.dartlang}}/install/mac),
-or [Chocolately on Windows]({{site.dartlang/install/windows),
+or [Chocolately on Windows]({{site.dartlang}}/install/windows),
 you can install Dartium that way.
 
 Otherwise, you can install Dartium directly:

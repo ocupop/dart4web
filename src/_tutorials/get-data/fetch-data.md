@@ -1,10 +1,6 @@
 ---
 title: "Fetch Data Dynamically"
 description: "Use HttpRequest to fetch data from a file or a server."
-
-nextpage:
-  url: /tutorials/low-level-html/connect-dart-html
-  title: "Connect Dart & HTML"
 ---
 
 {% comment %}

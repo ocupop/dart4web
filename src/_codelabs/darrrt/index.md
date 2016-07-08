@@ -12,6 +12,18 @@ header:
 This code lab introduces you to the Dart language and libraries
 by walking you through the process of building a simple web app.
 
+<aside class="alert alert-info" markdown="1">
+**Note:**
+This code lab uses the low-level HTML package to create the web GUI.
+We recommend Angular 2 to write Dart web apps.
+See [Avast, Ye Pirates: Write an Angular App](/codelabs/ng2/)
+for an Angular version of this code lab, or the
+[Tour of Heroes tutorial](https://angular.io/docs/dart/latest/tutorial/)
+on [angular.io](https://angular.io/dart).
+You can find other code labs on the
+[webdev code labs](/codelabs/) page.
+</aside>
+
 All you need is a browser and some familiarity with programming.
 You'll use the browser to run **DartPad**,
 a tool for writing and running simple Dart apps.

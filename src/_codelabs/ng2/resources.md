@@ -41,15 +41,12 @@ API documentation
 * [dart:async]({{site.dart_api}}/dart-async/dart-async-library.html) classes:
   [Future]({{site.dart_api}}/dart-async/Future-class.html),
   [Stream]({{site.dart_api}}/dart-async/Stream-class.html)
-
 * [dart:core]({{site.dart_api}}/dart-core/dart-core-library.html) classes:
   [List]({{site.dart_api}}/dart-core/List-class.html),
   [String]({{site.dart_api}}/dart-core/String-class.html)
-
 * [dart:html]({{site.dart_api}}/dart-html/dart-html-library.html) classes:
   [Event]({{site.dart_api}}/dart-html/Event-class.html),
   [HttpRequest]({{site.dart_api}}/dart-html/HttpRequest-class.html)
-
 * Other APIs: [dart:convert]({{site.dart_api}}/dart-convert/dart-convert-library.html),
   [dart:math]({{site.dart_api}}/dart-math/dart-math-library.html),
   [JSON]({{site.dart_api}}/dart-convert/JsonCodec-class.html),

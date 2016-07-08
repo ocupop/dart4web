@@ -26,19 +26,22 @@ example provides an end-to-end example of using package:js.
 
 ## Low-level HTML
 
-Web apps are programmed in HTML and represented in the browser as
-a tree structure called the DOM (Document Object Model).
-Modifying the DOM programmatically is how web apps
-dynamically change the web page.
-Dart web apps can use the dart:html library to modify the DOM.
+The GUI for a web app is programmed in HTML and is represented in the
+browser by a tree structure called the Document Object Model (DOM).
+Understanding how the DOM works is important for developing
+a deeper understanding of HTML concepts.
+Use the dart:html library to modify the DOM programmatically.
+
+Once you're ready to develop complex applications that support
+event handling and dependency injection, for example,
+you'll want a more powerful solution, such as Angular 2 for Dart.
 
 For an introduction to low-level DOM programming,
-check out the original
-[Pirate code lab](/codelabs/darrrt). The
-[tutorials](/tutorials/) have further information on
-how to include a Dart script in an HTML page,
+check out the original [Pirate code lab](/codelabs/darrrt).
+The [low-level HTML tutorials](/tutorials/low-level-html/) have
+further information on how to include a Dart script in an HTML page,
 and how to add and remove elements from a web page.
-The article [Improving the DOM](/articles/low-level-html/improving-the-dom)
+The [Improving the DOM](/articles/low-level-html/improving-the-dom) article
 gives an overview of Dart's DOM API,
 and how it differs from the JavaScript DOM API.
 
