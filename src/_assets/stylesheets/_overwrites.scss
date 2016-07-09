@@ -60,6 +60,12 @@ body.homepage {
     }
   }
 
+  .no-padding {
+    .headline .content {
+      padding-top: 0;
+    }
+  }
+
   .huge-number {
     text-align: center;
     margin-top: -20px;
@@ -71,4 +77,10 @@ body.homepage {
       font-weight: 700;
     }
   }
+}
+
+/* Get started section in the bottom */
+body.homepage .get-started-section {
+  padding-top: 0;
+  padding-bottom: 60px;
 }
