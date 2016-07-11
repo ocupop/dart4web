@@ -443,7 +443,7 @@ version: 0.0.1
 environment:
   sdk: '>=1.13.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.15
+  angular2: 2.0.0-beta.17
   browser: ^0.10.0
   dart_to_js_script_rewriter: ^1.0.1
 transformers:
@@ -631,3 +631,4 @@ check your code against the files in
 * [lib/app_component.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/lib/app_component.html)
 * [web/main.dart](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/web/main.dart)
 * [web/index.html](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/web/index.html)
+* [pubspec.yaml](https://raw.githubusercontent.com/dart-lang/one-hour-codelab/master/ng2/1-skeleton/pubspec.yaml)

@@ -139,7 +139,6 @@ class NameService {
 
   [[highlight]]Future readyThePirates() async {[[/highlight]]
     [[highlight]]if (_names.isNotEmpty && _appellations.isNotEmpty) return;[[/highlight]]
-[[/highlight]]
     [[highlight]]var jsonString = await HttpRequest.getString(_namesPath);[[/highlight]]
     [[highlight]]var pirateNames = JSON.decode(jsonString);[[/highlight]]
     [[highlight]]_names.addAll(pirateNames['names']);[[/highlight]]

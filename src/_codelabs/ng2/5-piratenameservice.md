@@ -92,7 +92,7 @@ Add a class declaration below the import and annotate it with
 <div class="trydart-step-details" markdown="1">
 {% prettify dart %}
 [[highlight]]@Injectable()[[/highlight]]
-[[highlight]]class NameService[[/highlight]] {
+[[highlight]]class NameService {[[/highlight]]
 [[highlight]]}[[/highlight]]
 {% endprettify %}
 </div>

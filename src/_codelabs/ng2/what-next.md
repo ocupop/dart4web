@@ -15,6 +15,10 @@ header:
   css: ["/codelabs/ng2/darrrt.css"]
 ---
 
+<p class="lead">Congratulations!</p>
+
+You've written an Angular 2 for Dart web app!
+
 Now that you've written your app, what do you do next?
 Here are some suggestions.
 
